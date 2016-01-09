@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidClasseR</string>
+    <string name="action_settings">Settings</string>
+    <color name="red">#ff0000</color>
+</resources>

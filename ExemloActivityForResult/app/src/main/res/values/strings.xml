@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExemloActivityForResult</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+</resources>
