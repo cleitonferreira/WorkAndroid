@@ -18,23 +18,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nome"
-        android:id="@+id/textView5" />
+        android:id="@+id/nomeTela2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
-        android:id="@+id/textView6" />
+        android:id="@+id/emailTela2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aceitar dados"
-        android:id="@+id/button5" />
+        android:id="@+id/button5"
+        android:onClick="aceitou"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rejeitar dados"
-        android:id="@+id/button6" />
+        android:id="@+id/button6"
+        android:onClick="rejeitou"/>
 </LinearLayout>

@@ -56,6 +56,12 @@ public class MainActivity extends Activity {
                 String msg = params.getString("msg");
                 Toast.makeText(this, "Tela 1 -> Resultado:"+resultado+" | Msg: "+msg, Toast.LENGTH_LONG).show();
             }
+        } else if (codigoTela == CONSTANTE_TELA_2){
+            Bundle params = intent.getExtras();
+            if (params != null){
+                String msg = params.getString("msg");
+                Toast.makeText(this, "Tela 2 -> Resultado:"+resultado+" | Msg: "+msg, Toast.LENGTH_LONG).show();
+            }
         }
     }
 

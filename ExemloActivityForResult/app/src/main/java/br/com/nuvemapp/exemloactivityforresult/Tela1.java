@@ -15,7 +15,7 @@ public class Tela1 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela1);
 
-        Intent intent = new Intent();
+        Intent intent = getIntent();
         if (intent != null){
             Bundle params = intent.getExtras();
             if (params != null){
