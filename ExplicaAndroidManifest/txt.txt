@@ -1,0 +1,7 @@
+Opa! Blz?!
+
+Nesse vídeo mostro o que é o arquivo AndroidManifest.xml de um projeto Android e qual a importância dele no sistema (heart). Vale ressaltar que logo no inicio do vídeo eu comente um pouco sobre Activity e View, mas é bem simples o comentário, pois estou programando um post para falar de cada uma dessas classes. Mas enfim, vou evitar ser longo aqui e deixar você assistir ao vídeo.
+
+Note que o projeto criado está logo abaixo no post disponível para download. Vlw.
+
+Compartilhe, comente!

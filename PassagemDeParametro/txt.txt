@@ -1,0 +1,9 @@
+Opa! Blz?!
+
+Nesse vídeo mostro como passar parâmetros de uma atividade para outra em Android utilizando a classe Intent juntamente com a classe Bundle. Como falo no vídeo há outras formas de enviar dados de uma Activity para outra, porém essa que mostro acredito ser a mais didática e mais comum, mas pretendo mostrar formas "Atalho" em posts futuros.
+
+Com o apresnetado em vídeo você já pode começar a processar seus formulários... porém ainda não falei sobre conexão com servidores Web remotos (asunto de posts futuros mais avançados). Mas enfim, note a importância da classe R do projeto e do arquivo AndroidManifest que volto a enfatizar no vídeo. Vou evitar mais delongas e deixar você assistir ao vídeo. Vlw.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente!

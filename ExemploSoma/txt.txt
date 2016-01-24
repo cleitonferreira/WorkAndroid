@@ -1,0 +1,11 @@
+Opa! Blz?!
+
+Nesse vídeo apresento como criar uma APP, porém utilizando como exemplo uma APP que realiza a soma de dois números. Não vou ser muito longo aqui, pois no vídeo eu dou mais detalhes.
+
+Note que não explico intrisicamente como é o funcionamento de uma APP, pois acho que primeiro é bom mostrar uma APP (muito simples) rodando para depois (próximos posts) entrar nos detalhes.
+
+O link para download do projeto se encontra abaixo no post.
+
+Compartilhe, comente...
+
+Se divirta, evolua.

@@ -1,0 +1,11 @@
+Opa! Blz?!
+
+Nesse vídeo mostro qual a importância e como utilizar a classe ListActivity no Android. É importante ressaltar que essa classe herda a classe Activity e que ela já implementa internamente um componente ListView descartando assim a necessidade de uso do método setContentView() que é padrão no uso de atividades que extendem a classe Activity.
+
+Note a importância da classe ArrayAdapter para vincular nosso array de string ao componente ListView que é implementado internamente na classe ListActivity. Essa classe implementa a interface ListAdapter que permiti que essa vinculação aconteça.
+
+Não esquecer também que a classe android.R que utilizamos é uma classe diferente da classe padrão da atividade, R. A classe android.R é uma classe padrão do Android que permiti que nós acessemos alguns recursos já definidos pelo próprio Android. Mas enfim, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente! Vlw!

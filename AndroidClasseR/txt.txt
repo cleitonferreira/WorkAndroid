@@ -1,0 +1,9 @@
+Opa! Blz?!
+
+Nesse vídeo eu mostro o que é a classe R.java e qual a sua importância em um projeto Android. Somente quero ressaltar que essa classe é gerada automaticamente pelo plugin do Eclipse e de forma alguma você deve modifica-lo monualmente. As modificações que acontencem nessa classe são feitas pelo próprio plugin do Eclipse.
+
+No começo do vídeo eu falei que iria falar um pouco do arquivo AndroidManifest.xml, porém o vídeo acabou ficando muito longo, então esse será nosso próximo post sobre Android.
+
+Eu não compilei o projeto no vídeo, pois o intuito era apenas mostrar a classe R.java, porém o projeto está ai em baixo no post para download. Vlw.
+
+Compratilhe, comente!

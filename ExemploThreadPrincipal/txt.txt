@@ -1,0 +1,9 @@
+Opa! Blz?!
+
+Nesse vídeo mostro o que é, como funciona e como acessar a Thread principal de uma Activity. Acho que esse vídeo está entre os cinco mais importantes sobre Android que já postei no blog, pois é com o entendimento de Thread principal do Android que o desenvoolvedor Android começa a enxergar as inifinitas possibilidades da plataforma. Preste bem atenção na classe Handler, na connexão com a Internet e na permissão de conexão com a Internet. Esses são os conceitos rápidos para o entendimento do funcionamento da Thread principal.
+
+Queria deixar claro que há outras formas de acessar a Thread principal, porém adotei a que acho mais didática e a que uso no desenvolvimento das APPs que crio. Note que não falo sobre o script de conexão com a Internet, pois o foco é realmente mostrar o funcionamento da Thread principal de uma APP Android.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente! Vlw.

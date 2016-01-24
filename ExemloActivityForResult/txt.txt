@@ -1,0 +1,7 @@
+Opa! Blz?!
+
+Nesse vídeo mostro como utilizar os métodos startActivityForResult() e onActivityResult() para respectivamente enviar e receber dados de telas recém chamadas pela Activity atual. Essa é a maneira de enviar dados e esperar por uma resposta em Android, não tente gambiarras que utilizam apenas o método startActivity(), pois a pilha de atividades pode acabar estourando. Mas enfim, vou deixar você assitir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente!

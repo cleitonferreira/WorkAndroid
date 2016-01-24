@@ -1,0 +1,7 @@
+Opa!, Blz?!
+
+Nesse vídeo mostro o que é e qual a importância da classe Intent em um projeto Android além de mostrar também o conceito de pilha que é válido para todo o sistema Android. O vídeo parece um pouco longo, mas na verdade eu apresento o conceito de maneira simples sem entrar muito no total poder dessa classe, pois senão o vídeo levaria, no mínimo, uma hora. Porém o que é apresentado já o suficiente para você já começar a fazer aplicações chamando várias outras telas de sua própria aplicação ou de aplicações terceiras instaladas no Android. Enfim, vou evitar muitas delongas aqui e vou deixar você ver o vídeo. Só para ressaltar fique ligado no coonceito de pilha no Android, pois vai fazer você começar a intender mais profundamente o que acontece no Android.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente!

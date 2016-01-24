@@ -1,0 +1,9 @@
+Opa! Blz?!
+
+Nesse vídeo mostro o que é e qual a importância da classe IntentFilter. Não tão importante quanto as classes Activity, View, R e Intent, porém muito útil para várias sistuações que muito provavelmente você se encontrará no desenvolvimento Android.
+
+Note a importância da categoria DEFAULT caso você tenha definido apenas uma ação ou definido também a sua categoria personalizada. Vale ressaltar que apresento a IntentFilter no escopo de atividades e não no escopo geral que cobriria também BroadcastReceiver, ... pois esses são assuntos que devem ser abordados em posts separados devido a importância e complexidade dessas classes. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente!
