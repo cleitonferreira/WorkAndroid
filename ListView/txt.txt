@@ -1,0 +1,13 @@
+ListView: Entendendo e Utilizando no Android
+
+Opa! Blz?!
+
+Nesse vídeo mostro o que é e como utilizar o componente ListView no Android. Quais as vantagens dele diante a classe ListActivity e porque sempre utilizar ListView ao invés de ListActivity.
+
+Quero ressaltar que a ListActivity é uma classe que herda de Activity e implementa internamente uma ListView que oculpa todo a tela do smartphone ou tablet. Já a ListView herda de View é mais personalizável, permitindo que vários outros componentes sejam utilizados na mesma tela em que se encontra a ListView. Claro que com ListActivity também é possível usar outros componentes na tela, porém essa técnica entraria no conceito de Fragments que é assunto para outro post e tem a intenção de ajudar em muitas outras coisas ao onvés de criar uma gambiarra para utilizar a ListView da ListActivity juntamente com outros componentes de tela.
+
+Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente! Vlw.

@@ -1,0 +1,9 @@
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Opa! Blz?!
+
+Nesse vídeo apresenta a classe Log e a janela LogCat do Android para realizar depuração no código. Você provavelmente deve estar familiarizado com o System.out ou System.err da programação Java convencional, porém a máquina virtual do Java com o plugin do Android (Dalvik) não trabalha com esses métodos, você tem de usar a classe Log juntamente com a janela LogCat para poder depurar seu código.
+
+O problema que vejo no LogCat é dele mostrar a linha em que há o erro apenas de vez enquando, nós nunca sabemos se ele mostrará ou não a linha, porém a mensagem é muito esclarecedora do que está acontecendo no script. Mas enfim, vou evitar muitas delongas e vou deixar você assistir ao vídeo.
+
+Obs. : se você souber configurar a amostragem de linha no LogCat, comente ai em baixo como, pois eu ainda não desvendei esse mistério.

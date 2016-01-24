@@ -1,0 +1,9 @@
+SimpleAdapter no ListView, Entendendo e Utilizando no Android
+
+Opa! Blz?!
+
+Nesse apresento a classe SimpleAdapter do Android. Essa é outra classe que implementa a interface ListAdapter e que permite que nós vinculemos nos valores a nossa ListView na tela. Porém a grande vantagem dessa classe ante a classe ArrayAdapter é a possibilidade de utilizar layouts personalizados para cada linha de nossa ListView. Mas enfim, vou evitar muitas delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Compartilhe, comente! Vlw.
