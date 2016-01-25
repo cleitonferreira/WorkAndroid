@@ -1,0 +1,13 @@
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Opa! Blz?!
+
+Esse vídeo é um pouci mais longo, porém acho que pode ser muito util se você está pensando em trabalhar com listas ou apenas aprender a mexer com listas em Android, alias considero esse o post mais importante se você quer mexer com listas. Nesse vídeo mostro como personalizar ainda mais uma ListView utilizando a herança da classe BaseAdapter em uma classe personalizada criada por nós.
+
+Note que inevitavelmente entro no contexto da classe LayoutInflater, porém somente falarei mais afundo dessa classe em posts futuros, pois ela é um pouco mais avançada, mas se você já quiser ir se aprofundando nessa classe que é extremamente útil, pode acessar o link a seguir do próprio site de desenvolvedores do Android:
+
+Classe LayoutInflater
+
+Acho que é isso ae, vou deixar você assistir ao vídeo.
+
+Classe BaseAdapter
