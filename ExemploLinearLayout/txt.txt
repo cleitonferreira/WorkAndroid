@@ -1,0 +1,9 @@
+LinearLayout no Android, Entendendo e Utilizando
+
+Opa! Blz?
+
+Nesse vídeo mostro o componente de layout do Android mais comumente utilizado dentre os desenvolvedores, o LinearLayout. Se você for criativo dá para fazer layouts surpreendentes utilizando apenas o LinearLayout como componente de layout base.
+
+Fique ligado na explicação dos atributos gravity, orientation, layout_gravity e layout_weight. Se você dominar esses atributos dá para fazer coisas realmente surpreendentes com o LinearLayout e seus componentes. Mas enfim, vou evitar muitas delongas e vou deixar você asitir ao vídeo.
+
+Note a correção que é feita no diagrama de componentes visuais que estou utilizando como base para a série de vídeos de componentes visuais. Nos elementos que herdam de android.view.ViewGroup há a nacessidade de trocar android.view por android.widget (as imagens do esquema do LinearLayout e Componentes Visuais estão no .zip do projeto).

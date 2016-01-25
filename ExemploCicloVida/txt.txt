@@ -1,0 +1,8 @@
+Ciclo de Vida de Uma Atividade no Android
+
+
+Opa! Blz?!
+
+Nesse vídeo apresento o Ciclo de Vida de uma Atividade (Activity) do Android. Antes de mais nada já queria dizer que esse deveria ter sido um dos primeiros vídeos (além de ser um dos mais importantes, se não o mais importante), porém por problemas técnicos eu o adiei. Nesse vídeo mostro os três níveis de ciclo de vida (entire lifetime, visible lifetime e foreground lifetime) e os seus respectivos métodos (onCreat(), onStart(), onRestart(), onResume(), onPause(), onStop() e onDestroy()). Ressalto também o porquê de a atividade ser totalmente executada de novo quando mudamos o modo de layout de portrait para landscape e vice e versa. Mas enfim, vou evitar muitas delongas e deixar você assistir ao vídeo.
+
+Só lembrando que se você entender o ciclo de vida de uma Atividade no Android sua capacidade de criar APPs mais robustas tende a crescer considerávelmente.

@@ -1,0 +1,15 @@
+View: Entendendo os Componentes Visuais no Android
+
+Opa! Blz?
+
+Nesse vídeo falo sobre os componentes visuais (que herdam de android.view.View) a fim de apresentar as duas categorias em que esses estão segmentados. Note que todos os componentes visuais têm como ancestral a classe android.view.View e que as duas classes de componentes são Widgets e Layouts, porém a mescla na utilização dos componentes dessas categorias é possível e dependendo do caso, muito comum. Note a enfase que dou ao falar da largura e altura do layout, pois esses são atributos indispensáveis no momentos de construir seus layouts.
+
+Lembrando que não é meu objetivo nesse vídeo destrinchar todos os componentes de layout, até porque sendo assim o vídeo seria muito maior. Ressalto também que a possibilidade de ser um excepcional desenvolvedor Android trabalhando apenas com layouts é muito oportuna, pois layout (para quem trabalha na área de desenvolvimento em geral) é o grande Calcanhar de Aquiles. Mas enfim, vou evitar muitas delongas e vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+O diagrama que utilizei e o diagrama completo que mostrei também estão dentro do .zip do projeto.
+
+Página da classe android.view.View no site de desenvolvedores Android
+
+Segue diagrama utilizado:
