@@ -1,0 +1,14 @@
+Entendendo e Utilizando o FrameLayout no Android
+
+Opa! Blz?
+
+Nesse vídeo apresento o componente de layout do Android, FrameLayout. 
+Mostro duas formas de construí-lo, uma via aplicativo de layout do Android (drag e drop) 
+e outra via script (codificaçao Java). Mostro também que esse layout trabalha no contexto 
+de pilha onde um componente sobrepõe o outro e também ressalto que esse layout 
+é muito utilizado para trancar formulários trabalhando como um modal. Mas enfim, 
+vou evitar mais delongas e deixar você assitir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do FrameLayout no site de desenvolvedores do Android

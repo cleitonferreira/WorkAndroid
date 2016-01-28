@@ -1,0 +1,9 @@
+RelativeLayout no Android, Entendendo e Utilizando
+
+Opa! Blz?
+
+Dando continuidade a série de vídeos sobre componentes visuais no Android, nesse vídeo mostro o componente de layout RelativeLayout. Para mim ele é de longe o mais complexo dos layouts no Android, porém é muito poderoso caso você conheça todos os atributos de posicionamento, pois se conhecer esses dá para fazer layouts surpreendentes em que faz com que qualquer desenvolvedor Android olhe para ele e pense: "Como esse caramarada fez isso?". Fique ligado quanto a explicação da inserção dos componentes Widgets no RelativeLayout, pois no arquivo XML não há problemas um widget referenciar um que vem posterior a ele, porém no script a configuração de posicionamento não é respeitada e também não há erro, logo seu layout acaba ficando quebrado sem representar as características que você queria.
+
+A grande desvantagem do RelativeLayout ante aos outros é que quando você alterar um componente você pode acabar tendo que alterar todos os outros devido a relatividade do posicionamento de um elemento ao outro.
+
+Mas é isso ai, vou evitar muitas delongas e deixar você assistir ao vídeo.
