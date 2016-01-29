@@ -1,0 +1,12 @@
+AbsoluteLayout no Android, Entendendo e Utilizando
+
+
+Opa! Blz? (Feliz Natal)
+
+Nesse vídeo dou continuidade a série de vídeos sobre os componentes visuais do Android, falando sobre o AbsoluteLayout. Esse layout está depreciado pelo Android, mas ainda pode ser aquela carta debaixo da manga quando nós estamos construindo layouts complexos e diferenciados. Sempre que tiver outra alternativa ante ao uso do AbsoluteLayout e fortemente recomendado que você utilize essa alternativa, pois como disse acima, o AbsoluteLayout está depreciado e é bem capaz que em versões futuras da API Android ele não mais seja aceito. Fique atento aos atributos layout_x e layout_y que são aplicados tanto ao AbsoluteLayout quanto aos widgets internos a ele, esses atributos são obrigatórios essenciais nesse tipo de layout. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do AbsoluteLayout no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/widget/AbsoluteLayout.html

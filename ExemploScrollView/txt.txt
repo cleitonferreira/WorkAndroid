@@ -1,0 +1,17 @@
+ScrollView e HorizontalScrollView no Android, Entendendo e Utilizando
+
+Opa! Blz?
+
+Nesse vídeo apresento dois componentes visuais do Android que literalmente não podem ser apresentados separados, pois um é o complemento do outro. Os componentes visuais são o ScrollView e HorizontalScrollView, respectivamente permitem a barra de rolagem vertical e horizontal em sua APP.
+
+Note que ambos os componentes visuais somente permitem ter apenas um widget filho diretamente filho deles, porém esse widget filho pode ter vários outros widget filhos simulando assim um componente visual com conteúdo longo (na vertical ou horizontal) e com a presença da barra de rolagem.
+
+Fique ligado no uso desses componentes e já vai testabdo em sua máquina, pois muito provavelmente você utilizará pelo menos um dos dois. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+
+
+http://developer.android.com/reference/android/widget/ScrollView.html
+
+http://developer.android.com/reference/android/widget/HorizontalScrollView.html

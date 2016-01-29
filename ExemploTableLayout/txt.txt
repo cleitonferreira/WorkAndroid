@@ -1,0 +1,16 @@
+TableLayout no Android, Entendendo e Utilizando
+
+Opa! Blz?
+
+Nesse vídeo apresento o componente visual do Android, TableLayout (e TableRow). Esse componente de layout é muito utilizado para trabalhar com formulários (apesar de eu preferir trabalhar com LinearLayout e o atributo hint nos widgets do formulário). Note a verdadeira funcionalidade dos atributos stretchCoumns e shrinkColumns e como se realiza a mesclagem (merge) de colunas utilizando o atributo dos widgets internos ao TableRow, layout_span. Outra coisa que cito é o problema de meclagem de linhas que é trivial no elemento <table> do HTML, pois bem, se não me engano somente há mesclagem de linhas no Android quando se utiliza o componente de layout GridView (assunto para próximos posts), logo o componente TableLayout não suporta a característica de mesclagem de linhas. Mas enfim, vou evitar muitas delongas e deixar você assistir ao vídeo.
+
+Note que houve alteração no esquema de componentes visuais que estamos utilizando, ele está também no .zip do projeto para download juntamente com o esquema do TableLayout.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+
+
+http://developer.android.com/reference/android/widget/TableLayout.html
+
+
+http://developer.android.com/reference/android/widget/TableRow.html
