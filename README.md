@@ -2,7 +2,7 @@
 WorkAndroid
 
 
-Android: Primeiro Entenda Aonde Você Pisa (Parte I)
+Android: Primeiro Entenda onde você pisa (Parte I)
 
 Android, IOS, Symbian... Todos esses são sistemas operacionais para dispositivos móveis. Com o mercado móvel ganhando cada dia mais adeptos desde que o primeiro celular Motorola foi a venda a tecnologia desses dispositivos também foi evoluindo, hardware e software. A partir da primeira décade do século 21 os softwares começaram a ficar mais robustos, pois era já necessária a integração com sistemas computacionais convencionais (PCs, notebooks, ...). Ai veio Symbian, IOS,... e o Android.
 
