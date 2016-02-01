@@ -1,0 +1,16 @@
+GridLayout no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Dando continuidade a série de vídeos sobre componentes visuais no Android, nesse vídeo mostro o GridLayout. Grid é um tipo de layout muito comum para programadores do Java convencional, porém Grid (ou tabelas) não são funcionalidades muito utilizadas pelo pessoal de desenvolvimento Web, logo as APPs tentam puxar uma caracteristica mais da Web do que do desenvolvimento desktop e tendem a utilizar pouco esse tipo de layout (Grid), mas enfim isso tudo acaba sendo apenas minha opinião sobre os componentes Grid do Android. O GridLayout é tranquilo de mexer tanto via XML quanto via API (script). É importante apenas ficar ligado nos atributos layout_row e layout_column dos widgets filho quando se constrói esse layout via XML e quando via script, ficar ligado no formato em que a conhecida classe LayoutParams é utilizada.
+
+Nesse vídeo mostro também um exemplo de uso dos componentes ScrollView, HorizontalScrollView e GridLayout trabalhando em conjunto para simular um mosaico de imagens. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do GridLayout no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/widget/GridLayout.html
+
+Segue esquema para melhor entendimento do GridLayout:

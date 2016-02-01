@@ -1,0 +1,16 @@
+GridView no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao série de vídeos falando sobre os componentes visuais do Android falando agora sobre o GridView. Você provavelmente deve estar achando estranho ou confuso devido a eu já ter falado do GridLayout, mas não se engane, ambos aparentam ser a mesma coisa, mas não são, começando já que para inserir elementos em um GridView nós precismamos de uma implementação da interface ListAdapter já com o GridLayout não.
+
+Fique ligado para os atributos columnWith e numColuns do GridView, pois ambos são de extrema importância nesse componente visual. Note que não me aprofundei na explicação da implementação da classe BaseAdapter que implementa a interface ListAdapter, pois já fiz um post (vídeo) falando sobre ela, se você ainda não o viu, segue: Utilizando BaseAdapter Para Personalização Completa da ListView.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe GridView no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/widget/GridView.html
+
+Segue imagem esquema do GridView:
