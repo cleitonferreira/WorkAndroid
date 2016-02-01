@@ -1,0 +1,11 @@
+Colocando Uma Imagem da Web no ImageView do Android
+
+Opa! Blz?
+
+Nesse vídeo mostro como baixar uma imagem da Web e coloca-la em um ImageView que vai para o layout principal da Activity. Não há muito mistério é só ficar ligado nos detalhes que envolvem as threads e a permissão de conexão que tem que ser definida no AndroidManifest. Note que cito a classe R.java, se você não a conhece eu fiz um post a explicando: Entendendo a Classe R.java do Android.
+
+Mas enfim, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontro logo abaixo no post.
+
+Compartilhe, comente.
