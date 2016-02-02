@@ -1,0 +1,27 @@
+Otimizando Sua APP Android Com OnSaveInstanceState
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo estou dando um salto na série de vídeos sobre componentes visuais para falar de um método que extremamente importante se você pretende fazer com que sua APP consuma conteúdo da Web para então montar objetos e apresentar ao usuário na APP. Vou estar falando sobre o método OnSaveInstaceState() do ciclo de vida de uma atividade do Android. Apesar de ele não aparecer no diagrama do ciclo de vida do Android esse método é sempre chamado exatamente antes de a atividade ser destruída. Alias não sei se você sabe mas o Android, até mesmo nos mais singelos movimentos, está destruindo a atividade e reconstruindo a mesma e se você não utiliza o método OnSaveInstanceState() a sua APP está reconstruindo tudo de novo, mesmo já tendo baixado conteúdo e formatado para o usuário. Parei para falar desse método porque os assuntos pré-requisitos para poder compreende-lo eu já os dei aqui, logo já estava na hora. Você terá que ter alguns conhecimentos em mente para desfrutar ao máximo desse vídeo, os links dos posts (vídeos) estão logo abaixo:
+
+Colocando Uma Imagem da Web no ImageView do Android
+
+ScrollView e HorizontalScrollView no Android, Entendendo e Utilizando
+
+Ciclo de Vida de Uma Atividade no Android
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Com os vídeos acima já da para pegar ao máximo o conteúdo desse post. Note que se sua APP tende a se conectar com a Internet esse conteúdo é de conhecimento obrigatório, OnSaveInstanceState em uso na APP tem o mesmo valor que o marketing de conteúdo em sites da Internet. Mas enfim, vou parar de conversa e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Método OnSaveInstanceState no site do Android
+
+http://developer.android.com/reference/android/app/Activity.html#onSaveInstanceState%28android.os.Bundle%29
+
+
+Compartilhe, comente! Vlw

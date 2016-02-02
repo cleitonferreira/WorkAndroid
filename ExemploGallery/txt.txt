@@ -1,0 +1,21 @@
+Gallery no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro o componente visual Gallery do Android. Ele está depreciado devido a ineficiencia de seu script interno, porém pela simplicidade de uso e de implmentsção e por ainda ser permitido o seu uso eu achei útil mostra-lo aqui, pois para mim é a melhor maneira de se criar galerias rápidas e práticas nos nossos layouts Android. Fique atento quanto ao uso do LayoutParams, pois os elementos Gallery e internos ao Gallery têm de utilizar o Gallery.LayoutParams. Mas enfim, vou evitar mais delongas e deixar você assitir ao vídeo.
+
+Abaixo o link do post (vídeo) que permiti você entender a implementação de uma classe que herda da classe BaseAdapter:
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do componente Gallery no site oficial de desenvolvedores Android
+
+http://developer.android.com/reference/android/widget/Gallery.html
+
+
+
+Segue imagem esquema do componente visual Gallery:
