@@ -1,0 +1,42 @@
+Monitoramento de Inicio e Fim de Carregamento de Página no WebView
+
+
+
+
+*Obs: Acessar o arquivo index.php na raiz do projeto, colocar no servidor
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro dois métodos que são utilizados juntamente com o WebView (via classe WebViewClient) para podermos monitorar os eventos de inicialização e finalização de carregamento de página no WebView. Os métodos são o onPageStarted() e o onPageFinished() que pertencem a classe WebViewClient. Note que utilizo um ProgressBar para dar um feedback ao usuário sobre o carregamento da página, e toda vez que formos realizar um carregamento de conteúdo é extremamente aconselhável esse tipo de prática, para não dar ao usuário a sensação de que a APP travou.
+
+Note que a aba que tem o ProgressBar disponível para drag e drop é instalada apartir da versão do Android 4.4 (API 19) que está no SDK Manager (pelo menos comigo foi assim), logo se você não atualizou sua última versão do Android no vídeo eu mostro isso também. Mas enfim, vou evitar muitas delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo do post para download.
+
+
+
+Página da classe WebView no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/webkit/WebView.html
+
+
+
+Página da classe WebViewClient no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/webkit/WebViewClient.html
+
+
+
+Página da classe ProgressBar no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/widget/ProgressBar.html
+
+
+
+
+Compartilhe, comente! Vlw
+
+Coloque seu email 

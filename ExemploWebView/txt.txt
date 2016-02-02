@@ -1,0 +1,18 @@
+WebView no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo (continuando a série de vídeos sobre componentes visuais no Android) mostro o WebView. Componente muito utilizado para quebrar nosso galho no devesenvolvimento Android do dia a dia. Mostro com abrir um conteúdo da Web no WebView e como construir nosso próprio conteúdo HTML no WebView. Note que há a necessidade de colocar a permissão de acesso a Internet no AndroidManifest.xml.
+
+Note a importância de somente utiilizar o WebView quando nós não tivermos uma opção conhecida via XML android. Fique ligado também em desabilitar o suporte ao zoom para não ter tratamento inesperado em sua WebView (caso você também não for utilizar o zoom, claro). Mas enfim, acho que os exemplos do vídeo dão uma amostra legal do que é possível com o WebView, logo vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Só para ressaltar o uso do WebView, o Facebook faz muito o uso do WebView quando um usuário quer acessar seus dados do Facebook dentro de alguma outra APP e esse não tem instalado em seu dispositivo o APP do Facebook, logo a página de autenticação que é aberta é aberta em um WebView. Vale ressaltar também que há a possibilidade de enviar dados da atividade para o WebView e vice-e-versa.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do WebView no site de desenvolvedores do Android
+
+http://developer.android.com/reference/android/webkit/WebView.html
+
+Segue imagem esquema do componente visual WebView:

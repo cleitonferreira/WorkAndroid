@@ -1,0 +1,22 @@
+Integrando WebView Android Com JavaScript de Uma WebPage
+
+
+*Obs: Acessar o index.php dentro do projeto
+Este arquivo deverá estar dentro de um servidor. http:nuvemapp.com.br
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao vídeo anterior em que falo sobre o WebView, componente visual mutio utilizado para construir APPs Android. Nesse vídeo mostro a integração em termos de envio e recebimento de dados entre a APP que contém a WebView e a página Web que é carregada na WebView.
+
+Note que mesmo que você esteja começando no desenvolvimento Android e já tenha algum conhecimento com desenvolvimento Web, com o componente WebView já é possível você mesmo no inicio construir suas APPs profissionais, pois como eu falei no vídeo, até mesmo grandes empresas da Web utilizam o WebView. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se você não conhece o LogCat do Android, eu fiz um vídeo falando somente dele: Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Se você está iniciando e nunca criou um projeto e nem instalou o Bundle do Android, esse post qe fiz pode ser muito util a você: Iniciando Em Android: Instalação e Configuração do Bundle
+
+O link para download do projeto se encontra logo abaixo no post (incluindo a página HTML/PHP).
+
+Note que utilizei a lib jQuery ao invés de utilizar o JavaScript, mas você pode utilizar o JavaScript puro ou outra lib, não há problemas.
+
+Compartilhe, comente! Vlw
