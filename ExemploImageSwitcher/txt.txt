@@ -1,0 +1,31 @@
+ImageSwitcher no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre componentes visuais no Android apresentando o componente ImageSwitcher que ao pé da letra é um alternador de imagens em nossa APP Android. Note a ênfase que há na implementação da interface ViewFactory para podermos vincular o ImageSwitcher ao evento OnItemSelectedListenner do componente Gallery. FIcar ligado também aos métodos setInAnimation() e setOutAnimation() que nos permite dar efeito a alternação das imagens no ImageSwitcher. Note que o componente Gallery está depreciado, mas o ImageSwitcher não. Mas enfim, vou evitar mais delongas e deixar você assitir ao vídeo.
+
+Se você não entende ainda a parte do script em que utilizamos o componente Gallery e a implementação da classe BaseAdapter, abaixo segue os links dos posts (vídeos) que falam desses elementos:
+
+Gallery no Android, Entendendo e Utilizando
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+O link para download do projeto se encontra logo abaixo no post.
+
+
+Página do componente ImageSwitcher no site oficial do Android
+
+http://developer.android.com/reference/android/widget/ImageSwitcher.html
+
+
+
+
+Página da classe AdapterView.OnItemSelectedListener no site oficial do Android
+
+http://developer.android.com/reference/android/widget/AdapterView.OnItemSelectedListener.html
+
+
+
+Segue imagem esquema do ImageSwitcher em uso com o componente Gallery:
