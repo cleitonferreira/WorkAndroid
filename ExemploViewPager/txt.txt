@@ -1,0 +1,22 @@
+ViewPager no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo apresento o componente visual que é o substituto do componente Gallery, o ViewPager. Dando continuidade a série de vídeos sobre componentes visuais no Android, mostro como o ViewPager é implementado e como ele é adicionado ao projeto, pois ele não pertence a API nativa do Android, logo teremos de baixar a li android.support.v4 e adiciona-la ao projeto, mas não há nada de complexo, apenas um trabalho de baixar, copiar e colar a mais. Note que vamos implementar também uma classe adaptadora, igualmente fizemos com o ListView e com o Gallery, porém essa classe agora extenderá a classe PagerAdapter, pois como falei anteriormente, o ViewPager não pertence a API nativa do Android. Mas enfim, mesmo sendo um pouco mais complexa de se implmentar do que o componente Gallery, o Android já recomenda que o componente ViewPager seja o utilizado devido a eficiencia de seu script interno. Então é isso, vou deixar você assisitir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+
+
+Página oficial do componente ViewPager no site do Android
+
+http://developer.android.com/reference/android/support/v4/view/ViewPager.html
+
+
+
+Página oficial da classe PagerAdapter no site do Android
+
+http://developer.android.com/reference/android/support/v4/view/PagerAdapter.html
+
+Segue imagem esquema do componente ViewPager:
