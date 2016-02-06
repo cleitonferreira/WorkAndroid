@@ -1,0 +1,16 @@
+Utilizando a Câmera do Smartphone em Sua APP Android
+
+
+Opa! Blz?
+
+Nesse vídeo dou uma pausa na série de vídeos sobre os componentes visuais do Android e mostro como nós podemos utilizar a câmera do smartphone ou tablet que utilizam o OS Android para podermos turbinar nossas APPs. Note que não há necessidade de solicitarmos nenhuma permissão no Android e que, pode parecer estranho, utilizar a câmera não gastará mais do que algumas dez simples linhas de código. Realmente é muito fácil e dá para dar uma excelente turbinada em nossos formulários mobile. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você ainda não tem uma base na classe Intent e em como utiliza-la, segue abaixo dois posts de introdução no assunto:
+
+Classe Intent e o Conceito de Pilha em Android
+
+Passagem de Parâmetros de Uma Atividade Para a Outra em Android
+
+Vlw.

@@ -1,0 +1,25 @@
+Style, String, Dimen, Color e WindowNoTitle no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo eu volto a série de vídeos sobre componentes visuais do Android, porém dessa vez falando do que seria o arquivo CSS do desenvolvimento Web convencional no Android, na verdade o elemento apresentado não tem no Android todo o poder de estilo que o CSS tem no desenvolvimento Web convencional, porém com o que ele nos permite trabalhar já podemos conseguir fazer bastante coisa em nossos layouts XML Android. O elemnto é a tag "style", mas também apresento alguns outros elementos importantes para um melhor entendimento de como utilizar estilo externo no Android, elementos como a tag "dimen" e a tag "color". Falo um pouco também sobre o conceito de internacionalização no android, na verdade sobre a tag "string" que permite que nós implementemos a internacionalização em nossas APPs. E para por fim também abordo um estratégia simples e que envolve uma pequena linha no Android para que posamos retirar a faixa padrão de título que é apresentada em nossas APPs Android. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+
+
+Página oficial do recurso Style do Android no site de desenvolvedores do Android
+
+http://developer.android.com/guide/topics/resources/style-resource.html
+
+
+
+Página do Gooogle que apresenta o core dos estilos implementados nos componentes nativos do Android
+
+https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/res/res/values/styles.xml
+
+
+
+Vlw.
