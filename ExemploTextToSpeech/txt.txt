@@ -1,0 +1,33 @@
+TextToSpeech: Fazendo Sua APP Android Falar
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro uma engine (ou classe) muito interessante e simples de utilizar no Android. A engine TextToSpeech nos permite colocar nossas APPs para falar. Nós definimos os textos e ela vai falando. Infelizmente há limitações para nosso idioma, limitações que implicam em solicitar ao usuário que instale uma outra APP (provavelmente paga) que permitirá então que esse a utilize em português do Brasil. Mas vale muito o conhecimento dessa engine, pois provavelmente logo logo nosso idioma será amplamente suportado pelos smartphones, tendo em mente que o mercado brasileiro sobre tecnologia mobile é muito lucrativo.
+
+Fique atento a permissão WRITE_EXTERNAL_STORAGE que precisamos colocar em nosso AndroidManifest.xml para que possamos gravar nosso audio no SDCARD do dispositivo caso seja uma necessidade de nossa APP. Ficar atento também ao uso do método shutdown() para liberar os recursos de TextToSpeech utilizados e a implementação da interface OnInitListener que permitirá que nós apenas utilizemos a engine TextToSpeech quando ela for completamente carregada. Mas enfim, vou evitar mais delongas e deixar você assisitr ao vídeo.
+
+Se você não conhece o LogCat, segue link do post em que falo sobre:
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+O link para download do projeto se encontra logo abaixo.
+
+Página da classe TextToSpeech no site oficial do Android
+
+http://developer.android.com/reference/android/speech/tts/TextToSpeech.html
+
+
+
+Página do SVOX (para download do áudio em português Brasil) na Play Store
+
+https://play.google.com/store/apps/details?id=com.svox.classic.langpack.por_bra_fem&hl=pt_BR
+
+
+
+http://eusouandroid.com/livro-google-a-biografia-steven-levy/
+
+
+
+Vlw

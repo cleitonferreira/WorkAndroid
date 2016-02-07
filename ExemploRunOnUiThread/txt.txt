@@ -1,0 +1,24 @@
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao último vídeo sobre acesso a Thread Principal do Android, porém dessa vez mostro o método de atalho, o método runOnUiThread. Sem a necessidade de uso da classe handler, com esse método nós já temos a vantagem de diminuição de código e necessidade de menor controle desse, pois com handler nós além de ter que declararmos uma variável do tipo Handler temos também que instanciar essa classe. A principio vc não viu muita vantagem, o problema é quando seu código começa a inchar, sua APP ganha mais funcionalidades, ai o proble começa a surgir, pois auquelas linhas a mais não são poucas linhas a mais que tem de ter controle, são muitas linhas a mais. Vale ressaltar que dou ênfase a classe Activity quando implemento uma pseudo classe utilitária para baixar a imagem, pois o parâmetro que utilizo é do tipo Activity e não Context que é o que mais utilizei nos exemplos até aqui. A explicação desse parâmetro do tipo Activity é que o método runOnUiThread é pertecente a ele e não a classe Context, mesmo a classe Activity herdando também dessa classe. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você não faz a mínima ideia do que seja a Thread Principal do Android, segue link do post em que falo sobre essa:
+
+Entendendo a Thread Principal de Uma APP Android
+
+
+
+
+Página da classe Activity (sessão runOnUiThread) no site oficial do Android
+
+http://developer.android.com/reference/android/app/Activity.html#runOnUiThread%28java.lang.Runnable%29
+
+
+
+Vlw
