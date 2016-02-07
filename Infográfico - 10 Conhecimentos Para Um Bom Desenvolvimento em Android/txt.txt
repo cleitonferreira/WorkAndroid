@@ -1,0 +1,33 @@
+Infográfico - 10 Conhecimentos Para Um Bom Desenvolvimento em Android
+
+
+
+Para os que estão com a APP do blog, segue os conhecimentos em texto:
+
+1º Conhecer a Linguagem JAVA: Quanto maior for suas habilidades nessa linguagem maior será suas possibilidades de construir APPs mais diferenciadas. Melhor ainda se você conhecer bem os conceitos de conexão Web, serialização e stream na linguagem.
+
+2º Saber trabalhar com marcações XML e HTML (Interface gráfica): Essas habilidades lhe darão a possibilidade de construir interfaces que impressionem mais, sejam intuitivas, otimizem o espaço utilizado nos dispositivos e forneça melhor possibilidade de interação APP / usuário.
+
+HTML e o componente WebView vão permitir que você construa interfaces mais estilizadas e em menos tempo (se você for dev Web), além de evitar todo o trabalho de criação de threads na APP para conexões e downloads de conteúdos online.
+
+3º Conhecer todo o ciclo de vida de uma Activity (atividade): além de lhe permitir melhor depuração da aplicação vai lhe deixar entendido do que está realmente acontecendo quando a APP é iniciada e permitirá que você coloque seus códigos nos lugares certos no tempo de execução e otimize o acesso aos dados via métodos onSaveInstanceState() e onRetainNonConfigurationInstance();
+
+4º Fragments e ActionBar: Esses componentes lhe permitirão construir APPs que rodem de forma otimizada também em tablets sem a necessidade de criação de código totalmente customizado para esse tipo de device.
+
+5º Domínio do uso de Threads: Nem todas as APPs serão viáveis por WebView, logo conhecer Threads em Java e o conceito de “Thread Principal” no Android vão lhe permitir realizar tarefas como baixar conteúdo e se conectar a servidores Web.
+
+6º Conhecer bem as classes Activity, Intent e Intent-filter: O bom conhecimento dessas classes lhe dará a habilidade de realizar comunicações mais eficientes entre atividades e também entre outros componentes tais como Service e BroadcastReceiver além de enfatizar o conceito de pilha de atividades no Android.
+
+7º BroadcastReceiver, Notification, Service e AlarmManager: O bom domínio dessas classes vai permitir que você realize tarefas no background, mesmo quando o usuário nem sequer abriu sua APP e também que você notifique os usuários quando necessário.
+
+8º SQLite (banco de dados interno): Nem toda APP precisa de comunicação com servidores Web para serem Killer APPs, logo o bom conhecimento do BD interno do Android vai lhe permitir construir esse tipo de APP e também a otimizar ainda mais APPs que utilizam conteúdo Web com atualização não tão frequente.
+
+9ª Multimídia (Áudio, Vídeo e Câmera): Saber trabalhar com multimídia no Android vai dar um UP em suas APPs permitindo que você coloque funcionalidades que convertem usuários, funcionalidades tais como: permitir tirar fotos, filmar e ouvir um podcast, por exemplo.
+
+10º Linguagem de backend, Servidor Web e WebService: Ter conhecimentos em linguagens de backend de servidores Web (PHP, JAVA, Python, ...) e saber trabalhar com WebService (SOAP e cia.) vai ampliar suas possibilidades de construção de APPs quando em um pedido de um cliente ou em uma ideia maluca das madrugadas da vida.
+
+Obs. : Note que o mundo do Android é muito maior do que a lista acima, porém com o que foi listado acima você já consegue fazer excepcionais APPs sem muita dor de cabeça no momento do desenvolvimento. A lista acima não inclui Google Cloud Messaging (GCM - depreciado), Sensores, Reconhecimento de gestos e ContentProvider que são conteúdos que lhe permitiriam construir APPs ainda mais robustas. Bom a pedra foi cantada caso queira maior aprofundamento.
+
+Esse infográfico foi feito na ferramenta online para infográficos Piktochart (http://piktochart.com/). E muito o recomendo se você não é um design e quer montar seus próprios infográficos.
+
+Vlw.

@@ -1,0 +1,34 @@
+Mudar Ícone de Sua APP Android Quando Usuário já a Instalou
+
+
+Opa! Blz?
+
+Nesse víde mostro como fazer para alterar o ícone da APP Android que você criou a disponibilizou para ser baixada. Essa alteração é via programação e sem a necessidade de se reinstalar a APP no dispositivo de cada usuário novamente. O mais interesante é a quantidade de código necessária, quase nenhum código. A única lógica que utilizei foi para alternar entre os ícones que eu queria testar. Note que há a possibilidade de também fazer outras alterações, porém mostrei apenas a alteração do ícone. Vale ressaltar que é possível, utilizando o <activity-alias>, deixar mais de um ícone nos dispositivos dos usuários, porém, como do ênfase no vídeo, eles podem acabar tratando sua APP como vírus, então utilize o <activity-alias> da maneira correta. Para dar um exemplo de uma APP famosa que altera o ícone frequentemente, nós temos a APP do Facebook, que altera o ícone nos mostrando a quantidade de notificações pendentes sem a necessidade de nós termos de entrar na APP para saber desse número. Mas é isso, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do <activity-alias> no site oficial do Android
+
+http://developer.android.com/guide/topics/manifest/activity-alias-element.html
+
+
+
+Página com acesso ao método getPackageManager() no site oficial do Android
+
+http://developer.android.com/reference/android/content/Context.html#getPackageManager%28%29
+
+
+
+Página com acesso ao método setComponenteEnabledSetting() no site oficial do Android
+
+http://developer.android.com/reference/android/content/pm/PackageManager.html#setComponentEnabledSetting%28android.content.ComponentName,%20int,%20int%29
+
+
+
+Página da classe ComponentName no site oficial do Android
+
+http://developer.android.com/reference/android/content/ComponentName.html
+
+
+
+Vlw

@@ -1,0 +1,36 @@
+Spinner (ou Select) no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Dando continuidade a série de vídeos sobre componentes visuais no Android, nesse vídeo apresento o componente Spinner que é a versão do Select (HTML) ou ComboBox (JAVA desktop) no Android. Aparentemente, por causa da tag <select> no HTML, pode vir a ideia de que implementar o conteúdo de um Spinner é trivial, mas não, fácil é sim, porém não tanto quanto no HTML. A grande vantagem do Spinner no Android ante as suas variações em outras linguagens é  possíbilidade de personalização dos itens do Spinner (colocando imagens, textos estilizados, ...) sem a necessidade de uso de outra tecnologia (HTML e JavaScript, por exemplo). Na APP do blog eu utilizo spinner, pois tenho alguns formulários e muito provavelmente você vai utilizá-lo se sua APP tende a ter formulários. Mas enfim, vou evitar muitas delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você não conhece a class BaseAdapter, segue post que fiz explicando essa:
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Páginas oficiais no Android:
+
+
+
+Página da classe Spinner no site oficial do Android
+
+http://developer.android.com/reference/android/widget/Spinner.html
+
+
+
+Página do recurso Spinner no site oficial do Android
+
+http://developer.android.com/guide/topics/ui/controls/spinner.html
+
+
+
+
+Página do listener OnSelectedItemListener no site oficial do Android
+
+http://developer.android.com/reference/android/widget/AdapterView.OnItemSelectedListener.html
+
+
+Segue imagem esquema do componente visual Spinner:
