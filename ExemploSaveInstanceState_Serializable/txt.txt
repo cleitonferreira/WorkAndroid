@@ -1,0 +1,16 @@
+onSaveInstanceState, Bitmap e Serializable no Android. Correção
+
+
+Opa! Blz?
+
+Esse vídeo é mais um vídeo de errata em que mostro como serializar um Bitmap no Java, pois no último exemplo sobre otimização em que falei sobre o método onSaveInstanceState do ciclo de vida de uma atividade utlizei objetos Bitmap para trabalhar as imagens, porém uma particularidade que não note é que quando saimos da aplicação sem dar um finish() (ou apertar o botão voltar do emulador) era gerada uma exceção. Problemática: objetos Bitmap precisam ser serializados na "unha", logo esse vídeo mostra essa correção.
+
+Na verdade foi um seguidor do blog que alertou quanto ao problema. Vlw TutoArtts.
+
+O link do post em que explico como utilizar o método onSaveInstanceState() para otimizar sua APP Android está logo abaixo:
+
+Otimizando Sua APP Android Com OnSaveInstanceState
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Vlw.

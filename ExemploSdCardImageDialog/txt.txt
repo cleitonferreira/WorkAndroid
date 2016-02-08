@@ -1,0 +1,38 @@
+Acessando Imagens do SDCard e Colocando na APP Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como permitir que o usuário utilize as imagens dele já gravadas no dispositivo mobile para então fornecer aos formulários de sua APP que necessitam de imagens. Não é tão trivial quanto no HTML utilizando a tag <input type="file" />, mas também não é coisa de outro mundo. Basta prestar atenção que o retorno da atividade que prover a imagem é na verdade um URI para acesso ao recurso dessa atividade e não a imagem escolhida. Temos então que fazer um pouco de código para pegar a imagem do SDCard do usuário e colocá-la em nossa APP. Mas enfim, não vou entrar muito nos detalhes aqui e deixar você assistir ao vídeo.
+
+Se você não faz a mínima ideia do que seja uma Intent e como utilizá-la, segue posts (vídeos) que fiz explicando o que é uma Intent e como utilizá-la:
+
+Classe Intent e o Conceito de Pilha em Android
+
+Passagem de Parâmetros de Uma Atividade Para a Outra em Android
+
+Segue as páginas das principais classes e métodos utilizados no vídeo:
+
+
+
+
+Página da interface ContentProvider e ContentResolver no site oficial do Android
+
+http://developer.android.com/guide/topics/providers/content-providers.html
+
+
+
+Página da classe Cursor no site oficial do Android
+
+http://developer.android.com/reference/android/database/Cursor.html
+
+
+
+Página da interface ContentResolver com referência ao método query no site oficial do Android
+
+http://developer.android.com/reference/android/content/ContentResolver.html#query%28android.net.Uri,%20java.lang.String[],%20java.lang.String,%20java.lang.String[],%20java.lang.String%29
+
+
+
+Vlw
