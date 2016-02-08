@@ -1,0 +1,54 @@
+Simples Formulário na APP Android Comunicando com Servidor Web PHP
+
+
+
+Página do ApacheComponentes Downloads - https://hc.apache.org/downloads.cgi
+
+Arquivo server.php está na raiz do projeto.
+
+
+Opa! Blz?
+
+Nesse vídeo mostro uma maneira de realizar comunicação com um servidor Web. Note que enfatizei no título a linguagem PHP, mas na verdade qualquer linguagem backend de servidor Web pode ser utilizada como servidora Web para APP Android. Nesse vídeo utilizo as classes e interfaces do pacote "org.apache.http". Gosto desse método por ele se bem simples ante o uso de JSON e XML.
+
+Fique atento quanto aos arquivos JARs que devem ser utilizados no projeto. Atento também para a permissão de acesso a Internet que deve ser utilizada e ao uso de uma Thread secundária para realizar a conexão com a Internet. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se você ainda não conhece nada sobre o assunto "Thread principal" ou "Thread de interface" segue links de posts que fiz sobre esses assuntos:
+
+Entendendo a Thread Principal de Uma APP Android
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+O link para download do projeto se encontra logo abaixo no post. Note que os JARs necessários já estão incluídos no projeto disponível para download.
+
+Página para baixar o JAR httpmime-4.1.1.jar
+
+Página para baixar o JAR apache-mime4j-0.6.jar
+
+Páginas das principais classes e interfaces utilizadas no projeto de exemplo:
+
+HttpClient, 
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+DefaultHttpClient, 
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+HttpPost, 
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+NameValuePair, 
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+UrlEncodedFormEntity, 
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+BasicNameValuePair
+
+http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client
+
+Vlw
