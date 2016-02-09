@@ -1,5 +1,0 @@
-GraphView (Charts) no Android, Entendendo e Utilizando
-
-Exemplos do GraphView.
-
-https://github.com/jjoe64/GraphView-Demos
