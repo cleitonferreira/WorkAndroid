@@ -1,0 +1,21 @@
+ObjectAnimator no Android, Aplicando Efeitos nos Componentes Visuais
+
+
+
+Opa! Blz?
+
+Nese vídeo apresento a classe ObjectAnimator que é utilizada para colocar efeitos visuiais no Android. Sabe aqueles efeitos muito utilizados nas páginas HTML com JavaScript?! Então, é possível fazer aqueles efeitos também no layout XML do Android. Note que a API abordada nesse exemplo é a API Property Animation que está disponível apartir da versão 3.0 do Android (API 11). No vídeo eu explico porque não abordo a API de Animação das versões 2.x e inferior do Android (ela é bugada). Fique atento também ao uso da Classe AnimatorInflater para poder fazer com que o XML de efeito se torne um objeto na API Java. Vale ressaltar que no vídeo mostro também como ouvir o estado da animação por meio de Listeners e também como colocar mais animções ao mesmo tempo na mesma View.
+
+Importante: o efeito utilizado deve ter suporte via métodos Get e Set na view que será utilizada. No vídeo explico melhor esse conceito. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe ObjectAnimator no site oficial do Android
+
+http://developer.android.com/reference/android/animation/ObjectAnimator.html
+
+Página da classe AnimatorInflater no site oficial do Android
+
+http://developer.android.com/reference/android/animation/AnimatorInflater.html
+
+Vlw
