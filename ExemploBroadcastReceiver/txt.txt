@@ -1,0 +1,29 @@
+BroadcastReceiver no Android, Executando Tarefas no Background
+
+
+
+Opa!, Blz?
+
+Nesse vídeo aprenseto e executo uma das classes mais importantes do Android, a BroadcastReceiver. O nome já diz muito o que ele é, mas enfim, essa classe permite que nossa APP, mesmo quando não em execução no dispositivo do usuário, execute tarefas na "surdina", por exemplo: atualizar um banca de dados interno de nossa APP sem que o usuário saiba. Essa classe é muito utilizada juntamente com as classes Service e Notification do Android.
+
+Note que a classe BroadcastReceiver não é a entidade a se utilizar quando falamos em processamentos que podem levar mais de 10 segundos, claro que não é a classe a se utilizar efetivamente para realizar essa tarefa, mas sim para chamar um service que realizará essa tarefa acima dos 10 segundos de duração. Fique atento também para não abrir thread e conexões com a Internet dentro de um BroadcastReceiver, pois muito provavelmente essas podem extrapolar os 10 segundos e assim o Android não vai perdoar, aniquilando esses processos. Mas enfim, vou evitar mais delongas e deixar você assitir ao vídeo.
+
+Se você não conhece ainda as classes Intent e Log (LogCat) e o ciclo de vida de uma Activity, os links abaixo são de posts que fiz falando sobre esses:
+
+Ciclo de Vida de Uma Atividade no Android
+
+Entendendo e Utilizando IntentFilter no Android
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Classe Intent e o Conceito de Pilha em Android
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe BroadcastReceiver no site oficial do Android
+
+http://developer.android.com/reference/android/content/BroadcastReceiver.html
+
+Obs. : Foi inevitável os erros com o terceiro BrodcastReceiver no vídeo, preferi não remove-los pois foram corrigidos no vídeo mesmo (já tinha treinado, mas infelizmente... ocorreu).
+
+Vlw
