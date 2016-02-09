@@ -1,0 +1,1 @@
+Projeto Auxiliar - para o exemplo do BroadcastReceiver no Android, Executando Tarefas no Background
