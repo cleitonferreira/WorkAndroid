@@ -1,0 +1,27 @@
+AlarmManager no Android, Sua APP Executando Em Tempos Definidos
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como gerar alarmes no Android com a classe AlarmManager (e cia.). Note que não estou falando de alarmes de relógios (já oferecidos pelos dispositivos mobiles), mas alarmes que vão permitir que nossa aplicação realize alguma tarefa no background (sem o conhecimento do usuário e sem a necessidade de nossa APP estar aberta). Essa é uma maneira de permitir que nós possamos por meio de atulizações no servidor Web e com o auxílio de Notifications, notificar os usuários de nossas APPs quando algo novo ou importante esta no ar em nossas APPs.
+
+Note que nesse vídeo utilizei também as classes BroadcastReceiver e Notification para dar mais evidencia de como a classe AlarmManager é utilizada. Fique atento quanto ao método cancel() de AlarmManager, pois, como falo no vídeo, liberar recursos é extremamente importante em dispositivos mobile devido a limitação grande que esses ainda têm. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se você não conhece ainda os conteúdos Intent, BroadcastReceiver, LogCat e Notification segue os links dos posts que fiz falando sobre esses:
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Classe Intent e o Conceito de Pilha em Android
+
+BroadcastReceiver no Android, Executando Tarefas no Background
+
+Notification no Android, Criando Notificações Com Toque e Vibração
+
+O link para downlaod do projeto está logo abaixo no post.
+
+Segue link da página da classe AlarmeManager no site oficial do Android
+
+http://developer.android.com/reference/android/app/AlarmManager.html
+
+Vlw
