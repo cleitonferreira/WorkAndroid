@@ -1,0 +1,27 @@
+Notification no Android, Criando Notificações Com Toque e Vibração
+
+
+Opa! Blz?
+
+Nesse vídeo apresento uma das classes que considero mais importantes para dar um aspecto mais profissional a suas APPs Android, estou falando a classe Notification (e cia.). Sabe aqueles ícones que aparecem no topo de seu dispositivo (área de notificações) junto ao um toque ou vibração? Então, Notification é a entidade que permite que nós criemos as notificações de nossas APPs informando ao usuário que tem algo novo no conteúdo ou lembrando ele de alguma coisa que ele agendou na APP para ser lembrado mais tarde.
+
+Note que nesse exemplo utilizei o método "getActivity()", mas é possível chamar também um Service, via "getService()" e um BroadcastReceiver via "getBroadcast()". Fique ligado quanto ao uso da classe NotificationCompat que é da lib de compatibilidade android-support-v4.jar para que nós possamos utilizar notificações em versões anteriores a 3.0 do Android. No mais é só isso, queria ressaltar novamente que Notification é importante e quando trabalhando com as classes Service, BroadcastReceiver, GCM e / ou Alarme dá para montar uma baita de uma funcionalidade de notificação. Enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se você não faz a mínima ideia do que seja uma Intent, segue posts que já fiz falando sobre:
+
+Classe Intent e o Conceito de Pilha em Android
+
+Passagem de Parâmetros de Uma Atividade Para a Outra em Android
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe Notification no site oficial de desenvolvedores Android
+
+http://developer.android.com/reference/android/app/Notification.html
+
+
+Página da classe NotificationCompat no site oficial de desenvolvedores Android
+
+http://developer.android.com/reference/android/support/v4/app/NotificationCompat.html
+
+Vlw
