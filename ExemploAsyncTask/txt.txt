@@ -1,0 +1,24 @@
+AsyncTask no Android, Acesso a Thread Principal de Forma Otimizada
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo termino a série de vídeos que falam sobre o acesso a Thread Principal (ou Thread de Interface) das atividades do Android. Dessa vez mostrando o uso da classe AsyncTask para esse acesso ser realizado de forma otimizada. Note que no exemplo utilizo uma interface (TarefaInterface) para que o código fique mais preparado para ser tornar o código de uma classe utilitária e então evite a necessidade de código repetido no sistema, claro que mais alterações terão de ocorrer para que essa classe vire uma classe utilitária. Observar a permissão que é solicitada para acessar a Internet.
+
+A grande vantagem de uso da classe AsyncTask ante o uso do método runOnUiThread ou o uso da classe Handler diretamente é que a classe AsyncTask encapsula toda a codificação necessária para criar uma Thread secundária e então depois acessar a Thread principal dentro dessa Thread secundária, além de a classe que estende a classe AsyncTask já ficar preparada para virar a classe utilitária de acesso a servidores Web do projeto. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Os outros dois vídeos mostrando como acessar a Thread principal por meio de outra Thread estão logo abaixo:
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Entendendo a Thread Principal de Uma APP Android
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe AsyncTask no site oficial do Android
+
+http://developer.android.com/reference/android/os/AsyncTask.html
+
+Vlw
