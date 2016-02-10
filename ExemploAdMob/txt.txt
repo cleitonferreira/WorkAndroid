@@ -1,0 +1,27 @@
+Monetizando Sua APP Com o Google AdMob (Anúncios Mobile)
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como integrar anúncios em sua APP para que você consiga monetizar suas aplicações sem a necessidade de cobrar pela instalação delas. Nós temos de utilizar a plataforma AdMob que é a plataforma de anúncios mobile do Google. Note que não somente APPs Android podem utilizar o AdMob, APPs IOS e Windows Phone também são cobertas por essa plataforma de anúncios.
+
+Fique atento a alteração que é necessária no arquivo AndroidManifest.xml de seu projeto (adicionar permissões e a activity do anúncio) e fique atento também quanto a trabalhar em modo de teste enquanto sua APP está no ambiente de desenvolvimento, pois o Google deixa claro que cliques em anúncios válidos que estão em escopo de desenvolvimento implica em banimento de conta, então não vacile. Vale lembrar também de não esquecer de baixar e integrar o AdMob SDK, que como falo no vídeo: "é muito fácil colocar essa lib no projeto".
+
+Só quero enfatizar que anúncios na Web já sustentam milhares de pessoas pelo mundo com uma rentabilidade, algumas vezes, muito maior do que o salário de um trabalho de carteira assinada convenciona, isso porque o tráfego de pessoas pela rede é muito grande, logo como as plataformas mobile crescem em números espantosos, logo logo haverá (se já não existe) milhares de outras pessoas apenas vivendo de anúncios mobile e o AdMob é uma entrada nesse mundo. Só fique atento para não quebrar seu layout, tente colocar o anúncio (se você for utilizar) de maneira que fique em harmonia com o layout. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto (incluindo AdMob SDK) se encontra logo abaixo no post.
+
+Página oficial da plataforma AdMob
+
+http://www.google.com/admob/
+
+Página de download do AdMob SDK
+
+https://developers.google.com/admob/ios/download?hl=pt-BR#downloadandroid
+
+Página de exmplos iniciais e documentação do AdMob SDK
+
+https://developers.google.com/admob/?hl=pt-BR#android
+
+Vlw.
