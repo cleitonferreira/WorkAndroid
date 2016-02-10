@@ -1,0 +1,20 @@
+Monitorando Sua APP Android Com Google Analytics
+
+
+Opa! Blz?
+
+Nesse vídeo mostro uma das funcionalidades indispensáveis em qualquer tipo de aplicação (Web, mobile, desktop, ...), a funcionalidade de monitoramento ou relatório. Em APPs Android (IOS também) é possível utilizar a famosa feramenta do Google de monitoramento, o Google Analytics. E já quero informar que é trivial a instalação e utilização, com duas linhas de código já conseguimos monitorar nossa Activity. Note que foquei em mostrar o monitoramento sendo efetivado no Google Analytics quando nós abrimos nossa APP, logo os pequenos erros que há no vídeo não lhe atrapalharão no aprendizado.
+
+Fique atento quanto as permissões que são necessárias para o uso do analytics, se não forem colocadas uma exception será gerada. Não esquecer também de baixar o .JAR do analytics para vincular ao projeto e utilizar o analytics propriamente dito. Enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo do post.
+
+Página de download da lib do Google Analytics
+
+https://developers.google.com/analytics/devguides/collection/android/v4/
+
+Página de exemplos de uso do Google Analytics na APP Android
+
+https://developers.google.com/analytics/devguides/collection/android/v3/
+
+Vlw
