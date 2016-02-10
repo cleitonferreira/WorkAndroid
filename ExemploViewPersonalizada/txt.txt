@@ -1,0 +1,18 @@
+Construindo View Personalizada no Android
+
+
+Opa, Blz?
+
+Nesse vídeo mostro como construir Views personalizadas para nossas APPs Android. Note que abordo as duas maneiras mais comuns de se criar views personalizadas, uma é herdando de alguma classe que já herda da classe View (TextView ou EditText, por exemplo) e a outra maneira é herdando diretamente da classe View, nesse último caso nós literalmente temos que realizar o desenho da view personalizada na mão implementando o método obrigatório onDraw().
+
+Fique atento quanto aos construtores, pois eles são obrigatórios se quisermos utilizar nossas views personalizadas tanto via script quanto via XML. Na minha opinião a construção de views personalizadas é algo que deve ser levado a sério quando não há ao menos uma View nativa que já não resolva nossa necessidade, pois o trabalho de construir uma view personalizada sem uma necessidade clara pode ser muito pesado e nos levar tempo. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo.
+
+Página da classe View no site oficial do Android
+
+http://developer.android.com/reference/android/view/View.html
+
+Obs. : eu moro em frente ao play ground, então estou sem controle algum quanto ao barulho da criançada.
+
+Vlw
