@@ -1,0 +1,34 @@
+9-Patch no Android, Mantendo a Qualidade de Imagens de Background
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como manter a qualidade de imagens de background utilizadas em nossas APPs Android em diferentes resoluções de tela. A ferramenta Draw9Patch utiliza uma imagem .PNG para então gerar uma .9.PNG com estrutura de estica definida por nós. Note que diferentemente dos sistemas operacionais IOS que rodam em apenas dois formatos de telas distintos (IPhone e IPad), o Android roda em diversos formatos de tela distintos, por isso a necessidade de uma funcionalidade como o 9-patch.
+
+Vale ressaltar que o 9-patch somente trabalha com imagens .PNG e que as imagens somente serão úteis no uso do 9-patch se elas tiverem partes esticaveis tanto na horizontal quanto na vertical.
+
+Como falo no vídeo, se você não está utilizando nenhuma plataforma de desenvolvimento cross-plataform (PhoneGap, Titanio, ...) a melhor maneira de colocar bordas arredondas ou sombras é utilizando 9-patch, claro que essa é minha opinião, devido a facilidade e a conistencia da imagem no resultado final. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo do post.
+
+Página de explicação do que é o NinePatch no site oficial do Android
+
+http://developer.android.com/guide/topics/graphics/2d-graphics.html#nine-patch
+
+
+
+Página de explicação da ferramenta Draw-9-patch no site oficial do Android
+
+http://developer.android.com/tools/help/draw9patch.html
+
+
+Simple Nine-patch Generator
+
+http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
+
+
+
+
+Segue imagem esquema do 9-patch:
