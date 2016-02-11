@@ -1,0 +1,27 @@
+Fragments no Android, Trabalhando com Múltiplas Activities
+
+
+
+Opa! Blz?
+
+Nesse vídeo (grande) mostro a API de Fragments no Android. Construída para ajudar no trabalho melhor do espaço dos tablets, essa API nos permite colocar mais de uma Activity na tela do dispositivo sem a necessidade de gambiarras para simular essas várias activities na tela. Essa API é muito robusta e apesar de ter sido criada na versão 3.0 do Android ela tem suporte para versões anteriores (até a versão 1.6 do Android há suporte). Vale ressaltar que fragments têm ciclo de vida igualmente tem as activities (porém com alguns métodos a mais) e que o ciclo de vida dos fragments está intrisicamente vinculado ao ciclo de vida da Activity "pai" ou "conteiner" deles, ou seja, quando essa Activity "pai" está no método onResume() de seu ciclo de vida os fragments pertecentes a ela também estão no método onResume() no ciclo de vida deles.
+
+Fique atento quanto ao uso do FrgamentManager, pois é ele que permitirá seu acesso as funcionalidades de busca, inserção e troca de Fragment no layout, juntamente com o FragmentTransaction. Vale ressaltar que o FragmentTransaction somente terá efeito se os fragments em uso tiverem sido inseridos via API e não via XML. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você não conhece o ListView, segue link do post que fiz sobre ele:
+
+ListView: Entendendo e Utilizando no Android
+
+Páginas de algumas classes do exemplo:
+
+Página da classe Fragment no site oficial do Android
+
+http://developer.android.com/reference/android/app/Fragment.html
+
+Página da classe LayoutInflater no site oficial do Android
+
+http://developer.android.com/reference/android/view/LayoutInflater.html
+
+Vlw
