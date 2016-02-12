@@ -1,0 +1,35 @@
+Iniciando ActionBar no Android, Trabalhando Com Menu
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou inicio a uma série de vídeos (que provavelmente serão 2 ou 3) falando sobre e apresentando a classe ActionBar no Android, classe que literalmete é uma baita mão na roda quando trabalhamos também com fragments. Note que esse é o vídeo inicial, logo a parte core do ActionBar não é abordada nesse vídeo, porém é importante assisti-lo se você ainda não conhece essas ferramenta no Android. ActionBar (Fragment também) é uma das classes que (na minha opinião) logo logo será de uso obrigatório na comunidade de desenvolvedores Android devido as possibilidades que ela nos fornece além da facilidade de uso. Fique atento que ActionBar somente tem suporte para versões maiores ou iguais ao Android 3.0 (API 11), porém há várias libs na net que nos dão possibilidade de utilizar ActionBar perfeitamente em versões 2.x do Android, porém esse será o último vídeo desse série sobre ActionBar. Ficar atento também quanto ao tema que será utilizado, pois o ActionBar está disponível apenas para o tema "Thema.Holo" e temas que o herdam, porém nos meus testes eu consegui colocar Tabs e Menu na barra superior sem utilizar o Theme.Holo, mas notei que os listernes das Tabs não estavam funcionando e que quando eu definia o atributo "android:windowNoTitle" como true na área de temas de minha aplicação a APP gerava uma exceção e nem sequer abria. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Obs. : Se você ainda não assistiu aos vídeos sobre Fragments, assista antes do segundo vídeo da série sobre ActionBar, pois esse conhecimento sobre Fragments será necessário (os links desses vídeos estão no "Recomendados" desse post).
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas das principais classes utilizadas no projeto de exemplo:
+
+Página da classe ActionBar no site oficial do Android
+
+http://developer.android.com/intl/pt-br/reference/android/app/ActionBar.html
+
+Página da UI ActionBar no site oficial do Android
+
+http://developer.android.com/intl/pt-br/training/appbar/index.html
+
+Página da classe Menu no site oficial do Android
+
+http://developer.android.com/intl/pt-br/reference/android/view/Menu.html
+
+Página da classe MenuItem no site oficial do Android
+
+http://developer.android.com/intl/pt-br/reference/android/view/MenuItem.html
+
+Página de estatisticas de versões de API em uso no site oficial do Android
+
+http://developer.android.com/intl/pt-br/about/dashboards/index.html?utm_content=buffer7a7fe&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#Platform
+
+Vlw
