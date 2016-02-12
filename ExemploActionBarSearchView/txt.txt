@@ -1,0 +1,24 @@
+SearchView, Botão Home e Mudança de Título na ActionBar Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre ActionBar no Android apresentando como colocar a SearchView na ActionBar e como trabalhar a mudança de título (label) do ícone da ActionBar e como ativar a ação de volta a Activity principal da APP quando pressionamos a o Ícone Button da ActionBar que foi habilitado com o método setDisplayHomeAsUpEnabled() que também é da ActionBar. Note que não abordo o 100% do SearchView nesse vídeo, porém o que abordo é o que utilizo é o acho mais do que o suficiente, porém você terá de ver suas necessidades para então saber será ou não necessário entrar mais no core desse componente. Note que a implementação de volta a Activity principal não é possível apenas quando implementada para o botão home da ActionBar, até porque trabalhamos com Intent e Flags, que não têm dependencia nenhuma com a ActionBar. Fique atento ao uso do método setFlags() juntamente com a constante Intent.FLAG_ACTIVITY_CLEAR_TOP no momento de limparmos a pilha de Activities e então colocarmos apenas uma Activity.
+
+Importante ressaltar que tanto o compontente SearchView quanto a implementação que limpa a pilha de activities são independentes da ActionBar e podem ser implementadas de outras formas também. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeos. Se você ainda não viu os outros vídeos da série, vá em "Recomendado" que os links dos posts desses vídeos estão todos lá.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links de página apresentadas no vídeo:
+
+Página do componente SearchView no site oficial do Android
+
+http://developer.android.com/reference/android/widget/SearchView.html
+
+Página do listener OnQueryTextListener no site oficial do Android
+
+http://developer.android.com/reference/android/widget/SearchView.OnQueryTextListener.html
+
+Vlw
