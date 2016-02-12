@@ -1,0 +1,22 @@
+Ciclo de Vida e Otimização de Fragments no Android
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao vídeo anterior sobre Fragments no Android, porém agora falando do ciclo de vida do Fragment e suas correpondências no ciclo de vida da Activity host. Abordo também o conceito de otimização utilizando os métodos onSaveInstanceState() e setRetainInstance(). Só lembrando que otimizar o acesso ao conteúdo de sua APP Android não é "luxo" e sim obrigação, pois para o Android aniquilar os processos de sua APP devido ao alto uo de memória é apenas um "pulo" e isso é fácil de acontecer.
+
+Fique atento a importância de entender tanto o ciclo de vida da Activity quanto do Fragment, isso pode ser um baita diferencial na hora de programar sua APP. Mas enfim, vou evitar mais delongas e deixar vc assistir ao vídeo.
+
+Se você não conhece os assuntos LogCat e Ciclo de Vida de uma Activity, segue link dos posts que fiz falando sobre esses:
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Ciclo de Vida de Uma Atividade no Android
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe Fragment no site oficial do Android
+
+http://developer.android.com/reference/android/app/Fragment.html
+
+Segue imagem esquema do ciclo de vida do Fragment em paralelo com o ciclo de vida de uma Activity:
