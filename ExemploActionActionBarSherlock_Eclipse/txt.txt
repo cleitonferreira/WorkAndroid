@@ -1,0 +1,16 @@
+Criando Suporte ActionBar Android Com ActionBarSherlock
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo praticamente finalizo a série de vídeos sobre ActionBar no Android, dessa vez mostrando uma lib (ActionBarSherlock) de suporte a ActionBar para que nosso ActionBar trabalhe também em versões anteriores a 3.0 (API 11) do Android. A atenção nesse vídeo é muito importante, pois infelizmente essa lib não é muito simples de usar se você não ficar ligado em alguns detalhes sobre seu suporte. Fique atento para alterar o atributo Theme da tag <Application> no AndroidManifest, esse é muito fácil de ser esquecido por ser apenas um detalhe. Outra coisa importante é na alteração do método getActionBar() para getSupportActionBar(), esse último merece uma atenção especial, pois caso você esqueça de alterá-lo, dependendo do uso dele no código, o Android não acusará nenhum tipo de erro que será capitado apenas em tempo de execução. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post incluindo lib de suporte ActionBarSherlock.
+
+Página oficial da lib de suporte ActionBarSherlock
+
+http://actionbarsherlock.com/index.html
+
+Vlw
