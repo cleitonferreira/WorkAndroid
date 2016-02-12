@@ -1,0 +1,29 @@
+Adicionando Tabs na ActionBar Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre ActionBar no Android, porém dessa vez mostrando como colocar Tabs em nossas ActionBars. Tabs na ActionBar aparentemente podem parecer recursos interessantes somente para Tablets, mas não, Tabs funcionam perfeitamente também em smartphones. Fique atento a lógica utilizada para persistir a Tab atualmente selecionada (adaptada do livro "Google Android Para Tablets"), pois caso não seja feito isso, quando o usuário trocar a orientação de tela ou chamar o teclado fisíco será perdida a Tab que estava selecionada voltando assim para a Tab inicial. Ficar atento que para trabalhar com Tabs há a necessidade de trabalharmos também com Fragments, logo o conhecimento prévio de Fragments é necessário. Se você não viu o primeiro vídeo de ActionBar e não sabe trabalhar ainda com Fragments, esses posts estão todos na área de "Recomendado" desse post. Mas é isso, vou evitar evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da classe ActionBar no site oficial do Android
+
+http://developer.android.com/reference/android/support/v7/app/ActionBar.html
+
+
+
+Página da classe Tab no site oficial do Android
+
+http://developer.android.com/reference/android/app/ActionBar.Tab.html
+
+
+
+Página da ActionBar UI no site oficial do Android
+
+http://developer.android.com/training/appbar/index.html
+
+Vlw
