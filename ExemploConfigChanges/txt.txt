@@ -1,0 +1,18 @@
+Entendendo e Utilizando o ConfigChanges no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro um recurso avançado no Android e que pode nos salvar em determinadas situações (como a ituação da rádio que apresento no vídeo). O recurso na verdade é uma dupla: android:configChanges (atributo da tag <activity> do AndroidManifest.xml) e onConfigurationChanged (método de Activity que é chamado sempre que a configuração do dispositivo mobile que estamos ouvindo foi alterada, orientação de tela por exemplo). Note que o configChanges juntamente com o método onConfigurationChnaged não vieram para substituir os métodos do ciclo de vida da activity (onSaveInstanceState e onRetainNonConfigurationInstance) que nos auxiliam na persistencia dos objetos em memória. Na verdade essa dupla é apenas a nossa carta na manga para situações em que somente os métodos do onSaveInstanceState e onRetainNonConfigurationInstance não são o suficiente quanto a persistência e permanencia do estado da tela. A dupla configChanges e onConfigurationChanged deve ser utilizada sempre com muita cautela e somente se você souber o que realmente quer e que essa dupla é a melhor solução. Utilizar essas entidades apenas para trabalhar a otimização de tela pode não ser uma boa opção se sua tela for complexa e trabalhar com diferentes formas de layout dependendo de seu estado, pois como explicado no vídeo, dependendo das configurações que sua APP estiver ouvindo para controlar a construção a quantidade de linha de código pode aumentar consideravelmente enquanto que deixar que o Android cuidasse desse build não custaria uma linha de código sequer. Mas enfim, não é para utilizar o configChanges e o onConfigurationChanged? Não, é para utiliza-los sim, mas com consciencia e somente se eles trazerem uma melhoria considerável para sua APP, que é o caso da rádio Web que apresento no vídeo. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Seção do onConfigurationChanged na página da classe Activity no site oficial do Android
+
+http://developer.android.com/reference/android/app/Activity.html#onConfigurationChanged%28android.content.res.Configuration%29
+
+
+
+
+Vlw
