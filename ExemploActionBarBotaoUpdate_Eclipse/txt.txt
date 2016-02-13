@@ -1,0 +1,24 @@
+Colocando Botão de Update no ActionBar Android
+
+
+
+
+Opa! Blz?
+
+Mais um vídeo sobre ActionBar no Android, porém dessa vez é bem rápido (em comparação aos outros vídeos, menos de 15 minutos é muito rápido aqui no blog) e falando sobre o popular e muito utilizado botão de atualizar que costuma ficar alocado na área de menu do ActionBar (canto superior direito). Note que não há um método específico para que nós apenas o chamemos e então tudo acontence, porém também não há um caminhão de código para que nosso botão funcione, alias é muito mais simples do que aparenta ser. Nesse vídeo utilizo algumas entidades externas ao menu, são elas: ProgressBar e Thread. Porém apenas o ProgressBar é obrigatório, a Thread é apenas para simular uma atualização no background. Comento também como fazer para utilizar os ícones padrões do Android que é o recomendado quando pretendemos utilizar ícones em nossas APPs Android. Enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se você não conhece o conceito de Threads no Android, segue alguns posts que fiz falando sobre:
+
+Entendendo a Thread Principal de Uma APP Android
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+AsyncTask no Android, Acesso a Thread Principal de Forma Otimizada
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página de padrões para construção de ícones no Android
+
+https://www.google.com/design/spec/style/icons.html
+
+Vlw
