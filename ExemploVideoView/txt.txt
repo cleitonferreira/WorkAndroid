@@ -1,0 +1,23 @@
+VideoView no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como colocar vídeos nativos em nossas APPs Android utilizando o componente visual VideoView, que por sinal é uma view como qualquer outra. Fique atento quanto ao macete para descobrir qual é o diretório que está sendo utilizado pelo SDCARD, precisamos disso no exemplo somente para podermos descarrgar o vídeo na mão nesse diretório, em uma aplicação real não há a necessidade disso, pois o recurso android.os.Environment.getExternalStorageDirectory() já faz isso para agente. è importante ressaltar também o uso da classe MediaController para que o vídeo tenha os controles padrões de acesso (play/pause, seguir, voltar, ...). Note a necessidade de solicitação de permissão de acesso a Internet quando queremos utilizar um vídeo que está em um servidor remoto.
+
+Obs. : não mostrei nesse vídeo o uso do VideoView via XML, mas é possível também, tanto que se você for em "Images & Media" no nosso construtor de interface terá lá a opção VideoView disponível.
+
+Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página do componente VideoView no site oficial do Android
+
+http://developer.android.com/reference/android/widget/VideoView.html
+
+Página da classe MediaController no site oficial do Android
+
+http://developer.android.com/reference/android/widget/MediaController.html
+
+Vlw
