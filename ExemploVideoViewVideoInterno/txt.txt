@@ -1,0 +1,13 @@
+VideoView Com Vídeo Interno a APP Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao vídeo sobre VideoView no Android em que ficou faltando duas coisas importantes: como utilizar o VideoView via XML e como colocar o vídeo internamente em nossa APP sem a necessidade de ter que baixar o vídeo da Web. Não tenho muito o que falar dessa vez, somente lembrando que nesse vídeo assumo que você já tem a base do componente VideoView ou que você assistiu o primeiro vídeo sobre o componente que coloquei aqui. Segue link do primeiro vídeo:
+
+VideoView no Android, Entendendo e Utilizando
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Vlw
