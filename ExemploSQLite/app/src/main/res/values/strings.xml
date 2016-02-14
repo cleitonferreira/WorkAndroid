@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExemploSQLite</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

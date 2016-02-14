@@ -1,0 +1,33 @@
+SQLite no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar a base de dados interna que o Android nos fornece, o SQLite. Banco de dados leve e prático que nos permite salvar dados de nossos usuários e / ou nossa aplicação que está rodando no dipositivo do usuário. Infelizmente o Android não nos permite realizar conexões remotas com BDs, para essa ação remota acontecer nós temos que realizar uma chamada a um servidor Web e então o servidor Web acessar o servidor de banco de dados para então o servidor obter a rsposta e envia-la ao Android... complicado. Mas não é para todas as APPs que necessitamos de bancos de dados remotos, alias acredito que a marioria utiliza o banco de dados interno que o Android disponibiliza (SQLite). No SQLite a SQL é a SQL ANSII mesmo, não há mistério, somente temos que prestar atenção quanto ao construtor da classe SQLiteOpenHelper que literalmente quebra um galhão para nós, mas temos que saber trabalhar com ele, pois caso alteramos a versão do banco de dados sem necessidade podemos perder, literalmente, todos os nossos dados. Note que no vídeo separei as entidades que trabalham com o banco de dados em duas classes, uma que nos permite acessar as chamadas mais comuns de um banco de dados (INSERT, UPDATE, DELETE, SELECT) e a outra que é o core do banco de dados, ou seja, é ela que ou cria ou conecta ou deleta o bd. Mas enfim vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Note que o layout e as Activities já estão prontas no vídeo, pois assumo que você já entende sobre os assuntos: Activity, Intent, BaseAdapter e ListActivity. Se não os entende, segue os links desses posts no blog:
+
+Ciclo de Vida de Uma Atividade no Android
+
+Classe Intent e o Conceito de Pilha em Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Entendendo e Utilizando ListActivity no Android
+
+Links das páginas comentadas no vídeo:
+
+Site oficial do SQLite
+
+http://www.sqlite.org/
+
+Página da classe SQLiteOpenHelper no site oficial do Android
+
+http://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper.html
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Obs. : foi mal o telefone tocando no final, totalmente imprevisivel.
+
+Vlw
