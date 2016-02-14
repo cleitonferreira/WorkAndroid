@@ -1,0 +1,16 @@
+Instalando o Emulador Genymotion no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro um emulador muito mais produtivo e rápido para o desenvolvimento em Android. Apesar de ter o seu maior potencial nas versões pagas do software o Genymotion não deixa a desejar na versão gratuita, ela disparada é mais produtiva do que o emulador convencional do Android. Mesmo com alguns bugs que ocorrem de vez enquando em minha máquina quando o utilizo por muito tempo (acredito que é falha em minha máquina e não no software) o custo / beneficio ainda é muito superior do que utilizar a versão convencional do emulador. Note que se você não tiver o Oracle Virtual Box instalado em sua máquina há um instalador (utilizado no vídeo) que já vem com o Virtual Box para ser instalado juntamente com o Genymotion. Acho que isso, ressalto que a produção do desenvolvimento Android tende a aumentar em algumas vezes, pois o Genymotion realmente é muito mais rápido e ressalto também que o Eclipse entende o Genymotion como um dispositivo real conectado via USB, mas isso não atrapalha em nada. Enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Não se esqueça de criar sua conta no Genymotion para poder baixar o dispositivo e utilizá-lo no desenvolvimento Android. Note que o download será necessário apenas uma vez, nas outras vezes que for utilizar o mesmo dispositivo ele já estará pronto para ser executado.
+
+Acessar site oficial do Genymotion
+
+Link para baixar o plugin do Genymotion:
+
+https://www.genymotion.com/
+
