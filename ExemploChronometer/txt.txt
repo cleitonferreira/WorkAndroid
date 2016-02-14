@@ -1,0 +1,24 @@
+Chronometer no Android, Entendendo e Utilizando
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar o componente Chronometer no Android. Bem simples de implementar, tanto via XML quanto via API. Fique atento quanto ao método setBase() da classe Chronometer, pois é entendendo ele que se consegue implementar a lógica do botão pause, pois como dito no vídeo, não há o método pause() na classe Chronometer. Então é isso, a classe Chronometer evita que nós tenhamos que implementar um caminhão de código para trabalhar com a funcionalidade de cronômetro no Android além de nos fornecer uma interface simples e funcional.
+
+Obs. : o método elapsedRealtime() da classe SystemClock retorna o tempo desde que o dispositivo foi iniciado e não o time Ubuntu de 1969.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue as páginas das classes comentadas no vídeo:
+
+Página da classe SystemClock no site oficial do Android
+
+http://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()
+
+Página da classe Chronometer no site oficial do Android
+
+http://developer.android.com/reference/android/widget/Chronometer.html
+
+Vlw
