@@ -1,0 +1,16 @@
+Customizando ActionBar Android Com ActionBar Style Generator
+
+
+
+
+Opa! Blz?
+
+Mais um vídeo falando sobre ActionBar no Android, porém esse eu realmente acho que vai lhe interessar se você já está utilizando essa API para os layouts de suas APPs Android (recomendo fortemente o uso de ActionBar). Nesse vídeo falo sobre o estilo de nossas ActionBars e como é fácil nós criarmos uma personalização em poucos minutos e sem a necessidade de criar o código do zero, na verdade mostro no vídeo a ferramenta Android ActionBar Style Generator que foi criada por Jeff Gilfelt e está sob a licença Apache 2.0. A ferramenta é fenomenal no auxílio d criação de layouts personalizados para ActionBars, a falha é que ele não da suporte que cor de texto das Tabs, porém no vídeo mostro como suprir essa necessidade. Note que há alguns macetes para que nossa estilização realmente funcione, no vídeo eu a mostro, parece gambiarra, mas funciona. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Página da ferramenta Android ActionBar Style Generator
+
+O link para download do projeto se encontra logo abaixo no post
+
+http://jgilfelt.github.io/android-actionbarstylegenerator/#name=example&compat=holo&theme=light&actionbarstyle=solid&texture=0&hairline=0&neutralPressed=1&backColor=E4E4E4%2C100&secondaryColor=D6D6D6%2C100&tabColor=33B5E5%2C100&tertiaryColor=F2F2F2%2C100&accentColor=33B5E5%2C100&cabBackColor=FFFFFF%2C100&cabHighlightColor=33B5E5%2C100
+
+Vlw
