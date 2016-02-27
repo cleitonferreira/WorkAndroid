@@ -1,0 +1,33 @@
+Fonts Personalizadas no Android Com a Classe Typeface
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro uma funcionalidade muito interessante que é possível no Android e muito utilizada no desenvolvimento Web convencional, a funcionalidade é a mudança de font em nossos projetos Android utilizando no caso o auxílio das classe Typeface e do método getAssets() da entidade Resources. A mudança colocação de font personalizada é bem tranquila, não tem muita regra a seguir, apenas não esquecer de que a font deve estar no folder "assets" do projeto e também deve estar de, preferência, no formato TTF. Não muito mistério quanto a mudança de formato, tanto que no vídeo mesmo eu baixo uma font no formato WOFF e altero na Web mesmo por uma no formato TTF. Testei a mudança de funto nos componentes TextView, Button e EditText... todos passaram sem problemas. Apesar de não ter testado em todos os componentes que têm font eu acredito (sacanagem... "eu acredito") que relmente essa alteração funciona para praticamente todos, pois o que o Typeface faz é alterar o estilo da font e se existe uma font em uso ela tem que estar utilizando algum estilo, mesmo que seja o mais comum e padrão, não deixa de ter um Typeface interno mesmo assim.
+
+Note sobre alguns limitações que as fonts personalizadas podem trazer, como por exemplo a não internacionalização correta dos caracteres e também o não suporte ao atributo ellipsize que nos auxilia com textos longos, mas enfim são testes simples de fazer e verificar se passa ou não. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das página apresentada e comentadas no vídeo:
+
+Página da classe Typeface no site oficial do Android
+
+http://developer.android.com/reference/android/graphics/Typeface.html
+
+
+Página da classe Resources com acesso direto ao método getAssets no site oficial do Android
+
+http://developer.android.com/reference/android/content/res/Resources.html#getAssets%28%29
+
+Página do Google Fonts
+
+https://www.google.com/fonts
+
+Página principal do EveryThingFonts
+
+https://everythingfonts.com/
+
+Vlw
