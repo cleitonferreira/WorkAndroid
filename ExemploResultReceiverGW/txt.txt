@@ -1,0 +1,25 @@
+ResultReceiver no Service Para Comunicar Activity Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo (acredito ser o último sobre Service) mostro como fazer com que nosso Service seja a parte ativa na comunicação IPC (inter-process comunication) com nossas Activities no Android. Em vídeos anteriores ficou claro que realizar a comunicação de Activity para Service é bem tranquilo, apenas utilizando o método startService() nós já podemos obter essa funcionalidade, porém para fazer com que o Service comunique a Activity nós temos que utilizar uma subclasse de ResultReceiver (no caso essa é apenas mais uma forma de permitir essa comunicação) e implementar o método onReceiveResult() dessa classe para podermos obter a mensagem. Note que a grande finalidade da classe ResultReceiver é a de permitir que nós possamos obter mensagens enviadas de processos distintos. Observe que falo sobre colocar a variável que instancia a subclasse de ResultReceiver como null antes de realizar a instanciação, isso porque em outros algoritmos eu tive problemas quando não fazia essa jogada, mas pode ser que nada aconteça em seu código, porém para prevenir não custa nada. Enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Se link dos vídeos dos assuntos que não detalhei no vídeo devido a já ter feito vídeo aulas sobre:
+
+Service no Android, Entendendo e Utilizando
+
+Utilizando BindService com Service no Android
+
+IntentService no Android, Entendendo e Utilizando
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Segue link da classe comentadas no vídeo:
+
+Página da classe ResultReceiver no site oficial do Android
+
+http://developer.android.com/reference/android/os/ResultReceiver.html
+
+Vlw
