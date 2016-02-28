@@ -1,0 +1,22 @@
+Vibrator e HapticFeedback no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo apresento um conceito e funcionalidade que considero muito importantes no Android, alias não somente no Android, mas sim no desenvolvimento mobile. Feedback Háptico (termo relativo a tato, segue definição em Wikipédia: Háptico *https://pt.wikipedia.org/wiki/H%C3%A1ptico), muito importante para deixar claro ao usuário de sua APP que as ações dele estão tendo efeito. O comportamento padrão de um feedback háptico é a vibração do dispositivo, pode ser que vc queira fazer um barulho (som) para retornar como feedback, não recomendaria, pois acho que somente o vibrar já é o suficiente e menos intrusivo, porém para notificações (GCM, Notification, Service e cia) recomendo sim o uso de som e vibração, pois nesse caso a APP tende a estar fechada e com conteíudo novo para o usuário. Mas enfim são duas as maneiras mais comuns de se utilizar o HapticFeedback no android, com a classe Vibrator, nesse caso será um feedback personalizado, pois essa classe não foi feita somente para essa funcionalidade. A outra forma é com o atributo HapticFeedback que existe em algumas Views do Android, nesse caso teremos que permitir que o HapticFeedback funcione declarando isso via XML (android:hapticFeedbackEnabled="true") ou via API (view.setHapticFeedbackEnabled(true)). Não esqueça que na versão que utilize a classe Vibrator você terá que solicitar a permissão "android.permission.VIBRATE" no AndroidManifest.xml.
+
+Vou evitar muitas delongas aqui e deixar você assistir ao vídeo. Note a ênfase que dou a detalhes que são muito úteis em sistemas mobiles (que aparentemente são incômodos em desenvolvimento Web convencional).
+
+O link para downlaod do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da classe Vibrator no site oficial do Android
+
+http://developer.android.com/reference/android/os/Vibrator.html
+
+Página da entidade HapticFeedbackConstants no site oficial do Android
+
+http://developer.android.com/reference/android/view/HapticFeedbackConstants.html
+
+Vlw
