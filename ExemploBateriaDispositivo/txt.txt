@@ -1,0 +1,28 @@
+Monitorando Bateria de Dispositivo Android Via API
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como obter o monitoramento da bateria de um dispositivo mobile Android por meio da API do Java. O código é bem simples e tem algumas restrições que não são coisas extremamente importantes, na verdade a restrição implica que a constante ACTION_BATTERY_CHANGED somente tem efeito no BroadcastReceiver quando esse é registrado em tempo de execução via API JAVA, ou seja, registrado utilizando o método registerReceiver() da classe Context, via AndroidManifest.xml não funcionará esse monitoramento, porém os outros dois tipos de monitoramento funcionam tanto via API JAVA como também via AndroidManifest.xml, são elas: ACTION_BATTERY_LOW e ACTION_BATTERY_OKAY.
+
+Se você não está vendo muita utilidade no uso desse monitoramento de bateria como funcionalidade imagine que você está a desenvolver um game mobile que tem algumas opções de qualidade de tela para jogar... agora imagine que o usuário esteja jogando seu jogo de forma viciante e sua bateria está só diminuindo com o tempo. Seu jogo pode internamente (imaginando que ele esteja monitorando o estado da bateria) alterar a qualidade do jogo para consumir menos bateria e então permitir que o usuário continue jogando... Pode parecer coisa de outro mundo, mas se vc parar para observar verá que o YouTube faz esse tipo de jogada para quando estamos assistindo seus vídeos e a velocidade da Internet começa a ficar ruim, o YouTube trabalha então com qualidades de vídeo que exigem menos de uma conexão melhor para permtir que as visualizações continuem. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe Intent (no site oficial do Android) que contem as constantes de monitoramento de bateria
+
+http://developer.android.com/reference/android/content/Intent.html
+
+
+Se você não manja de BroadcastReceiver, IntentFilter, LogCat e Ciclo de Vida de uma Activity no Android, segue os links dos posts (vídeos) que fiz sobre essas entidades:
+
+BroadcastReceiver no Android, Executando Tarefas no Background
+
+Entendendo e Utilizando IntentFilter no Android
+
+Entendendo e Utilizando o a Classe Log Com o LogCat no Android
+
+Ciclo de Vida de Uma Atividade no Android
+
+Vlw
