@@ -1,0 +1,22 @@
+Service no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar a classe Service do Android para trabalhar processamentos no background e por tempo indeterminado. Note que nesse primeiro vídeo sobre Service utilizo o método startService() que é comum para aplicações que necessitam de ficar também em processamento no background por tempo indeterminado. O método que pretendo comentar no próximo vídeo é o bindService(). Note que o Service executa não somente no background, na verdade ele executa sem ao menos o usuário ter aberto a aplicação, mostro no vídeo como fazer essa jogada utilizando a classe BroadcastReceiver juntamente com as permissões de BOOT_COMPLETED do Android.
+
+Considero a classe Service uma daquelas que ampliam nosso horizonte na programação, muito importante seu entendimento, pois muito provavelmente se você é ou está se tornando desenvolvedor Android, uma hora terá de utilizá-la, isso se não já a utilizou. Fique atento quanto ao ciclo de vida do Service, pois como ressalto no vídeo, mesmo fazendo várias chamadas ao Service, esse será instanciado apenas uma vez, porém p método do ciclo de vida onStartCommand() será chamado a cada nova chamada dando inicio a um novo processo dentro do service já em execução... mas enfim, esse texto é longo e o vídeo está melhor explicado.
+
+Note que no vídeo falo sobre BroadcastReceiver e Intent, se vc não conhece essas entidades, segue vídeos em que falo sobre elas:
+
+BroadcastReceiver no Android, Executando Tarefas no Background
+
+Classe Intent e o Conceito de Pilha em Android
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe Service no site oficial do Android
+
+http://developer.android.com/reference/android/app/Service.html
+
+Vlw.
