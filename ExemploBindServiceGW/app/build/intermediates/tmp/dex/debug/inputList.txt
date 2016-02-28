@@ -1,0 +1,2 @@
+/Users/viniciusthiengo/AndroidStudioProjects/ExemploServiceGW/app/build/intermediates/classes/debug
+/Users/viniciusthiengo/AndroidStudioProjects/ExemploServiceGW/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7850033bf331504a27bb19b8fa473018606c7f1a.jar

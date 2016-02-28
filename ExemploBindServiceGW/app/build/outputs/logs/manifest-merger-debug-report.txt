@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:2:1-48:12
+	xmlns:android
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:12:5-46:19
+	android:label
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:16:9-40
+activity#br.exemploservicegw.MainActivity
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:18:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:23:27-74
+service#br.exemploservicegw.ServicoTest
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:26:9-31:19
+	android:label
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:26:18-45
+	android:exported
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:26:73-97
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:26:46-72
+intent-filter#SERVICO_TEST+android.intent.category.DEFAULT
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:27:13-30:29
+category#android.intent.category.DEFAULT
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:28:17-75
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:28:27-73
+action#SERVICO_TEST
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:29:17-54
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:29:25-52
+receiver#br.exemploservicegw.BroadcastTest
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:32:9-39:20
+	android:label
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:34:13-42
+	android:permission
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:35:13-75
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:33:13-41
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:36:13-38:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:37:25-76
+service#br.exemploservicegw.ServicoConexao
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:40:9-45:19
+	android:label
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:40:48-78
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:40:18-47
+intent-filter#SERVICO_CONEXAO+android.intent.category.DEFAULT
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:41:13-44:29
+action#SERVICO_CONEXAO
+ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:43:17-57
+	android:name
+		ADDED from D:\WorkAndroid\ExemploBindServiceGW\app\src\main\AndroidManifest.xml:43:25-55

@@ -1,0 +1,25 @@
+Utilizando BindService com Service no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade ao vídeo anterior em que falo sobre Service no Android. Dessa vez apresento o método bindService() que nos permite acessar o conteúdo de nosso Service com base em uma interface personalizada que criamos somente para esse tipo de acesso / controle. A principio parace confuso de entender e realmente é, porém somente quando explicado verbalmente, no código é tranquilo de entender (apesar de ter um pouquinho de codificação a mais que o vídeo anterior).
+
+Se você viu o vídeo anterior percebeu que utilizei o método startService() para chamar o Service, porém apesar de dessa vez eu estar indicando que há um outro método para chamar Services isso não implica que não possamos utilizar os dois métodos juntos, alias a maior eficácia quanto ao uso total de Services é com o auxilio desses dois métodos e não somente um deles. É por isso que na última parte do vídeo eu mostro essa implementação. Então é isso, não tem como falar muito do método bindService() o vídeo consegue passar melhor o conhecimento. Vale ressaltar que aplicações de rádio e tocadores de MP3 em devices é que utilizam bastante essa jogada de terem o bindService() e o startService() trabalhando juntos.
+
+O link para download do projeto se encontra logo abaixo no vídeo.
+
+O link para o primeiro vídeo sobre Service se encontra na sessão "Recomendado" desse post.
+
+Segue links das páginas das classes apresentadas no vídeo:
+
+Página da classe Serice no site oficial do Android
+
+http://developer.android.com/reference/android/app/Service.html
+
+Página da interface ServiceConnection no site oficial do Android
+
+http://developer.android.com/reference/android/content/ServiceConnection.html
+
+Vlw
