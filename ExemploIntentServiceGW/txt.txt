@@ -1,0 +1,23 @@
+IntentService no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar a classe IntentService ante a classe Service quando queremos trabalhar com Service no Android. Claro que devemos pesar qual é a melhor opção para nossa necessidade, porém já vou adiantando que se você não for trabalhar com multithreads trabalhar com IntentService muito provavelmente será a melhor opção. A classe IntentService já implementa para nós uma thread auxiliar no background com o método onHandleIntent(), para que não seja realizado trabalho pesado (conexão com servidor Web, por exemplo) no processo principal da aplicação, pois conforme dito no primeiro vídeo da série sobre Service no Android o Service executa na mesma Thread principal da aplicação que o contém. A classe IntentService também já chama internamente o método stopSelf(), acho as duas caracteristicas citadas anteriormente uma grande mão na roda, pois só de ter de instanciar uma Thread na mão já é um caminhão de código que pode atrapalhar em interpretação futura por parte de outro desenvolvedor que queira refatorar o código. As desvantagens ficam em não poder trabalhar de Threads concorrentes e também em não dá suporte ao método stopService(), porém essa última desvantagem é facilmente contornada com um pouquinho de lógica (uma solução é apresentada no vídeo). Mas é isso, ressalto que tanto o startService() quanto o bindService() trabalham perfeitamente com a classe IntentService. Note que IntentService é classe filha de Service. Vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Página da classe IntentService no site oficial do Android
+
+http://developer.android.com/reference/android/app/IntentService.html
+
+Segue links dos outros vídeos da série sobre Service apresentada aqui no blog:
+
+Service no Android, Entendendo e Utilizando
+
+Utilizando BindService com Service no Android
+
+Vlw
+
+Coloque seu email abaixo para rec
