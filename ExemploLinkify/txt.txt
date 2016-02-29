@@ -1,0 +1,24 @@
+Linkify no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo mostro uma entidade que pode muito aumentar a personalização e produtividade de nossas APPs Android. A classe Linkfy nos permite criar conteúdos clicáveis dentro de nossos componentes visuais no Android. Imagine que dentro de um texto você tenha um link url para uma site seu e também um telefone para contato, agora imagine que você queira que esses dois sejam clicáveis, porém que eles abram as aplicações corretas para trabalhar, por exemplo: no caso da url deverá abrir o browser, no caso do telefone deverá abrir a aplicação de chamada do dispositivo. Isso tudo é muito fácil e possível de fazer com a classe Linkify e o melhor, além das expressões regulares prontas que ela já oferece, nós também podemos colocar nossas expressões regulares personalizadas. Pode não parecer, mas essa simplicidade é uma grande mão na roda, pois não é trivial fazer toda essa tarerfa na mão (chamar intent, filtrar texto, ...). Então é isso, não tenho muito a acrescentar aqui que não esteja bem definido no vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da classe Linkify no site oficial do Android
+
+http://developer.android.com/reference/android/text/util/Linkify.html
+
+Página da classe MatchFilter no site oficial do Android
+
+http://developer.android.com/reference/android/text/util/Linkify.MatchFilter.html
+
+Página da classe TransaformFilter no site oficial do Android
+
+http://developer.android.com/reference/android/text/util/Linkify.TransformFilter.html
+
+Vlw.

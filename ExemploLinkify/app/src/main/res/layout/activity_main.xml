@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Esse é um texto com links de site como https://www.android.com/intl/pt-BR_br/ (clicar aqui funciona). Aqui tem também telefone como (27) 98989898. E claro, para finalizar temos email: cleitonferreiraa@hotmail.com. Tem endereço: 436 Mayfield Ave, Stanford, CA" />
+</LinearLayout>
+</ScrollView>
