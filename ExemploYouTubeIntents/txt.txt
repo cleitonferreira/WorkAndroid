@@ -1,0 +1,30 @@
+Upload de Vídeo e YouTubeIntents com YouTube API no Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a YouTube API no Android, porém dessa vez mostrando a classe YouTubeIntents que é responsável também por nos permitir que façamos downloads para nossa conta do YouTube diretamente do dispositivo e partindo de nossa APP. Note que a grande funcionalidade da classe YouTubeIntents é permitir que nós possamos acessar a APP do YouTube e então utilizar algumas funcionalidades mais diretas / avançadas do YouTube, como o upload de vídeo e o acesso a busca de vídeos de um canal em especifico.
+
+Fique atento quanto a verificação de disponibilidade da funcionalidade, pois se for utilizar uma funcionalidade que não está sendo suportada, muito provavelmente será lançada uma Exception.
+
+Um opinião, se eu utilizasse frequentemente a classe YouTubeIntents ficaria com as funcionalidades de Upload (que me ajudaria muito em captar caonteúdo no cotidiano), de acesso direto ao meu Canal (para dar ao usuário de minha APP um atalho mais curto para seguir meu canal) e de PlayList (para poder deixar já elaborada uma playlist para os usuários de minha APP, porém acredito que a Video Wall consegue se sobresair ante ao uso de PlayList). Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra log abaixo no post.
+
+Segue link das classes enfatizadas em vídeo:
+
+Página da classe YouTubeIntents no site de desenvolvedores YouTube para Android
+
+https://developers.google.com/youtube/android/player/reference/com/google/android/youtube/player/YouTubeIntents?hl=pt
+
+Se você não conhece as entidades ListView e BaseAdapter, segue os links dos vídeos que fiz sobre essas entidades:
+
+ListView: Entendendo e Utilizando no Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+O link do primeiro vídeo da série de vídeos sobre a API do YouTUbe no Android está na seção "Recomendado" do post.
+
+Vlw.
