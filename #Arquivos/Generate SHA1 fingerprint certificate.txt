@@ -1,0 +1,51 @@
+C:\Windows\System32\cmd.exe
+
+digitar cmd
+
+
+C:\Users\XPredator\.android
+
+keytool -list -v -keystore C:\Users\XPredator\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+
+//// Resposta do cmd windows
+
+Microsoft Windows [versão 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Program Files\Java\jdk1.8.0_74\bin>ls
+'ls' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Program Files\Java\jdk1.8.0_74\bin>keytool -list -v -keystore C:\Users\XPreda
+tor\.android\debug.keystore -alias androiddebugkey -storepass android -keypass a
+ndroid
+Nome do alias: androiddebugkey
+Data de criação: 27/02/2016
+Tipo de entrada: PrivateKeyEntry
+Comprimento da cadeia de certificados: 1
+Certificado[1]:
+Proprietário: CN=Android Debug, O=Android, C=US
+Emissor: CN=Android Debug, O=Android, C=US
+Número de série: 598f1c92
+Válido de: Sat Feb 27 16:24:15 BRT 2016 a: Mon Feb 19 16:24:15 BRT 2046
+Fingerprints do certificado:
+         MD5:  98:A8:A8:81:86:77:BE:54:18:49:79:C2:E1:02:7C:90
+         SHA1: F3:BB:CF:66:C4:2C:50:8F:30:CE:FF:43:59:2B:97:B0:39:8B:62:2D
+         SHA256: FA:CA:0B:13:2A:6E:38:AB:83:30:AF:1D:7D:75:05:81:90:43:FD:26:5E:
+06:56:EA:65:52:6D:C5:04:93:6A:5D
+         Nome do algoritmo de assinatura: SHA256withRSA
+         Versão: 3
+
+Extensões:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E7 D0 A2 4E D5 6E 92 24   44 22 C7 61 E0 57 B1 B3  ...N.n.$D".a.W..
+0010: 6A 7F 9F 20                                        j..
+]
+]
+
+
+C:\Program Files\Java\jdk1.8.0_74\bin>

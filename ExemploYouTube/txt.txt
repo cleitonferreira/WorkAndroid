@@ -1,0 +1,31 @@
+API do YouTube na APP Android, Iniciando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como baixar, instalar e rodar um simples exemplo de vídeo com a YouTube Android API. Já mostrei em outro vídeo como chamar a APP do YouTube para rodar nossos vídeos que estão listadados nele, porém não há muito "glamour" em chamar uma outra aplicação para rodar nossos vídeos, o ideal seria que esses vídeos (no caso somente os que estão no YouTube) rodassem diretamente dentro de nossa APP. O Android nos fornece a YouTube API justamente para isso, com ela podemos rodar o vídeo diretamente de nossa APP e emdiversos formatos e customizações. Podemos utilizar Activies ou Fagments, a API nos dá esse suporte.
+
+Note que esse vídeo é o vídeo inicial de uma série de vídeos sobre a YouTube API no Android, logo nele mostro como criar uma API KEY no Google Console (é necessário), como baixar a lib do YouTube e como rodar o primeiro e simples exemplo utilizando a view YouTubePlayerView. Mostro também a outra maneira de rodar vídeos do YouTube, a maneira não muito elegante, pois ela chama a APP do YouTube ao invés de rodar dentro da própria APP. Note que será necessário que seu emulador tenha o Google Play Services e a APP do YouTube instalados, caso não consiga fazer isso você pode utilizar um dispositivo real para rodar o exemplo, pois funcionará tendo em vista que um dispositivo real já vem com essas entidades necessárias instaladas. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links apresentados no vídeo:
+
+Página inicial do Google Code Console
+
+https://console.developers.google.com/project
+
+Página inicial da lib YouTube Android API
+
+https://developers.google.com/youtube/android/player/
+
+Página do YouTubePlayer.OnInitializedListener
+
+https://developers.google.com/youtube/android/player/reference/com/google/android/youtube/player/YouTubePlayer.OnInitializedListener
+
+Página do YouTubePlayer direcionada ao método cueVideo()
+
+https://developers.google.com/youtube/android/player/reference/com/google/android/youtube/player/YouTubePlayer#cueVideo%28java.lang.String%29
+
+Vlw.
