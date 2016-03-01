@@ -1,0 +1,14 @@
+{"modelo":"palio","potencias":[{"motor":50},{"motor":80},{"motor":140}],"marca":"FIAT"}
+
+
+Marca: FIAT
+Modelo: palio
+ Motor: 50
+ Cavalos: 
+
+ Motor: 80
+ Cavalos: 
+
+ Motor: 140
+ Cavalos: 
+

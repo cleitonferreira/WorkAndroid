@@ -1,0 +1,26 @@
+Parser JSON no Android, Entendendo e Utilizando
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como realizar o Parser JSON no Android utilizando as classes JSONObject e JSONArray. Muito simples, útil e fácil de utilizar o JSON nos permite enviar e receber dados em uma comunicação de modo eficiente devido ele ser bem leve e de fácil interpretação pelas máquinas (smartphones, tablets, seridores, ...) e fácil interpretação humana também. A grande vantagem  da utilização do JSON no Android vem no uso de aplicações Web na plataforma Android, pois JSON é muito difundido quando o assunto é prover conteúdo na Web. Quanto ao uso das classes JSONObject e JSONArray basta ficar atento em como utilizar o Array JSON e no trabalho com a Exception JSONException no mais não tenho muito o que falar, note que no vídeo não mostrei todo o conteúdo do JSON no Android, porém acredito que o apresentado é o suficiente para utilizar essa entidade com maestria na comuniação entre Android e Servidor Web. Sobre a utilização do parser XML (DOM ,SAX,  XMLPullParser, ...) eu prefiro ficar com o Parser JSON devido a facilidade e rapidez de trabalho com esse tipo de dado, mas mesmo assim acho muito importante saber também trabalhar com o Parser XML, pelo menos um dos três citados anteriormente, pois há muitos sistemas que trabalham com WebServices SOAP, ou seja, XML. Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página oficial do JSON
+
+http://www.json.org/json-pt.html
+
+Página da classe JSONObject no site oficial do Android
+
+http://developer.android.com/reference/org/json/JSONArray.html
+
+Página da classe JSONArray no site oficial do Android
+
+http://developer.android.com/reference/org/json/JSONObject.html
+
+Vlw.
