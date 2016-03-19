@@ -1,0 +1,34 @@
+Navigator Drawer na ActionBar Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo mostro o estilo de design na ActionBarSherlock, Navigator Drawer, que é alcançado utilizando as classes DrawerLayout, ActionBarDrawerToggle e ActionBar (ou ActionBarSherlock para suporte) no Android. Muito comum hoje em dia nas APPs Android essa funcionalidade não é tão pequena em termos de código para implementar, porém é bem simples, não muita lógica a ser utilizada. No vídeo mostro também como fazemos para ocultar o menu do Android quando estamos com a Navigator Drawer ativada. Ressalto que é importante ficar atento ao uso da classe ActionBarDrawerToggle, pois é ela que nos permitirá realizar o vinculo funcional entre DrawerLayout e ActionBar. Não se espante com o tamanho do código como for necessário criar um método que retorna um android.view.Menu, pois ele só é grande devido aos métodos obrigatórios que devemos ter declarados, tendo em mente que o Eclipse coloca esses para nós automáticamente e temos de realizar alteração de código em apenas dois. Note também o uso da de um ListView personalizado, que deixa uma grande vantagem do uso do DrawerLayout ante ao uso convencional das Tabs do ActionBar, pois a personalização da ActionBar não é tão simples quanto a dos componentes do DrawerLayout. Mas ressalto que não digo que uma é mehlor que a outra, você terá de ver as necessidades de seu projeto para definir a escolha correta. Mas enfim, sem mais delongas vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você ainda não view nenhum vídeo da série de vídeos sobre a ActionBar no blog, segue links das mesmas:
+
+Iniciando ActionBar no Android, Trabalhando Com Menu
+
+Adicionando Tabs na ActionBar Android
+
+SearchView, Botão Home e Mudança de Título na ActionBar Android
+
+Criando Suporte ActionBar Android Com ActionBarSherlock
+
+Customizando ActionBar Android Com ActionBar Style Generator
+
+Colocando Botão de Update no ActionBar Android
+
+Segue links das páginas apresentadas no vídeos:
+
+Página da classe DrawerLayout no site oficial do Android
+
+https://developer.android.com/reference/android/support/v4/widget/DrawerLayout.html
+
+Página da classe ActionBarDrawerLayout no site oficial do Android
+
+https://developer.android.com/reference/android/support/v4/app/ActionBarDrawerToggle.html
+
+Vlw
