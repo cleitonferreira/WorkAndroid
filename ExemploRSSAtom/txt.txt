@@ -1,0 +1,31 @@
+Parser RSS / Atom com a lib Rome no Android
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como realizar a leitura de feeds RSS / Atom no Android utilizando a lib Rome que é bem simples de utilizar e muito eficiente quanto ao conteúdo obtido. Feeds RSS são comuns hoje pela Web, principalmente no meio dos blogs (é, o meu não tem, não utilizo). Os leitores de Feed para Android podem ser sua chave para obter o conteúdo de seu blog e disponibiliza-lo na plataforma mobile sem ter que colocar a mão no código e trabalhar com acesso a bancos de dados por meio de servidores Web, abertura de "n" Threads e afins. Com a lib Rome há ainda a necessidade de se abrir uma outra Thread para baixar o conteúdo, mas nada que implique em várias linhas de código. Claro que se perde muito em personalização e outros quando o máximo que você tem é o conteúdo informado pelo Feed, porém (pelo menos penso assim) somente quando você quiser trabalhar de uma maneira bem customizada é que o leitor RSS pode não ser útil, mas mesmo assim ele continua sendo uma "carta de baixo da manga". Mas enfim, vou evitar mais delongas e deixar você assistir ao vídeo que apesar de ser longo é de implementação bem simples.
+
+O link para download o projeto se encontra logo abaixo no post.
+
+Se você não conhece ainda as entidades ListView, BaseAdapter e runOnUiThread, segue lista de vídeos que já fiz sobre essas:
+
+ListView: Entendendo e Utilizando no Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Segue link da lib Rome:
+
+Página da lib Rome no repositório do Google
+
+https://code.google.com/archive/p/android-rome-feed-reader/
+
+Vlw.
+
+
+Foi utilizado o rss do site 
+
+https://www.mnot.net/blog/
+
+https://www.mnot.net/blog/index.atom

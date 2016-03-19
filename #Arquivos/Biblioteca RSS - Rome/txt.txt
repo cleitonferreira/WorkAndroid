@@ -1,0 +1,5 @@
+Segue link da lib Rome:
+
+Página da lib Rome no repositório do Google
+
+https://code.google.com/archive/p/android-rome-feed-reader
