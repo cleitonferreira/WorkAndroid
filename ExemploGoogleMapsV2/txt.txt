@@ -1,0 +1,23 @@
+Google Maps V2 no Android, Inicio e Configuração
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como instalar e utilizar a lib Google Maps V2 que dá suporte a funcionalidades de Mapa no Android. Muito comum em aplicativos Web e Mobile o maps do Google é bem tranquilo quanto a utilização na plataforma mobile, as funcionalidades vem quase todas prontas (desenho de caminho no mapa, obtenção de distância entre pontos, ...). Note que esse vídeo faz parte de uma série de vídeos sobre o Google Maps V2 e por sinal esse é o primeiro vídeo onde apresento como instalar e realizar as configurações iniciais para ter o Mapa rodando perfeitamente em nossa APP. Fique atento na configuração do AndroidManifest.xml, pois caso ela não esteja correta em sua APP o maps não funcionará e Exceptions serão geradas. Fique atento também quanto a criação da API KEY no Console de desenvolvedores do Google. No vídeo mostro as duas maneiras de adicionar o mapa no layout da Activity, mas por permitir a alteração de conteúdo dinâmicamente, recomendo que você foque apenas na segunda versão que apresento, onde coloco o mapa utilizando a API do Android e não o XML. Então é isso, acho que não tem muito o que falar, pois esse é um vídeo inicial de configuração e simples exemplo de um mapa rodando na APP.
+
+Note que utilizeo um emulador Genymotion com o Google Play Services instalado e rodando a versão 4.3 do Android, você precisará de um dispositivo ou emulador com o Google Play Services para rodar o maps, se não conseguir instalar o Google Play Services no Genymotion basta utilizar um dispositivo real.
+
+O link do projeto está logo abaixo no post para download.
+
+Página da entidade SupportMapFragment no site oficial do Android
+
+http://developer.android.com/reference/com/google/android/gms/maps/SupportMapFragment.html
+
+ERRATA: Se vc está seguindo os passos e houver erros ainda, adicione as seguintes permissões:
+
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+Bug reportado por: Diego Melo e Carlos Galves
+
+Vlw
