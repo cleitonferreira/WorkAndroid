@@ -1,0 +1,31 @@
+Markers e Listeners no Google Maps Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre o Google Maps V2 no Android, dessa vez mostrando como trabalhar com Markers e Listeners na classe GoogleMap. Os listeners apenas coloquei quatro dos que acredito serem os mais utilizados no Google Maps, porém mostro pela página da classe todos os listeners existentes (o link da página está no final). Quanto aos marcadores, fique atento quanto a criação do Marker, pois ele somente é obtido quando passado o MarkerOptions como parâmetro de entrada no método addMarker() do objeto GoogleMap. No momento de colocar um icon personalizado no lugar do icon "pin" padrão do Marker no Google Maps utilizei o método fromResource() da classe BitmapDescriptorFactory, porém como apresentado no vídeo você pode utilizar as imagens de outros fonrcedores de recurso, como um File, por exemplo. Quanto a personalização da InfoWindow do Marker, é só entender a função dos métodos getInfoContents() e getInfoWindow() e que eles não traballham em conjunto que ficará fácil personalizar suas próprias InfoWindows. Então é isso, sem mais delongas vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link das páginas apresentadas em vídeo:
+
+Página da classe MarkerOptions no site oficial de desenvolvedores Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/model/MarkerOptions#public-method-summary
+
+Página da classe Marker no site oficial de desenvolvedores Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/model/Marker#example
+
+Página da classe GoogleMap referenciando seus listeners no site oficial de desenvolvedores Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/GoogleMap#developer-guide
+
+Se você ainda não viu os dois vídeos anteriores da série sobre o GoogleMaps V2 no Android, segue os links deles:
+
+Google Maps V2 no Android, Inicio e Configuração
+
+GoogleMap e CameraPosition no Android, Entendendo e Utilizando
+
+Vlw.
