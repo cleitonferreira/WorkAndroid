@@ -1,0 +1,37 @@
+Obtendo e Apresentando Rotas no Google Maps Android V2
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como obter a rota entre dois pontos utilizando o Google Maps V2 Android. A obtenção dos dados de rota é bem tranquila, porém para termos a rota exata, incluindo todos os pontos necessários para desenhar essa de maneira mais detalhada no mapa temos que decodificar os pontos que existem entre o inicio e fim de cada "step" da rota retornada. Essa decodificação é baseada em um método pronto que é utilizado por desenvolvedores que trabalham com o Google Maps. Note que é possível obter mais de uma rota para os pontos de origem e destino definidos, a alteração que deveria ter no código é a passagem em um loop onde apenas acessamos diretamente a posição zero. Note que os dados start_location e end_lcation, tanto contidos no array legs quanto os contidos no array steps não são úteis para obtermos a rota em sua nuance, temos que realmente decodificar a variável points do objeto polyline para obter exatamente por completo os pontos da rota. Note também a grande vantagem na obtenção da rota pelo Google Maps V2, ele nos fornece a distância sem a necessiade de realizarmos calculos para isso e também fornece o tempo aproximado para alcançar o destino.
+
+Fique atento que se for utilizar a busca de rota com textos como conteúdo da busca, você deve utilizar também a classe URLEncoder com o método encode() para transformar o texto obtido do formulário de busca em texto URL GET. Sem mais delongas vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos vídeos anteriores da série sobre o Google Maps Android V2:
+
+Google Maps V2 no Android, Inicio e Configuração
+
+GoogleMap e CameraPosition no Android, Entendendo e Utilizando
+
+Markers e Listeners no Google Maps Android
+
+Polyline, Geocoder e Distância no Google Maps Android
+
+Segue links dos vídeos dos conteúdos que complementam esse vídeo:
+
+Parser JSON no Android, Entendendo e Utilizando
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Simples Formulário na APP Android Comunicando com Servidor Web PHP
+
+Segue link da página apresentada no vídeo:
+
+Página de documentação da requisição de rota ao Google Maps
+
+https://developers.google.com/maps/documentation/directions/
+
+Vlw
