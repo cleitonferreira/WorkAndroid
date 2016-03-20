@@ -1,0 +1,39 @@
+GPS, Triangulação de Antenas e LocationSource no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como ativar e utilizar o GPS e Triangulação de Antenas com a interface LocationListener que é fornecida pelo Android. Mostro também como obter o posicionamento atual do usuário utilizando o método setMyLocationEnabled() da classe GoogleMap e como sobrescrever a classe LocationSource para alterarmos via script a localização do Layer gerado pelo método setMyLocationEnabled().
+
+Aparentemente pode vir a cabeça que para utilizarmos o GPS ou a Triangulação de Antenas temos de ter a API do Google Maps em nosso projeto, não, na verdade a API do Google Maps Android V2 com as funcionalidades de localização do sistema (GPS e cia) nos dão mais "poder de fogo" no momento de montarmos nossos scripts, mas o GPS pode ser utilizado de forma totalmente independente da API do Google Maps.
+
+Fique atento quanto as permissões necessárias para podermos utilizar as funcionalidades de GPS e de Triangulação de Antenas e também a de localização via método setMyLocationEnabled() que utiliza o GPS. Note que o GPS é um dos hardwares que mais consomem bateria do dispositivo, logo saber utilizá-lo junto aos métodos do ciclo de vida de uma Activity tende a otimizar em muito seus scripts, claro que v deve avaliar o nível de necessidade do GPS em seu projeto, pois se for necessário que ele fique rodando no background enviando as coordenadas para um servidor Web não há a necessidade de se preocupar com isso e sim em quanto dar ou o não o stopService() que estará rodando no background. Mas enfim, sem muitas delongas vou deixar você assistir ao vídeo.
+
+Obs. : será necessário que você utilize um dispositivo real com o GPS para poder testar a captura do movimento no método onLocationChanged(). Uma outra opção seria você implementar um script que utilize os métodos liberados pela permissão ACCESS_MOCK_LOCATION.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos posts anteriores sobre o Google Maps Android V2 e entidades relazionadas:
+
+Obtendo e Apresentando Rotas no Google Maps Android V2
+
+Polyline, Geocoder e Distância no Google Maps Android
+
+Markers e Listeners no Google Maps Android
+
+GoogleMap e CameraPosition no Android, Entendendo e Utilizando
+
+Google Maps V2 no Android, Inicio e Configuração
+
+Segue links das páginas apresnetadas em vídeo:
+
+Página da interface LocationListener no site oficial do Android
+
+http://developer.android.com/reference/android/location/LocationListener.html
+
+Página da interface LocationSource no site oficial do Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/LocationSource
+
+Vlw
