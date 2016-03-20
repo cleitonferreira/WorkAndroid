@@ -1,0 +1,28 @@
+Polyline, Geocoder e Distância no Google Maps Android
+
+
+Opa! Blz?
+
+Nesse vídeo, continuando a série sobre Google Maps V2 no Android, mostro como desenhar linhas no Google Maps utilizando a classe Polyline, como obter os endereços dos locais utilizando a Classe Geocoder e como calcular a distância entre dois pontos com um método obtido na comunidade de programadores Android do Stackoverflow. O método utilizado para calcular a distância é bem confiável (já testei em campo). A classe Geocoder pode parecer confusa quanto as informações que nos fornece, pois há métodos que nós não sabemos o que será retornado, se o nome da cidade ou o nome do bairro, porém isso ocorre em casos extremos, se souber trabalhar com essa classe direito dá para pegar até mesmo o número do local. Já a classe Polyline é bem tranquila, só fique atento quando for atualizar as linhas do Polyline no Maps, pois se for criar um PolylineOptions novamente e colocá-lo no Maps ele não desenhará as linhas e continurá com a primeira lista de linhas adicionadas, a jogada é atualizar o Polyline que foi gerado na configuração do PolylineOpitions no Maps na primeira chamada. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para dowload do projeto se encontra logo abaixo no post.
+
+Se você ainda não viu os outros vídeos da série sobre o Google Maps V2 no Android, segue os links:
+
+Markers e Listeners no Google Maps Android
+
+GoogleMap e CameraPosition no Android, Entendendo e Utilizando
+
+Google Maps V2 no Android, Inicio e Configuração
+
+Segue links das páginas das classes apresentadas em vídeo:
+
+Página da classe Polyline no site oficial de desenvolvedores Android
+
+http://developer.android.com/reference/com/google/android/gms/maps/model/Polyline.html
+
+Página da classe Geocoder no site oficial de desenvolvedores Android
+
+http://developer.android.com/reference/android/location/Geocoder.html
+
+Vlw.
