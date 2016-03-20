@@ -1,0 +1,24 @@
+GoogleMap e CameraPosition no Android, Entendendo e Utilizando
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como configurar algumas funcionalidades importantes no GoogleMaps como rotação do mapa, inclinação da câmera de visualização do mapa, definição de um posicionamento no mapa, tipo do mapa e finalmente a animação do posicionamento no mapa. Bem trivial de se configurar, essas funcionalidades são elas em maioria, exceto setMapType(), de métodos da classe CameraPosition, que nos permite configurar a visualização do mapa. A classe CameraUpdate também permite, porém ela é um tanto limitada, por exemplo, se quisermos colocar um inclinação de câmera de visualização com a classe CameraUpdate isso não é possível, por isso preferi já começar mostrando a classe CameraPosition por ser mais completa. Note que o método tilt() ou inclinação, tem uma limitação quando ao grau definido para inclinação da câmera, se passar de 90 é gerada uma Exception. O uso do método bearing() ou rotação se manteve apenas na definição via script, pois o emulador não permite a rotação com apenas um ponto de toque, que no caso é o cursor do mouse, porém o teste em um dispositivo Android real será muito válido para veras funcionalidades trabalhando a "vera". Note que como defini o SupportMapFragmet via API tive que colocar uma "gambiarra" para esperar o mapa ser carregado para depois obter a instância dele, porém ainda no vídeo eu mostro que se vc utilizar o SupportMapFragment via xml não há a necessidade dessa gambiarra. Então é isso, vou evitar mais delongas e deixa você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você ainda não o viu o primeiro vídeo da série do Google Maps V2 Android, segue link:
+
+Google Maps V2 no Android, Inicio e Configuração
+
+Segue links das páginas apresentadas no vídeo:
+
+Página oficial do Google Maps Android V2
+
+https://developers.google.com/maps/documentation/android-api/
+
+Página da entidade CameraPosition.Builder() no site oficial de desenvolvedores Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/model/CameraPosition.Builder#public-constructor-summary
+
+Vlw.
