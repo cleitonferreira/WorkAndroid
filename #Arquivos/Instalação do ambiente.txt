@@ -1,0 +1,53 @@
+http://producaodejogos.com/configurando-o-ambiente-de-desenvolvimento-android/
+
+
+### AMBIENTE ANDROID
+
+
+
+Faça o download do Android SDK diretamente do site do Android. 
+Descompacte o arquivo em uma pasta da sua preferencia.
+
+Agora, configure a variável de ambiente ANDROID_HOME, para que 
+os comando dos Android SDK fiquem disponíveis de qualquer lugar 
+do seu Sistema Operacional.
+
+Todos os comandos abaixo serão digitados no Console/Terminal.
+
+
+
+Linux:
+
+Edite o arquivo /etc/environment:
+
+sudo vi /etc/environment
+Adicione a configuração abaixo dentro do arquivo:
+
+ANDROID_HOME=/<pasta da instalação>/android-sdk-linux
+
+PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+
+Mas OS:
+
+export ANDROID_HOME=/<pasta da instalação>/android-sdk-macosx
+
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+
+Windows:
+
+set ANDROID_HOME=C:\<pasta da instalação>\android-sdk-windows
+
+set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
+
+
+set ANDROID_HOME=D:\SDK
+set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
+
+
+
+Para testarmos se a configuração foi feita corretamente, digite o 
+comando abaixo no Console/Terminal e o Android SDK Manager será executado.
+
+android
