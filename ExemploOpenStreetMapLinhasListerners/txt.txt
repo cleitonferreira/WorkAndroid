@@ -1,0 +1,32 @@
+Linhas e Listerners no OpenStreetMap Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade e série de vídeos sobre o OpenStreetMap no Android, porém dessa vez mostrando como desenhar linhas no MapView do OpenStreetMap utilizando a classe PathOverlay com o apoio da classe Paint, e mostrando também como utilizar alguns listeners (ouvidores de eventos) do próprio MapView do OpenStreetMap e do Marker. Note que o desenho de linhas com o PathOverlay é equivalente ao desenho de linhas com o Polyline no Google Maps Android V2, a grande diferença está mesmo na complexidade de definir as configurações. O PathOverlay á mais simples somente se você não precisar de alterar largura da linha, por exemplo, caso seja necessária essa alteração você terá de utilizar instancias de outras classes para conseguir esse atributo. Outra coisa que devemos prestar atenção é quanto ao listener de clique no mapa, pois, ao contrário do que podemos pensar logo no inicio da problemática, o OnClickListener não é válido para ser um ouvidor de clique do MapView do OpenStreetMap se você precisar pegar as coordenadas, nesse caso temos de instanciar uma classe que herda de org.osmdroid.views.overlay.Overlay e que implementa (sobrescreve) o método onSingleTapConfirmed() que será o então responsável por ouvir o evento de clique no MapView e então juntamente com as classes MotionEvent e Projection obter as coordenadas atuais do clique no mapa. Note no vídeo que tanto alguns listeners como markers e o próprio PathOverlay são tratados como itens de uma lista de Overlays e são então adicionados e removidos todos da mesma maneira, mesmo esses sendo entidades completamente distintas.
+
+Fique atento ao uso da classe Projection (muito interessante por sinal), pois o que ela faz é obter as coordenadas do clique em relação ao ponto top-left do MapView e converte-los em coordenadas no próprio MapView. Mas é isso, vu eveitar mais delongas e deixar você assistir aos vídeos.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link do primeiro vídeo da série sobre o OpenStreetMap no Android:
+
+OpenStreetMap no Android, Iniciando com Marker e GPS
+
+Segue link das páginas apresentadas em vídeo:
+
+Página da classe Projection no site oficial do Android
+
+https://developers.google.com/android/reference/com/google/android/gms/maps/Projection
+
+Página de documentação da classe Projection no site oficial do Android
+
+https://developers.google.com/maps/documentation/android-api/v1/#javadoc
+
+Página da classe Overlay do OpenStreetMap no Google Code
+
+https://code.google.com/archive/p/osmdroid/source
+
+Vlw.
