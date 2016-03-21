@@ -1,0 +1,38 @@
+OpenStreetMap no Android, Iniciando com Marker e GPS
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar a API do OpenStreetMap no Android, na verdade esse é o primeiro vídeo da série sobre o OpenStreetMap no Android. OpenStreetMap é uma iniciativa open source que nos permite utilizar construir e utilizar um mapa colaborativo do mundo, ele é inspirado no Wikipédia. Muito robusto e com muitas funcionalidades similares as fornecidas pelo GoogleMaps o OpenStreetMap acaba sendo uma ótima opção se você está em um projeto que necessita apenas de ferramentas livres ou se você está tendo problemas com as limitações de requisições (dificil) no GoogleMaps, por exemplo. Uma caracteristicas importante no OpenStreetMap é a não necessidade de uma API KEY para poder utilizar o mapa, claro que há funcionalidades que nos necessitam ter uma API KEY, mas em casos especificos. Nesse vídeo mostro como colocar marcador com a classe Marker (pois há outras maneiras) e como utilizar o GPS com o OpenStreeMap, nesse caso deixando claro que a funcionalidade de GPS é totalmente independente da API do Google Maps Android V2. Fique atento quanto as permissões necessárias para rodar o projeto. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link do projeto se encontra logo abaixo no post para do download.
+
+Segue link do último vídeo da série de Google Maps Android V2 em que abordo o uso de GPS de maneira mais explicada:
+
+GPS, Triangulação de Antenas e LocationSource no Android
+
+Segue links das página que contém os .JARS para download:
+
+osmdroid-android-4.1
+
+slf4j-android-1.6.1-RC1
+
+osmbonuspack_v4.4
+
+Segue links da OpenStreetMap:
+
+osmdroid Google Code
+
+https://code.google.com/archive/p/osmdroid/
+
+OpenStreetMap mapa Web
+
+http://www.openstreetmap.org/#map=14/-20.1698/-40.2487
+
+OpenStreetMap Wikipédia
+
+https://pt.wikipedia.org/wiki/OpenStreetMap
+
+Vlw.
