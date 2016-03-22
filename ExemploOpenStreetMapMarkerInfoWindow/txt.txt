@@ -1,0 +1,32 @@
+MarkerInfoWindow no OpenStreetMap Android
+
+
+
+
+Opa! Blz?
+
+Código 20% de desconto nos livros do site da Novatec: THIENGO
+
+Nesse vídeo mostro como colocar o InfoWindow ou MarkerInfoWindow nos marcadores utilizados no OpenStreetMap Android. Note que devemos trabalhar com alguns IDs obrigatórios em nossos layouts personalizados para a InfoWindow, além de termos já dois layouts prontos para uso. No vídeo mostro como trabalhar com um layout padrão para o InfoWindow e como trabalharmos com o nosso próprio layout. Uma vantagem que notei quanto ao uso do InfoWindow no OpenStreetMap ante ao do Google Maps Android V2 é que no MarkerInfoWindow (InfoWindow do OpenStreetMap) nós podemos literalmente vincuar listeners as views que estão dentro dele sem nenhum problema, já o Google Maps V2 trabalha com as views do InfoWindow como imagem, ou seja, todo o conjunto de views é como se fosse uma única imagem. Então é isso, não tem muito o que falar, vou deixar você ver o vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos outros vídeos da série OpenStreetMap:
+
+Obtendo e Apresentando Rotas no OpenStreetMap Android
+
+Linhas e Listerners no OpenStreetMap Android
+
+OpenStreetMap no Android, Iniciando com Marker e GPS
+
+Segue links das páginas apresentadas no vídeo:
+
+Página de tutorias do OpenStreetMap BonusPack
+
+https://code.google.com/archive/p/osmbonuspack/wikis/Tutorial_1.wiki
+
+Página dos arquivos de projeto do OpenStreetMap BonusPack
+
+https://code.google.com/archive/p/osmbonuspack/source#OSMBonusPackDemo%2Fres%2Fdrawable-mdpi
+
+Vlw
