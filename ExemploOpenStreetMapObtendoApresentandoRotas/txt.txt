@@ -1,0 +1,19 @@
+Obtendo e Apresentando Rotas no OpenStreetMap Android
+
+
+
+Opa! Blz?
+
+Segue código de 20% de desconto no nos livro da Editora Novatec (com a compra sendo no site da Editora): THIENGO
+
+Nesse vídeo mostro como obter rotas do OpenStreetMap no Android utilizando a classe RoadManager e a classe GeocoderNominatim. A classe RoadManager é responsável por obter a rota com base em um ponto inicial e final que passamos em uma lista. Porém antes de acessar a classe RoadManager temos de obter os GeoPoints dos endereços informados na interface, essa obtenção é feita com o uso da classe GeocoderNominatim que faz praticamente a mesma coisa que a classe Geocoder do Google Maps Android V2. Se você acompanhou os vídeos da série Google Maps Android V2 vai notar que o código de GeocoderNominatimé praticamente igual ao código de Geocoder. Note que para obtermos os GeoPoints e a rota, temos de estar dentro de uma Thread secundária para depois acessarmos a Thread principal e então plotar a rota o MapView do OpenStreetMap, pois ambas as funcionalidades de conversão de nome para GeoPoint e de obtenção de rota acessam a Internet. Então é isso, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Se você ainda não viu os vídeos anteriores da série, segue os links:
+
+OpenStreetMap no Android, Iniciando com Marker e GPS
+
+Linhas e Listerners no OpenStreetMap Android
+
+Vlw.
