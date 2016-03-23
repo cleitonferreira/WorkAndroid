@@ -1,0 +1,34 @@
+Parcelable no Android, Entendendo e Utilizando
+
+
+
+
+Opa! Blz?
+
+Código de desconto em livros no site da Novatec: THIENGO
+
+Nesse vídeo mostro como utilizar uma entidade importante no Android, a interface Parcelable que é muito semelhante a interface Serializable em termos de funcionalidades no Android. O que uma classe que implementa a interface Parcelable faz é escrever todos os seus dados (ou somente os que o desenvolvedor achar necessário) em um objeto Parcel que é a entidade que será transmitida (para outra Activity, para buffer de utilização do SavedInstanceState, ...), a leitura desses dados que estão no objeto Parcel também é uma das funcionalidades da classe que implementa o Parcelable. Note que o uso da interface Parcelable tende a ser mais eficiente quanto ao transporte dos dados devido a classe Parcel ter sido construída para ter alta performance no empacotamento, transporte e desempacotamento dos dados. Mas é isso, o uso é bem tranquilo depois que nós vemos a primeira vez. Fique atento quanto a criação da entidade CREATOR para podermos "desempacotar" os dados.
+
+O link para dowload do projeto se encontra logo abaixo no post.
+
+Segue links das página importantes para esse exemplo:
+
+Página da interface Parcelable no site oficial do Android
+
+http://developer.android.com/reference/android/os/Parcelable.html
+
+Página da interface Parcelable.Creator no site oficial do Android
+
+http://developer.android.com/reference/android/os/Parcelable.Creator.html
+
+Página da classe Parcel no site oficial do Android
+
+http://developer.android.com/reference/android/os/Parcel.html
+
+Segue links de outros conteúdos do blog que podem ajudar no entendimento desse vídeo:
+
+ListView: Entendendo e Utilizando no Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Vlw
