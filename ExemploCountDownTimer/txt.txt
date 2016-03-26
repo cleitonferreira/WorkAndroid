@@ -1,0 +1,17 @@
+Contagem Regressiva no Android com CountDownTimer
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como trabalhar com script de contagem regressiva no Android utilizando uma implementação nativa vinda da classe CountDownTimer. Essa classe é bem simples de implementar e utilizar. Aparentemente a classe CountDownTimer pode parecer pouca útil, porém no final do vídeo apresento uma aplicação real que já está na PlayStore e tem usuários a utilizando e que utiliza essa classe. De código pequeno e fácil entendimento há necessidade apenas de ficar ligado no funcionamento do método onTick() que na verdade tem como parâmetro de entrada o tempo restante para a finalização da contagem regressiva e não o tempo definido para disparar a chamada a esse método. Note também que o tempo de chamada ao método onTick() é definido pelo desenvolvedor, não precisa de ser a cada segundo. Então é isso ae, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link das páginas apresentadas em vídeo:
+
+Página da classe CountDownTimer no site oficial do Android
+
+http://developer.android.com/reference/android/os/CountDownTimer.html
+
+Vlw
+
