@@ -1,0 +1,45 @@
+Envio de formulário Android com Bitmap para Servidor PHP
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como enviar um formulário do Android para um servidor PHP, porém dessa vez mostro como fazer para enviar também nesse formulário uma imagem (Bitmap). Muitos seguidores do blog solicitaram que fosse apresentado como enviar um bitmap para um servidor PHP, então mesmo já tendo mostrado como enviar um formulário do Android para um servidor PHP achei muito necessário voltar e abordar esse assunto, pois realmente não é trivial trabalhar com o envio de imagens do Android para outros servidores, atividade que por sinal envolve redimensionamento de imagem, correção de orientação, transformação para binário e então transformação desse binário para uma entidade na base 64.
+
+O vídeo ficou um pouco longo, pois apesar de pouco codificar nele mostrei os passos necessários para se pegar a imagem do dispositivo (do próprio SDCard ou tirando a foto pela camera mesmo), alterar o tamanho dela, verificar se a orientação da imagem está correta, caso não esteja, corrigi-la. Então pegar o tipo mime da imagem (PNG, JPEG, GIF), salvar esses dados no objeto e prepará-lo para ser enviado para o servidor. Além de mostrar a codificação necessária no PHP para pegar a imagem em Base64, decodificar e então salvar um arquivo binário para criar a imagem no servidor. Mas enfim se sua dificuldade era enviar o Bitmap para uma servidor PHP o vídeo pode lhe ajudar a fazer isso. Fique ligado no uso da class Base64 que não necessita de seu entendimento por completo, basta saber que no caso do vídeo ela transformará nosso array de bytes em uma entidade na base 64. Sem mais delongas vou deixa-lo assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post incluindo o código PHP que salva os dados no servidor.
+
+Segue links de alguns conteúdos que podem lhe ajudar a entender melhor esse exemplo:
+
+Enviando e Recebendo Dados Entre Activities em Android
+
+Entendendo a Thread Principal de Uma APP Android
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Acessando Imagens do SDCard e Colocando na APP Android
+
+Utilizando a Câmera do Smartphone em Sua APP Android
+
+Simples Formulário na APP Android Comunicando com Servidor Web PHP
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da classe Bitmap na sessão do método createBitmap() no site oficial do Android
+
+http://developer.android.com/reference/android/graphics/Bitmap.html#compress%28android.graphics.Bitmap.CompressFormat,%20int,%20java.io.OutputStream%29
+
+Página da classe Matrix no site oficial do Android
+
+http://developer.android.com/reference/android/graphics/Matrix.html
+
+Página da classe ExifInterface no site oficial do Android
+
+http://developer.android.com/reference/android/media/ExifInterface.html
+
+Página do projeto Base64
+
+http://iharder.sourceforge.net/current/java/base64/
+
+Vlw
