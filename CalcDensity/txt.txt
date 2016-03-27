@@ -1,0 +1,32 @@
+******************Exemplo para calcular a densidade das imagens
+
+
+Suporte de Tela com Drawable DPI no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como trabalhar com os folder drawable-hdpi, drawable-ldpi, drawable-mdpi, drawable-xhdpi e drawable-xxhdpi no Android para dar suporte de imagem a dispositivos com densidades de pixels diferentes. Trabalhar o suporte de imagens nesses folders é bem tranquilo, porém é chato devido a necessidade de termos de ficar redimensionando as imagens para cada uma dos folders citados.
+
+Como cito no vídeo, acho que o bom entendimento do suporte a várias telas no Android (incluindo ai o suporte de imagens utilizando densidade de pixels) é tão importante quanto conhecer as entidades Activity e Intent que são também os pilares no desenvolvimento Android. Note que a ideia é soment saber os valores para conversão (0.75, 1.5, 2 e 3) e saber que o folder que é base de calculo na conversão é o drawable-mdpi, pois ele é exatamente o folder de escala um, indicando então que se temos uma View de 50dp x 50dp no layout temos de ter no folder drawable-mdpi uma imagem de exatos 50px x 50px. Mas é isso, não tem muito o que falar, vou deixar você assistir ao vídeo.
+
+LDPI => 1dp = 0.75px
+MDPI => 1dp = 1px
+HDPI => 1dp = 1.5px
+XHDPI => 1dp = 2px
+XXHDPI => 1dp = 3px
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página de documentação para suporte a várias telas de dispositivos no Android
+
+http://developer.android.com/guide/practices/screens_support.html
+
+Página de estatisticas do Android
+
+https://developer.android.com/about/dashboards/index.html
+
+Vlw.
