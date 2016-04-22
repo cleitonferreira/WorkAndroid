@@ -1,0 +1,20 @@
+Integração do Facebook SDK no Android
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como intgrar a Facebook SDK no Android e realizo um pequeno exemplo de login com Facebook para validar a intgração. Note que esse é o primeiro vídeo de uma série de vídeo falando somente do SDK do Facebook no Android, logo a ênfase aqui nesse primeiro vídeo é a integração do SDK.
+
+Não há muito mistério quanto a utilização do Facebook no Android, nós somente precisamos seguir alguns passos para depois começar a utilizar suas funcionalidades. Fique atento no momento de gerar a Hash para utilizar na conta da APP no Facebook, pois infelizmente o Keytool do Java não acusa erros e ainda pior imprime uma hash errada para que possamos utilizar. Logo fique sabendo que se você executou todo o processo para gerar a hash e o keytool não solicitou nenhuma senha de acesso o processo que você executou esta errado e se você conseguiu pegar a hash utilizando uma senha e mesmo assim o Facebook está acusando hash inválida isso implica que a senha que você utilizou não é a correta. Note que a hash que utilizamos no vídeo é a do debug.keystore que já vem no Android, quando sua APP for para a Google Play Store você terá de assinar ela, então você na assinatura terá de escolher um alias e um local para o keystore de sua APP, é essa que você utilizará para pegar a nova hash e vincular a conta da APP no Facebook. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link para página de inicio com a Facebook SDK para Android:
+
+Facebook SDK para Android
+
+https://developers.facebook.com/docs/android
+
+Tutorial está em #Arquivos\SDK Facebook
+
+Vlw.

@@ -1,0 +1,47 @@
+Acessar o site http://gradleplease.appspot.com/
+
+e procurar por facebook
+
+http://gradleplease.appspot.com/#facebook
+
+para inserir no arquivo build.gradle criado pelo android studio.
+
+2ª outra opção:
+
+
+http://mvnrepository.com/artifact/com.facebook.android/facebook-android-sdk
+
+pegar a última versão
+
+
+descompactar openssl-google C:/
+e renomear a pasta para OpenSSL
+
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\XPredator\.android\debug.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+
+ao executar irá pedir uma senha.
+
+a senha padrão é: android
+
+acessar o diretório C:\Program Files\Java\jdk1.8.0_77\bin
+e no caminho do diretório digitar cmd
+
+
+pois o promt de comando deverá abrir neste caminho: C:\Program Files\Java\jdk1.8.0_77\bin>
+
+
+=============================Exemplo no cmd======================================
+=================================================================================
+Microsoft Windows [versão 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Program Files\Java\jdk1.8.0_77\bin>keytool -exportcert -alias androiddebugkey
+ -keystore "C:\Users\XPredator\.android\debug.keystore" | "C:\OpenSSL\bin\openss
+l" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+Informe a senha da área de armazenamento de chaves:  android
+VgaHEarmTHTWTcA/K8DBuL5CBy8=
+=================================================================================
+
+
+
+Exemplo com documentação -> http://code.tutsplus.com/tutorials/quick-tip-add-facebook-login-to-your-android-app--cms-23837
