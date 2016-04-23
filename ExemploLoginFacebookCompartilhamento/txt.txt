@@ -1,0 +1,26 @@
+Compartilhamento com Facebook SDK no Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como compartilhar o conteúdo de nossa APP Android no feed de notícias do Facebook utilizando o Facebook SDK para Android. Note que dessa vez não há uma view personalizada do Facebook SDK para a utilização da funcionalidade de compartilhamento. Fique atento quanto a permissão que é utilizada (publish_actions), pois como no vídeo anterior não solicitamos essa permissão de publicação, nesse código temos que assumir que o usuário já pode ter tido acesso a nossa APP com as permissões antigas e então realizar uma nova chamada de permissão adicionando a permissão de publicação. Muito importante também é o entendimento do uso da flag "reauth" no código, pois esse método de trabalho com flag é recomendado e ensinado pelo próprio Facebook na página do script de compartilhamento.
+
+Lembrando que há outras formas de compartilhar o conteúdo, essa que mostro trabalha com a versão em que o usuário tem de estar conectado a APP do Facebook que foi criada para a APP Android. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue os links dos vídeos anteriores da série sobre o Facebook SDK no Android:
+
+Integração do Facebook SDK no Android
+
+Login do Facebook no Android com LoginButton
+
+Segue link da página apresentada no vídeo:
+
+Página do script de compartilhamento de conteúdo no Facebook
+
+https://developers.facebook.com/docs/sharing/android
+
+Vlw
