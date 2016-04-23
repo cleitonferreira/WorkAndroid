@@ -1,0 +1,40 @@
+Compartilhamento com Facebook ShareDialog no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo, dando continuidade a série de vídeos sobre o Facebook SDK, mostro como compartilhar conteúdo de sua APP Android com a classe ShareDialog do Facebook SDK e sem a necessidade de o usuário estar conectado a sua APP via Facebook APP. Acredito que essa forma de compartilhamento seja a mais utilizada devido a possibilidade de compartilhamento mesmo quando não há vinculo com o usuário. A desvantagem dessa forma de compartilhamento ante a forma em que o usuário tem de estar conectado é a necessidade de criação de uma nova história no OpenGraph do Facebook quando queremos compartilhar bitmaps diretamente vindos da APP, mas mostro isso no vídeo, logo não há tanto mistério assim. A grande sacada dessa maneira de compartilhamento é você prestar atenção aos detalhes, como, por exemplo: criar a história na área da APP no Facebook, liberar o envio de imagens pela história criada, colocar a tag <provider> com suas respectivas configurações no AndroidManifest.xml para permitir o correto envio de imagens no compartilhamento, utilizar imagens que tenham no mínimo 480 pixels de tamanho. Se ficar ligado nesses detalhes o resto é moleza. Então é isso, mesmo com a grande quantidade de código a funcionalidade é uma só e simples.
+
+Segue tag provider para o AndroidManifest.xml:
+
+<provider
+ android:authorities="com.facebook.app.NativeAppCallContentProvider683768565023439"
+    android:name="com.facebook.NativeAppCallContentProvider"
+    android:exported="true" />
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos vídeos anteriores da série sobre o Facebook SDK no Android:
+
+Compartilhamento com Facebook SDK no Android
+
+Login do Facebook no Android com LoginButton
+
+Integração do Facebook SDK no Android
+
+Segue links das páginas apresentadas no vídeo:
+
+Página do script de Share no Facebook no site Facebook Developers
+
+https://developers.facebook.com/docs/sharing/android
+
+Página da entidade ShareDialogBuilder no site Facebook Developers
+
+https://developers.facebook.com/docs/reference/android/current/class/FacebookDialog.ShareDialogBuilder/
+
+Página de Custom Stories no Android no site Facebook Developers
+
+https://developers.facebook.com/docs/android/open-graph
+
+Vlw
