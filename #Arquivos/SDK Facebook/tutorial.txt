@@ -14,7 +14,7 @@ http://mvnrepository.com/artifact/com.facebook.android/facebook-android-sdk
 pegar a última versão
 
 
-descompactar openssl-google C:/
+descompactar openssl-google "openssl-0.9.8e_X64.zip" C:/
 e renomear a pasta para OpenSSL
 
 keytool -exportcert -alias androiddebugkey -keystore "C:\Users\XPredator\.android\debug.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
@@ -39,7 +39,9 @@ C:\Program Files\Java\jdk1.8.0_77\bin>keytool -exportcert -alias androiddebugkey
  -keystore "C:\Users\XPredator\.android\debug.keystore" | "C:\OpenSSL\bin\openss
 l" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
 Informe a senha da área de armazenamento de chaves:  android
-VgaHEarmTHTWTcA/K8DBuL5CBy8=
+vAL75D+mW3rBJGEz85QmgahJx+Y=
+
+C:\Program Files\Java\jdk1.8.0_77\bin>
 =================================================================================
 
 

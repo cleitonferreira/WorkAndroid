@@ -1,0 +1,32 @@
+Login do Facebook no Android com LoginButton
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como realizar efetivamente o login do Facebook em nossas APPs Android. No caso estaremos mostrando a utilização do LoginButton que uma View nativa do Facebook SDK. Não precisamos nem discutir as vantagens de utilizar um login social em nossas APPs ao invés de permitir a conexão apenas depois de uma longo formulário de cadastro, a conversão de usuários utilizando nossas APPs tende a diminuir, pois uma barreira já foi parcialmente eliminada que é o de cadastro.
+
+Fique atento quanto ao uso da entidade UiLifecycleHelper que nos permiti verificar sempre se o usuário está ou não conectado ao Facebook. Quanto as permissões, utilizei poucas mas que já nos permitem formar um cadastro completo do usuário. Permissões no Facebook é um assunto extenso com páginas de possibilidades, então optei por não falar de permissões por completo nesse vídeo de login, provavelmente será um próximo vídeo da série de vídeos sobre a SDK do Facebook no Android. Então é isso, o login apresentado no vídeo pode ser o suficiente para ti, cosa não seja você provavelmente está precisando obter mais dados do usuário, então segue o link das permissões do Facebook: Permissões no Facebook.
+https://developers.facebook.com/docs/facebook-login/permissions
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link do primeiro vídeo da série Facebook SDK no Android:
+
+Integração do Facebook SDK no Android
+
+Segue links das páginas apresentadas no vídeo:
+
+Página de descrição de login do Facebook no Android
+
+https://developers.facebook.com/docs/facebook-login/android
+
+Página de permissões do Facebook para aplicativos externos
+
+https://developers.facebook.com/docs/facebook-login/permissions
+
+Página da view ProfilePictureView do Facebook para o Android
+
+https://developers.facebook.com/docs/android/scrumptious/personalize
+
+Vlw.
