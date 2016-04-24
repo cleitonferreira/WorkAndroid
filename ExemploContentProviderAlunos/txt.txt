@@ -1,0 +1,47 @@
+ContentProvider no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como utilizar o componente ContentProvider e seus auxiliares (ContentResolver e UriMatcher) no Android para que nós possamos liberar acesso a conteúdos privados de nossas APPs, conteúdos como SQLite, imagens, mp3, e assim por diante. O ContentProvider não é aquele componente que devemos necessariamente saber o seu funcionamento e implementação, pois a qualquer momento teremos de implementá-lo igual acontece com o componente Intent, por exemplo. O ContentProvider é bem especifico e precisamos dominá-lo quando faz parte do projeto de nossa APP prover acesso a todos ou parte dos dados privados de nossa APP para outras APPs do dispositivo do usuário. Acredito que depois do Google Cloud Message (GCM) o ContentProvider seja um dos componentes mais desgastantes que tem no momento da implementação, devido aos detalhes que devemos trabalhar, mesmo sendo a implementação de código pequeno. Mas como dica acho que se você quer ser ou já é um desenvolvedor Android você deve sim dominar o ContentProvider, pois, se não me engano, não há outra APP que faça a mesma coisa do que ele, e se for em algum momento solicitada uma implementação de compartilhamento de dados entre APPs você já terá essa carta de baixo da manga, até mesmo você pode estar em um projeto pessoal que tem essa característica de compartilhamento.
+
+Fique atento quanto a utilização e o entendimento das entidades ContentResolver (essa é a entidade cliente do ContentProvider nas aplicações que querem consumir o conteúdo de nossas APPs) e UriMatcher (essa não é obrigatória, mas otimiza o tratamento de alguns dados para nós evitando uma quantidade demasiada de código). Vale ressaltar também que o entendimento do uso das tags "provider", "permission" e "uses-permission" no manifest do APP que está implementando o ContentProvider é extremamente importante, pois é com essas tags que nossa APP realmente se tornará também uma provedora de conteúdo. Lembro também da atenção quanto ao compartilhamento de conteúdos binários via openInputStream() e openOutputStream(), pois os métodos não são de implementação obrigatória e temos também de trabalhar com a coluna "_data" (não é obrigatório, mas é um baita adianto) no SQLite para que não seja necessária a implementação do código que abre e fecha o Stream da entidade binária (imagem, arquivo de texto, mp3, ...). Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo que não é nada pequeno.
+
+O link para download do zip que contém os dois projetos apresentados no vídeo se encontra logo abaixo no post.
+
+Segue links de alguns conteúdos em vídeo do blog que poderão complementar o entendimento do vídeo sobre ContentProvider:
+
+SQLite no Android, Entendendo e Utilizando
+
+ListView: Entendendo e Utilizando no Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Segue links das páginas que foram apresentadas no vídeo:
+
+Página do componente ContentProvider no site oficial do Android
+
+http://developer.android.com/reference/android/content/ContentProvider.html
+
+Página do componente ContentResolver no site oficial do Android
+
+http://developer.android.com/reference/android/content/ContentResolver.html
+
+Página da classe UriMatcher no site oficial do Android
+
+http://developer.android.com/reference/android/content/UriMatcher.html
+
+Página de implementação básica do ContentProvider no site oficial do Android
+
+http://developer.android.com/guide/topics/providers/content-provider-basics.html
+
+Página que contém o detalhamento dos componentes de implementação do ContentProvider no site oficial do Android
+
+http://developer.android.com/guide/topics/providers/content-provider-creating.html
+
+Página que contém a implementação do método openFileHelper() do ContentProvider
+
+https://github.com/android/platform_frameworks_base/blob/master/core/java/android/content/ContentProvider.java
+
+Vlw.

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nuvemapp.com.br.exemplocontentprovider">
+
+    <permission
+        android:name="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.READ_PROVIDER"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.WRITE_PROVIDER"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.READ_PROVIDER" />
+    <uses-permission
+        android:name="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.WRITE_PROVIDER" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SalvarAlunoActivity" />
+        <activity android:name=".DetalhesAlunoActivity">
+            <intent-filter>
+                <action android:name="SHOW_ALUNO_DETAILS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.exemplocontentprovider.alunos" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="nuvemapp.com.br.exemplocontentprovider.AlunosProvider"
+            android:authorities="nuvemapp.com.br.exemplocontentprovider.aluno.provider"
+            android:readPermission="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.READ_PROVIDER"
+            android:writePermission="nuvemapp.com.br.exemplocontentprovider.aluno.provider.permission.WRITE_PROVIDER" />
+
+    </application>
+
+</manifest>
