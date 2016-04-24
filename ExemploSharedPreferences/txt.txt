@@ -1,0 +1,38 @@
+SharedPreferences no Android, Entendendo e Utilizando
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro o que é e como utilizar a entidade SharedPreferences no Android. Bem simples e muito útil quando queremos guardar dados primitivos que não sejam muito dinâmicos. O SharedPreferences é uma das opções de armazenamento de dados que o Android prove as aplicações. Note que o uso de SharedPrefenrences entre Aplicações distintas somente pode ocorrer se as aplicações tiverem o mesmo User ID que o Linux / Android cria para cada aplicação, nesse caso para ter o mesmo User ID o programador teria de fazer essa alteração na mão no AndroidManifest. Quanto as constantes de modo de acesso (MODE_MULTI_PROCESS e MODE_PRIVATE) que não estão depreciadas, MODE_PRIVATE é o padrão, que permite apenas aplicações de mesmo User ID acessar o SharedPreferences e o MODE_MULTI_PROCESS permiti o acesso em mais de um processo ao mesmo tempo, não confunda processos diferentes com aplicações diferentes nesse caso, pelos meus testes a aplicação deve ter ainda o mesmo User ID da aplicação que criou o SharedPreferences. Note que os métodos getPreferences() (de Activity) e getSharedPreferences() (de Context) apesar de terem um tipo de acesso diferente podem sim acessar os mesmos arquivos de SharedPreferences. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da interface SharedPreferences no site oficial do Android
+
+http://developer.android.com/reference/android/content/SharedPreferences.html
+
+Página da interface OnSharedPreferenceChangeListener no site oficial do Android
+
+http://developer.android.com/reference/android/content/SharedPreferences.OnSharedPreferenceChangeListener.html
+
+Página da classe Context referenciando o método getSharedPreferences() no site oficial do Android
+
+http://developer.android.com/reference/android/content/Context.html#getSharedPreferences%28java.lang.String,%20int%29
+
+Página da classe Activity referenciando o método getPreferences() no site oficial do Android
+
+http://developer.android.com/reference/android/app/Activity.html#getPreferences%28int%29
+
+Página das opções de gravações de dados no Android
+
+http://developer.android.com/guide/topics/data/data-storage.html#pref
+
+Página da classe Context referenciando as constantes do SharedPreferences no site oficial do Android
+
+http://developer.android.com/reference/android/content/Context.html#MODE_MULTI_PROCESS
+
+Vlw.
