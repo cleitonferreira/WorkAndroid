@@ -1,0 +1,33 @@
+MediaPlayer no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou inicio a série de vídeos sobre a classe MediaPlayer no Android, classe utilizada para rodar recursos de mídia. A principio vou focar no recurso áudio, pois já fiz alguns vídeos sobre VideoView que basicamente é a abordagem de mídia para vídeo no Android (não sendo a única).
+
+É importante ficar ligado nos estados do objeto MediaPlayer, é tão importante que o Android faz questão de mostrar um diagrama dos estados, um tabela para informar em qual estado pode-se chamar determinado método, além de citar a importância desse entendimento em um tópico em uma página do próprio site do Android que apresenta uma imlementação do MediPlayer. Entendendo os métodos do ciclo de vida do MediPlayer é importante também saber quais são as formas nas quais podemos carregar o recurso que será apresentado no MediaPlayer (carregamento via Raw folder, Assets folder, servidor Web ou SDCard). E para finalizar o entendimento dos listener e dos métodos prepare() e prepareAsync() são de muita importância também, pois são com eles que você trabalha a inicialização e monitoramento do recurso a ser apresentado. Então é isso, fique atento que nem mostrei o prepare() rodando, pois o uso dele não é recomendado pelo Android, apenas em casos muito específicos. Também mostro uma jogada com as flags / variaveis "duration", "currentTime" e "isPlaying" para poder continuar com a música onde ela parou quando a APP sofre uma reconstrução de tela (mudança da orientação de tela é um exemplo de reconstrução). Sem mais delongas, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links de outros posts que podem lhe dar um reforço para entender algumas das entidades apresentadas nesse vídeo e não comentadas mais afundo:
+
+Entendendo a Thread Principal de Uma APP Android
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Segue links das páginas apresentadas no vídeo:
+
+Página da classe MediaPlayer no site oficial do Android
+
+http://developer.android.com/reference/android/media/MediaPlayer.html
+
+Página de uma implementação da classe MediaPlayer no site oficial do Android
+
+http://developer.android.com/guide/topics/media/mediaplayer.html#mpandservices
+
+Página da classe AssetFileDescriptor no site oficial do Android
+
+http://developer.android.com/reference/android/content/res/AssetFileDescriptor.html
+
+Vlw.
