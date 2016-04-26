@@ -1,0 +1,26 @@
+Metadados com MediaMetadataRetriever no Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a classe MediaPlayer, porém falando dessa vez da classe MediaMetadataRetriever que nos possibilita acessar os metadados da mídia escolhida. Como informado no vídeo essa é apenas uma das maneiras possíveis de se obter metadados no Android, como é uma classe nativa e especifica para a funcionalidade de acessar metadados eu acredito que a utilização dela é mais trivial quanto as outras opções. Note que é possível acessar os dados de uma mídia que pode estar no folder Assets, Raw, no SDCard e na Web sem problemas algum, porém somente fique ligado quanto ao acesso ao folder Raw, pois a sintaxe é diferente da utilizada com o folder Raw na classe MediaPlayer. Por um vacilo meu eu não citei o método release() da classe MediaMetadataRetriever, porém ele é um dos mais importantes, pois é o encarregado de liberar os recursos da memória, logo, no final do condicional do método showMetadata() apresentado no vídeo vc deve utilizar a seguinte instrução: retriever.release();
+
+Note a importância da verificação se o objeto da classe MediaMetadataRetriever é ou não null, para evitar uma Exception fácil e ser tratada. Então é isso, vou evitar mais delongas e deixá-lo ver o vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link das vídeos aulas anteriores da série sobre a classe MediaPlayer e cia:
+
+MediaPlayer no Android, Entendendo e Utilizando
+
+Segue link da página apresentada no vídeo:
+
+Página da classe MediaMetadataRetriever no site oficial do Android
+
+http://developer.android.com/reference/android/media/MediaMetadataRetriever.html
+
+Vlw.
+
+Coloque seu 
