@@ -1,0 +1,31 @@
+LinkedIn Login com SocialAuth Library no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro como realizar o login de uma usuário de sua APP Android utilizando os dados do LinkedIn dele. Utilizo para isso não a lib Android nativa do LinkedIn e sim a library SocialAuth que é uma lib já famosa entre programadores Java e agora disponível também para a plataforma Android. Note que a library SocialAuth não permite apenas o acesso aos dados e funcionalidades socias do LinkedIn, há uma série de redes sociais nas quais o SocialAuth dá suporte, mas atente para as funcionalidades suportadas, pois cada rede social tem suas limitações quando o assunto é "fornecer dados para aplicações terceiras", no caso aplicações terceiras é a sua APP que está requisitando dados do usuário no LinkedIn, por exemplo.
+
+Como informado em vídeo, mesmo com a classe User criada para obter todos os dados possíveis que o SocialAuth tem, nós não obtemos todos do LinkedIn, alguns porque ele simplesmente não os fornece, outros por não estarmos com o formulário completamente preenchido ou não estarmos utilizando a versão paga da plataforma LinkedIn. Fique atento para criar as chaves de acesso de sua própria aplicação e note também que no arquivo oauth_consumer.properties não é necessário informar todas as chaves de cada rede social atendida pela SocialAuth library, e sim somente as que sua aplicação via utilizar.
+
+Um ponto negativo que notei na SocialAuth library é a documentação, muito fraca, faltou informar muito mais coisa para o desenvolvedor que a utiliza, porém a padronização na chamada dos dados de qualquer uma das redes sociais atendidas é algo que, ao meu ver, ofusca essa deficiência na documentação da lib. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos posts que podem lhe ajudar a compreender melhor esse vídeo:
+
+SharedPreferences no Android, Entendendo e Utilizando
+
+Colocando Uma Imagem da Web no ImageView do Android
+
+Segue links das páginas apresentadas no vídeo, incluindo a da library SocialAuth:
+
+Página da library SocialAuth no Google Code
+
+https://code.google.com/p/socialauth-android/
+
+Página de desenvolvedores LinkedIn
+
+https://developer.linkedin.com/
+
+Vlw.
