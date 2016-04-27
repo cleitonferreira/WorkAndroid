@@ -1,0 +1,26 @@
+Obtendo Conexões do LinkedIn com SocialAuth no Android
+
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a library SocialAuth no Android, mostrando agora como obter as conexões LinkedIn do usuário da APP e apresenta-las em um ListView personalizado. Conforme comentado em post anterior a simplicidade de uso da library SocialAuth é tão boa que para alterarmos a chamada a lib para quando se obtinha os dados de profile do usuário para então realizar a chamada a lista de conexões do LinkedIn a alteração é muito pequena, pois a library encapsula toda o trabalho pesado para nós desenvolvedores Android. Dessa vez o generic da interface SocialAuthListener<> recebe a entidade List<Contact> que intuitivamente já nos indica que o retorno será a lista de contatos do usuário na rede social utilizada, que no nosso caso é o LinkedIn, note que essa chamada é a mesma para qualquer outra rede social que a library SocialAuth dê suporte.
+
+Depois de realizar a chamada temos novamente que ficar ligado, pois apesar dos vários métodos para obter "n" dados dos contatos do usuário conectado somente alguns dados é que são retornados, pois isso depende mesmo da rede social que está sendo utilizada, algumas retornam muitos dados outras não. No caso do LinkedIn os dados retornados (id na APP, primeiro nome, último nome, url da página no LinkedIn, url da imagem de perfil no LinkedIn) são suficientes para que possamos apresentar as conexões e também para podermos realizar a linkagem desses dentro da nossa própria APP (no background). Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos posts que podem lhe ajudar a compreender melhor as entidades utilizadas no vídeo:
+
+ListView: Entendendo e Utilizando no Android
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+SimpleAdapter no ListView, Entendendo e Utilizando no Android
+
+Segue link do primeiro vídeo da série SocialAuth:
+
+LinkedIn Login com SocialAuth Library no Android
+
+Vlw.

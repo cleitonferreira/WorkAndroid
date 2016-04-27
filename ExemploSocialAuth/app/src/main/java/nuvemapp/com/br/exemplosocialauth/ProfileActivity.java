@@ -75,6 +75,13 @@ public class ProfileActivity extends Activity {
     }
 
 
+    public void callFriendsActivity(View view){
+        Intent it = new Intent(ProfileActivity.this, FriendsActivity.class);
+        it.putExtra("user", user);
+        startActivity(it);
+    }
+
+
     public void signOut(View view){
         // SHARED PREFERENCES
         SharedPreferences sp = getSharedPreferences(Constant.PREF_STATUS, MODE_PRIVATE);

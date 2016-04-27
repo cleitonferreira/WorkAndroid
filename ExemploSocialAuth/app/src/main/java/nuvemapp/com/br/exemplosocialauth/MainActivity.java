@@ -52,7 +52,6 @@ public class MainActivity extends Activity {
             enableViews(false);
             linkedInLogin(null);
         }
-
     }
 
 
@@ -80,7 +79,6 @@ public class MainActivity extends Activity {
 
     // SOCIAL AUTH CLASS
     public class ResponseListener implements DialogListener{
-
         @Override
         public void onComplete(Bundle values) {
             socialAuth.getUserProfileAsync(new ProfileDataListener());
