@@ -1,0 +1,27 @@
+Mostrando Feeds e Dados Profissionais do LinkedIn com SocialAuth no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre o SocialAuth no Android utilizando a rede de profissionais LinkedIn. Apresento dessa vez como obter os últimos Feeds do LinkedIn e como obter também os dados profissionais do usuário, dados como: Faculdade onde estudou, empresas em que trabalhou, empresa em que trabalha, recomendações, e por ai vai. Note que a obtenção do Feed é um pouco frustrante, pois a quantidade de Feeds retornados, aparentemente, não é controlada por nós desenvolvedores, logo as vezes pode vir em uma quantidade boa, outras não. Outra limitação do Feed é o conteúdo vir em inglês até mesmo quando o dispositivo sendo utilizado esta na língua portuguesa (br).
+
+Quanto a apresentação dos dados profissionais não há mistérios, somente ficar atento que em três entidades são trabalhados arrays, pois realmente na plataforma LinkedIn essas entidades podem ter mais de um. São elas: Education, Position e Recommendation. Então é isso, acho que com esse vídeo eu encerro o ciclo do LinkedIn no SocialAuth-Android.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link dos vídeos anteriores da série SocialAuth no Android:
+
+Publicando no LinkedIn com SocialAuth no Android
+
+Obtendo Conexões do LinkedIn com SocialAuth no Android
+
+LinkedIn Login com SocialAuth Library no Android
+
+Segue link da página da library SocialAuth-Android:
+
+Página da library SocialAuth-Android no Google Code
+
+https://code.google.com/p/socialauth-android/
+
+Vlw

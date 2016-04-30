@@ -80,6 +80,16 @@ public class ProfileActivity extends Activity {
         startActivity(it);
     }
 
+    public void callCareerActivity(View view){
+        Intent it = new Intent(ProfileActivity.this, CareerActivity.class);
+        startActivity(it);
+    }
+
+    public void callFeedsActivity(View view){
+        Intent it = new Intent(ProfileActivity.this, FeedsActivity.class);
+        startActivity(it);
+    }
+
     public void callFriendsActivity(View view){
         Intent it = new Intent(ProfileActivity.this, FriendsActivity.class);
         it.putExtra("user", user);

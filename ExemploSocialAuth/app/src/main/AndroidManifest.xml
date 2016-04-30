@@ -29,7 +29,14 @@
             android:name=".FriendsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="FriendsActivity" />
-        <activity android:name=".PublishActivity"></activity>
+        <activity android:name=".PublishActivity" />
+        <activity
+            android:name=".FeedsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="FeedsActivity" />
+        <activity android:name=".CareerActivity"
+            android:label="CareerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" ></activity>
     </application>
 
 </manifest>
