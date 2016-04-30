@@ -1,0 +1,28 @@
+Volley no Android, Entendendo e Utilizando
+
+
+
+
+Abaixo o link do vídeo de apresentação da lib Volley no Google I/O 2013
+
+http://www.youtube.com/watch?v=yhv8l9F44qo
+
+Opa! Blz?
+
+Nesse vídeo mostro como baixar e utilizar a lib Volley do Android, desenvolvida pela Google e utilizada para manter as conexões Web mais simples e rápidas a lib Volley veio para evitar o trabalho as vezes ineficiente com org.apache e AsyncTask, por exemplo. Além de evitar um caminhão de código para conseguirmos simples conexões a lib Volley também tem recurso para carregamento de Imagem que é todo encapsulado, novamente sem a necessidade de abrirmos Threads secundárias e fazermos o cache da imagem na mão. A parte que achei ruim foi para enviar dados das requisições que utilizam o JSON (JsonObjectRequest e JsonObjectArray), mesmo sendo melhor aproveitada ainda do que o uso de AsyncTask e cia, o formato de envio de dados das chamadas JSON não acompanham o formato da chamada que utiliza String, que é muito mais fácil de se utilizar necessitando apenas da sobres escrita de um único método.
+
+Nesse vídeo eu dou inicio a série de vídeos sobre a lib Volley e já lhe recomendo migrar para ela, pois, como falei no vídeo, é a forma mais rápida de se trabalhar network no Android, dito também no vídeo de apresentação da lib no Google I/O 2013. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo do post.
+
+Segue link do post sobre onConfigChanges:
+
+Entendendo e Utilizando o ConfigChanges no Android
+
+Segue links das págins apresentadas no vídeo:
+
+Página de downloads do Git
+
+Página do link da lib Volley no Google Source
+
+Vlw
