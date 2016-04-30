@@ -25,9 +25,11 @@
             android:name=".ProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="ProfileActivity" />
-        <activity android:name=".FriendsActivity"
-            android:label="FriendsActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity
+            android:name=".FriendsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="FriendsActivity" />
+        <activity android:name=".PublishActivity"></activity>
     </application>
 
 </manifest>

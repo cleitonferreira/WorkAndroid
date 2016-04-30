@@ -50,6 +50,13 @@
 		<Button
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
+			android:text="Atualizar status"
+			android:gravity="center"
+			android:onClick="callPublishActivity" />
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
 			android:text="Mostrar conexões"
 			android:gravity="center"
 			android:onClick="callFriendsActivity" />

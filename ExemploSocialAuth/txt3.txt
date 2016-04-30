@@ -1,0 +1,27 @@
+Publicando no LinkedIn com SocialAuth no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos dobre a library SocialAuth no Android mostrando como atualizar o status / linha do tempo no LinkedIn.
+Tão fácil quanto as duas outras interações com a API do LinkedIn (login e obtenção de conexões), a atualização do status somente requer a alteração do método utilizado no nosso ResponseListener a a alteração no tipo do objeto (Integer) do generic em nossa classe que implementa a interface SocialAuthListener.
+Fique atento ao ultimo parâmetro do método updateStatus(), que indica se queremos ou não compartilhar com todos as nossas conexões o status publicado. Ficar ligado também no inteiro de resposta da publicação, quando igual a 200, 201 ou 204 significa que o status foi publicado com sucesso.
+Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links dos vídeos anteriores da série SocialAuth no Android:
+
+Obtendo Conexões do LinkedIn com SocialAuth no Android
+
+LinkedIn Login com SocialAuth Library no Android
+
+Segue link para acessar a library SocialAuth-Android:
+
+Página do projeto library SocialAuth-Android
+
+https://code.google.com/archive/p/socialauth-android/
+
+Vlw.
+

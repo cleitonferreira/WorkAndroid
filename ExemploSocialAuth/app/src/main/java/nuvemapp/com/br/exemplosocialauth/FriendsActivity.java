@@ -23,6 +23,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import nuvemapp.com.br.exemplosocialauth.adapter.FriendsAdapter;
 import nuvemapp.com.br.exemplosocialauth.domain.User;
@@ -91,7 +92,7 @@ public class FriendsActivity extends Activity {
                     User aux = new User();
 
                     aux.setDisplayName(c.getDisplayName());
-                    //aux.setEmail(c.getEmail());
+                    aux.setEmail(c.getEmail());
                     aux.setFirstName(c.getFirstName());
                     aux.setLastName(c.getLastName());
                     aux.setValidatedId(c.getId());
