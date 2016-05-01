@@ -1,0 +1,31 @@
+ImageLoader Com a Lib Volley no Android
+
+
+
+Opa! Blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a library Volley no Android, dessa vez falando sobre a classe ImageLoader que torna muito eficiente e fácil o carregamento de imagens da Web em nossas aplicações Android. Alias acredito que uma das principais vantagens em utilizar a library Volley é a utilização da classe ImageLoader, pois comentado no vídeo, fazer o carregamento da imagem da Web na unha é muito mais trabalhoso, mas muito mais trabalhoso mesmo.
+
+No vídeo mostro como utilizar o ImageLoader juntamente com a view NetworkImageView, que é uma view especifica da lib Volley para trabalhar diretamente imagens que serão carregadas da Web e mostro também como utilizar o próprio ImageView, que já é disponível para nós, para carregar a imagem da Web nele utilizando o ImageLoader. Uma parte interessante que também comento no vídeo é a questão de podermos utilizar imagens para pré-carregamento e para erro de carregamento, isso tudo de maneiro bem simples de se implementar, nos avitando outro caminhão de código. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue o link da primeira vídeo aula sobre a lib Volley:
+
+Volley no Android, Entendendo e Utilizando
+
+Segue links de alguns posts que lhe ajudaram a entender as entidades pre-definidas nesse vídeo:
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Parser JSON no Android, Entendendo e Utilizando
+
+Parcelable no Android, Entendendo e Utilizando
+
+Segue link da página mostrada no vídeo:
+
+Página da classe LruCache no site oficial do Android
+
+http://developer.android.com/reference/android/util/LruCache.html
+
+Vlw
