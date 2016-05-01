@@ -1,0 +1,27 @@
+ORMLite no Android, Entendendo e Utilizando
+
+
+
+Opa! Blz?
+
+Nesse vídeo mostro um exemplo de como utilizar a lib ORMLite no Android para facilitar o mapeamento de nossos objetos na API de persistência do Android, no caso o SQLite. O ORMLite é uma entidade ORM (Object Relational Mapping) Java, para utilizá-lo no Android precisamos importar apenas dois arquivos simples .jar e então começar com as extensões e as respectivas annotations, alias igualmente em JPA, se você conhecer bem as annotations do ORMLite você melhora em muito o conhecimento de como utilizar essa lib, pois o mapeamento está mesmo ligado a forma de utilizar as annotations.
+
+Note que é possível também chamar os dados da base utilizando uma SQL direta feita na mão, mesmo essa não sendo a ideia da utilização de uma entidade ORM. Fique atento que a maneira utilizada no vídeo é apenas uma das possíveis formas de utilização do ORMLite no Android, pois com uma simples pesquisa é possível encontrar várias outras maneiras de implementar a lib. Fato lembrar que vale muito a leitura da documentação no site da ORMLite, pois como falei no vídeo, ela é pequena e bem explicativa. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo.
+
+Segue link do vídeo do SQLite que lhe ajudará melhor na compreensão do vídeo acima:
+
+SQLite no Android, Entendendo e Utilizando
+
+Segue links da lib ORMLite apresentados no vídeo:
+
+Página principal da lib ORMLite
+
+http://ormlite.com/
+
+Página de download dos .jar da lib ORMLite
+
+http://ormlite.com/releases/
+
+Vlw.
