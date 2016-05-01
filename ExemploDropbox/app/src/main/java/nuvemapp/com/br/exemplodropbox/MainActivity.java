@@ -17,8 +17,8 @@ import android.widget.Button;
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
-    final static private String APP_KEY = "xxxxxxxxxx";
-    final static private String APP_SECRET = "xxxxxxxxx";
+    final static private String APP_KEY = "nopzy8kywszopee";
+    final static private String APP_SECRET = "yu83l9zufxarrce";
 
     final static private String ACCOUNT_PREFS_NAME = "prefs_dropbox";
     final static private String ACCESS_TOKEN = "ACCESS_TOKEN";
