@@ -1,0 +1,17 @@
+Drag e Drop no Android, Entendendo e Utilizando
+
+
+
+Opa, blz?
+
+Nesse vídeo mostro como adicionar a funcionalidade de Drag e Drop a uma APP Android utilizando no caso os listeners OnDragListener e OnLongClickListener. Muito comum em jogos e aplicações Web a funcionalidade de Drag e Drop não vem em um entidade pronta para ser implementada, porém é bastante simples e exige poucos linhas de código para rodar no Android. Entre as várias formas de poder validar se um container vai ou não aceitar um elemento que está em drag eu mostrei o uso da entidade ClipData, que não tem muito o que fazer a não ser verificar se tem ou não os dados que enviamos para poder validar. Quanto ao quarto parâmetro do método startDrag() ele realmente não tem opções e o Google solicita que coloquemos o valor "0". Fique atento quanto ao uso do DragShadowBuilder, pois ele é responsável por apresentar uma shadow view ao usuário para ele ter o feedback de que está realmente arrastando o objeto, por que falo isso? Simplesmente porque o Drag e Drop funciona perfeitamente se vc não utilizar uma View válida no DragShadow, porém o usuário somente terá que o elemento foi alterado de lugar quando ele realizar o drop, caso contrário nada é retornado como feedback. Então é isso, não tem muito o que falar nessa implementação básica, não esqueça de ler os guidelines do Drag e Drop no Android.
+
+O link para download do projeto se encontra logo abaixo do post.
+
+Segue link da página apresentada no vídeo:
+
+Página de implementação do Drag e Drop no site oficial do Android
+
+http://developer.android.com/guide/topics/ui/drag-drop.html
+
+Vlw.
