@@ -1,0 +1,34 @@
+Download e Upload com Dropbox API no Android
+
+
+Opa, blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a Dropbox API no android, dessa vez mostrando como realizar o upload de arquivos da APP para os servidores do Dropbox (note que sempre utilizei uma imagem jpg como exemplo, mas o outros tipos de arquivos podem ser utilizados sem alteração no código de envio do exemplo), como realizar o upload para atualização de uma arquivo já existente no Dropbox, como realizar o download de uma arquivo do Dropbox e por fim como deletar um arquivo específico e como deletar um diretório no Dropbox.
+
+Fique atento quanto ao uso de uma Thread secundário para evitar a exception de conexão na Web dentro da Thread principal, em uma parte do vídeo (method delete()) acabei esquecendo de colocar e a exception ocorreu, é até bom para você já visualizar que até mesmo um simples método que acessa o Dropbox precisa estar em uma outra Thread. Note a vantagem do uso de um ProgressListener para informar o usuário a que pé está a porcentagem de envio ou carregamento de conteúdo do Dropbox. Note também que é sim possível realizar a atualização de um arquivo já existente no Dropbox pelo método putFile(), mas optei pelo método putFileOverwrite() qu especifo para esse tipo de tarefa. Então é isso, vou deixar você o vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link da vídeo aula anterior da série:
+
+Iniciando com Dropbox API no Android
+
+Segue links de vídeos que podem lhe ajudar a compreender melhor o vídeo:
+
+Entendendo a Thread Principal de Uma APP Android
+
+Utilizando a Câmera do Smartphone em Sua APP Android
+
+Acessando Imagens do SDCard e Colocando na APP Android
+
+Segue links das páginas apresentadas no vídeo:
+
+Página de documentação da classe DropboxAPI
+
+https://www.dropbox.com/static/developers/dropbox-android-sdk-1.6.1-docs/com/dropbox/client2/DropboxAPI.html
+
+Página de documentação da classe ProgressListener
+
+https://www.dropbox.com/static/developers/dropbox-android-sdk-1.6.1-docs/com/dropbox/client2/ProgressListener.html
+
+Vlw
