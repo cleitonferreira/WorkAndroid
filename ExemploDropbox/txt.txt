@@ -1,0 +1,37 @@
+Iniciando com Dropbox API no Android
+
+
+
+Opa, blz?
+
+Nesse vídeo dou inicio a série de vídeos sobre a library Dropbox no Android. Muito fácil de integrar e muito útil se sua APP Android necessita de ter esse vinculação com esse storage online. Como na API do Facebook, nós temos de criar nossa APP na área de desenvolvimento do Dropbox para então termos acesso as nossas chaves exclusivas (crie as suas, pois irei deletar as de teste do vídeo). Note que depois dos testes com a library do Dropbox em sua APP você precisa enviar para validação no próprio Dropbox (mostro aonde no vídeo) para que assim qualquer usuário possa se logar ao Dropbox pela sua APP. Fique atento quanto a Activity obrigatória no AndroidManifest.xml e também quando ao uso do método finishAuthentication() para finalizar a vinculação do token a sessão no momento de login com a library do DropBox. Então é isso, não tenho muito que dizer, pois esse é o primeiro vídeo da série e apenas coloquei uma funcionalidade simples no final para mostrar todo o conteúdo do Dropbox do usuário (se for fazer o mesmo não esqueça do ProgressBar para indicar que há script trabalhando no background).
+
+Obs. : leia a documentação do Dropbox API para Android, está bem curta e fácil de entender. Quando baixar o zip do Dropbox API para Android import para seu IDE e abra o projeto DBRoulette, esse projeto é a base do apresentado no vídeo e ele está todo comentado mostrando exatamente o que está sendo feito.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links de alguns vídeos que podem lhe ajudar compreender melhor o vídeo:
+
+SharedPreferences no Android, Entendendo e Utilizando
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+Entendendo a Thread Principal de Uma APP Android
+
+runOnUiThread, Atalho de Acesso a Thread Principal no Android
+
+Segue links das páginas apresentadas no vídeo:
+
+Developer guide do Dropbox
+
+https://www.dropbox.com/developers/reference/branding
+
+Instalação da Core API do Dropbox no Android
+
+https://www.dropbox.com/developers/core/sdks/android
+
+Usando a Core API do Dropbox no Android
+
+https://www.dropbox.com/developers/core/start/android
+
+Vlw
