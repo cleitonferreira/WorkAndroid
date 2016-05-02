@@ -1,0 +1,26 @@
+DialogFragment no Android, Entendendo e Utilizando
+
+
+Opa, blz?
+
+Nesse vídeo mostro como implementar Light Box (ou Modal Box) e Splash Screen (ou Loading Screen) no Android utilizando a classe DialogFragment. Note que a acho mais eficiente ante ao uso de uma Dialog comum em casos que há a necessidade de, por exemplo, uma conexão com a Web enquanto o usuário visualiza uma Slapsh Screen, ou quando há a necessidade apresnetar um formulário onde os dados serão salvas na Web, caso contrário não vejo tanto ganho ante ao uso do Dialog ou AlertDialog. O DialogFragment, indo pela linha do nome, é para ser utilizado como um Dialog comum, mas podemos também embedar o DialogFragment em uma View igualmente fazemos com Fragment comum. Fique atento quanto aos estilos e temas apresentados, os estilos são só os apresentados no vídeo mesmo, porém os temas são inúmeros, alias você pode criar o seu próprio. Se for utilizar o método onCreateDialog() ante o método onCreateView() para poder criar seu DialogFragment vindo de Dialog e não de View, você deve não utilizar o método setStyle() do DialogFragment e também comentar o método onCreateView(), pois esse prevalece ao uso do método onCreateDialog(). Perdi um bom tempo colocando os métodos do ciclo de vida do DialogFragment, mas acho que vale apena conhecer os métodos e saber que o funcionamento do ciclo de vida é basicamente o mesmo, pois como falei em vídeos anteriores sobre Activity e Fragment, nós devemos dominar o ciclo de vida dessas entidades para poder criar APPs que funcionem adequadamente. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Obs. : a cor do DialogFragment foi eu que coloquei, é personalizavel, então fique tranquilo que não é feio assim, você tem o controle de como será.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link dos vídeos que podem ajudar na incrementação do uso do DialogFragment:
+
+Volley no Android, Entendendo e Utilizando
+
+Fragments no Android, Trabalhando com Múltiplas Activities
+
+Ciclo de Vida e Otimização de Fragments no Android
+
+Segue link da página apresentada no vídeo:
+
+Página da classe DialogFragment no site oficial do Android
+
+http://developer.android.com/reference/android/app/DialogFragment.html
+
+Vlw
