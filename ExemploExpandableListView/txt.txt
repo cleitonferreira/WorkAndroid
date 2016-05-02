@@ -1,0 +1,25 @@
+ExpandableListView no Android, Entendendo e Utilizando
+
+
+
+Opa, blz?
+
+Nesse vídeo mostro como utilizar a view ExpandableListView no Android. Com a aparência de várias ListViews encadeadas com disposição dos itens em efeito sanfona na vertical. O ExpandableListView é muito comum quando se tem categorias, nesse caso é muito provável o seu uso. Logo no extends da classe BaseExpandableListAdapter há uma série de métodos obrigatórios, mas nenhum que queira um esforço grande para a implementação, apenas os métodos getGroupView() e getChildView(), porém isso vai depender de sua implementação (a apresentada no vídeo é bem tranquila). Acabo mostrando a forma de utilizar o método setGroupIndicator(), porém note que a utilização do método setChildIndicator() é exatamente no mesmo caminho, mas aplicado apenas nos elementos filhos do grupo do ExpandableListView. Ficar ligado que para ter o listener de clique nos elementos filhos é com o método setOnChildClickListener() que conseguimos isso. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das classes apresentadas no vídeo:
+
+Página da classe ExpandableListView no site oficial do Android
+
+http://developer.android.com/reference/android/widget/ExpandableListView.html
+
+Página da interface ExpandableListAdapter no site oficial do Android
+
+http://developer.android.com/reference/android/widget/ExpandableListAdapter.html
+
+Página da classe BaseExpandableListAdapter no site oficial do Android
+
+http://developer.android.com/reference/android/widget/BaseExpandableListAdapter.html
+
+Vlw
