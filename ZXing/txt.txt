@@ -1,0 +1,31 @@
+Integrando o Leitor de QRCode ZXing no Android
+
+
+
+Opa, blz?
+
+Nesse vídeo mostro como ler códigos de barra, QRCode e cia. diretamente da APP Android sem a necessidade de chamar via Intent uma outra APP para auxiliar na leitura do código. Há outras formas de ter essa funcionalidade internamente em nossa APP, mas enfim, utilizo para isso o projeto Open Source ZXing (segundo eles pronuncia-se Zebra Crossing) que é desenvolvido em Java, tem suporte para várias outras linguagens e lê os respectivos códigos de barra 1D / 2D: 1D (UPC-A, UPC-E, EAN-8, EAN-13, Code 39, Code 93, Code 128, Codabar, ITF, RSS-14, RSS-Expanded), 2D (QR Code, Data Matrix, Aztec, PDF 417).
+
+Como no projeto apresentado no vídeo nós queremos que o leitor de código execute exatamente dentro de nossa APP, temos de realizar algumas alterações no projeto ZXing além de termos de copiar uma série de arquivos (dos folders originais /src/ e /res/) para dentro nosso projeto para que. Fique atento quanto as permissões que necessárias para que a câmera seja utilizada pelo código do ZXing. Note que é possível fazer muito mais alterações e não somente na classe CaptureActivity como fiz no vídeo, depende mesmo é das necessidades de seu projeto. Então é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link das páginas apresentadas no vídeo:
+
+Página do projeto ZXing no Google Code
+
+https://code.google.com/p/zxing/downloads/list
+
+Página do projeto ZXing no GitHub
+
+https://github.com/zxing/zxing
+
+Página do Maven para download do cor.jar
+
+http://mvnrepository.com/artifact/com.google.zxing/core/2.3.0
+
+Página de gerador de códigos para testes
+
+http://www.barcode-generator.org/
+
+Vlw
