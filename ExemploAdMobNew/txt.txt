@@ -1,0 +1,23 @@
+Pacote Google Play Services Ads Para Anúncios no Android
+
+
+
+Opa, blz?
+
+Nesse vídeo estou mais é fazendo uma atualização do vídeo sobre o AdMob no Android, pois se você tentou implementar pela versão daquele vídeo anterior já notou que ele está desatualizado. A parte que é um pouco mais complicada é utilizar a lib atual do Google Play Services se você já não estiver utilizando, depois disso as entidades do pacote Ads do Google Play Services são bem tranquilas de se implementar. Fique atento quanto as características necessárias no AndroidManifest e ao modelo de testes no script, caso o modelo de teste não seja invocado o Google pode suspender sua conta do AdMob por cliques falsos. No mais não há muito o que dizer, coloquei um exemplo também com um anúncio Interstitial que oculpa toda a tela do aparelho.
+
+Obs. : Telefones, movimentos de cachorro com coleira, desculpe, estou em um lugar onde é inevitável esse tipo de situação.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links das páginas apresentadas no vídeo:
+
+Página de inicialização de aplicação de anúncios na APP Android
+
+https://developers.google.com/mobile-ads-sdk/
+
+Página do AdMob
+
+https://www.google.com/ads/admob/index.html
+
+Vlw
