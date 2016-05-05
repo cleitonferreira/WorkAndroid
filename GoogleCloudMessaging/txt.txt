@@ -1,0 +1,51 @@
+Google Cloud Messaging (GCM) no Android
+
+
+Opa, blz?
+
+Nesse vídeo mostro como utilizar o Google Cloud Messaging para enviar mensagens push aos usuários que utilizam sua APP. O Google Cloud Messaging ou apenas GCM é uma serviço de mensagens push do Google, e a grande diferença desse serviço para os outros é a possibilidade de fazer com que seu servidor Web seja a parte ativa da comunicação, ou seja, o usuário de sua APP não precisa estar com ela em funcionamento para ser notificado sempre você quiser notificá-lo enviando uma mensagem partindo de seu servidor Web.
+
+O GCM é composto na verdade por três níveis de entidades,seu servidor Web, que é responsável por enviar a mensagem junto com os IDs dos dispositivos ao servidor GCM do Google, o servidor GCM do Google que pode ser HTTP ou CCS (XMPP), e então os aparelhos com sua APP instalada e que receberão a mensagem. Com o servidor HTTP escolhido (que é o do vídeo), nós apenas podemos enviar as mensagens de nosso servidor Web para o GCM e então para os aparelhos a serem notificados, já com o servidor CCS (XMPP) nós também podemos enviar a mensagem partindo do aparelho para o GCM e então para nosso servidor Web, processo também chamado de upstream (ou outro que também é suportado pelo HTTP é o downstream). No vídeo mostro vários IDs e aqui já cometem me referindo no plural, mas vc pode trabalhar da maneira como quiser (enviando uma mensagem personalizada individual para cada usuário, ou para um grupo, e por ai vai). No vídeo mostro minha implementação PHP do servidor, note que a parte onde tem a lógica mesmo para definir quais dispositivos receberão a mensagem e quando remover um registration id inválido está no servidor Web, a parte implementada no Android é mais "decoreba" do que lógica. A implementação no servidor é totalmente sem padrão, ou seja, você faz a sua como quiser, porém você precisa salvar os registrations id para poder notificar os usuários e é bom também implementar parte do código para saber quando remover ou não um registration id do banco de dados (isso é mostrado no vídeo). Lembre que o registration id é uma vinculação de sua APP com o dispositivo, ou seja, se sua APP é do tipo das que tem login você terá de fazer essa vinculação na mão em seu banco de dados, que não será difícil, somente vincule no banco de dados o registration id ao user id no bd. Acho que é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+O link para download do código do projeto (incluindo código PHP) se encontra logo abaixo no post.
+
+Segue links dos vídeos que podem ajudar a compreender melhor as tecnologias utilizadas junto com o GCM:
+
+BroadcastReceiver no Android, Executando Tarefas no Background
+
+Notification no Android, Criando Notificações Com Toque e Vibração
+
+SharedPreferences no Android, Entendendo e Utilizando
+
+Segue links das páginas apresentadas no vídeo:
+
+Console de desenvolvedor Google
+
+https://accounts.google.com/ServiceLogin?service=devconsole&passive=1209600&continue=https%3A%2F%2Fcode.google.com%2Fapis%2Fconsole%2F&followup=https%3A%2F%2Fcode.google.com%2Fapis%2Fconsole%2F
+
+Página de explicação do Google Cloud Messaging no Android
+
+https://developer.android.com/google/gcm/index.html
+
+Página Getting Started no Google Cloud Messaging no Android
+
+https://developer.android.com/google/gcm/gs.html
+
+Página do GCM HTTP Connection no site do Android
+
+https://developer.android.com/google/gcm/http.html
+
+Página Implementing GCM Server no site do Android
+
+https://developer.android.com/google/gcm/server.html
+
+Página Implementing GCM Client no site do Android
+
+https://developer.android.com/google/gcm/client.html
+
+Vlw
+
+ERRATA!
+Adicione a seguinte linha abaixo da tag <action android:name="com.google.android.c2dm.intent.RECEIVE" /> no AndroidManifest.xml:
+
+<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
