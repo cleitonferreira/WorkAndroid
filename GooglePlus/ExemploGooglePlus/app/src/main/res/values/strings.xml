@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExemploGooglePlus</string>
+    <string name="google_app_id">8745609259</string>
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+</resources>

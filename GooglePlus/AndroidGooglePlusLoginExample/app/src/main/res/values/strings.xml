@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">G+ FRIEND LIST</string>
+    <string name="action_settings">Settings</string>
+    <string name="server_client_id">1092181658928-id13uj25lm7k92s9rrbduuapss3v79a5.apps.googleusercontent.com</string>
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+</resources>

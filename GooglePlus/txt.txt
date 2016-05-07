@@ -1,0 +1,34 @@
+Google Plus API no Android, Realizando Login
+
+
+
+
+Opa, blz?
+
+Nesse vídeo dou inicio a série de vídeos mostrando como utilizar a API do Google Plus no Android. Nesse primeiro vídeo mostro como realizar o login com os dados do Google Plus em nossa APP. Primeiro temos de acessar o Console de APIs do Google, liberar a “Google + API”, criar uma credencial OAuth 2.0 e depois, o mais importante, informar os dados necessários na parte de “Consent Screen”, mais importante, pois na documentação do Google não fala sobre essa parte e sem ela você não consegue se conectar aos serviços do Google Plus API. Não esquecer das permissões no AndroidManifest.xml, incluindo a informação da versão do Google Play Services que está sendo utilizado. Note também a presença necessária do Google Play Service como lib externa do projeto. Para carregar a imagem utilizei o Volley, mais precisamente o ImageLoader do Volley, porém você não precisa seguir nessa linha, a escolha é sua de como carregar a imagem do usuário. Note que o trabalho com o método resolveSignIn() é necessário para que possamos reestabelecer uma conexão caso a falha ocorrido tenha solução e as flags que utilizamos no sistema estejam setadas com os valores corretos. 
+
+O valor do tamanho da imagem que vem como um parâmetro get na url (sz) pode ser alterado por vários outros valores, não testei até quando o Google Plus retorna uma imagem, porém em teste aleatório ele sempre retornava no tamanho solicitado (grande funcionalidade). Não comentei no vídeo, mas você pode alterar a apresentação padrão do SignInButton utilizando o método setStyle(), na verdade você muda se quer o background vermelho (padrão) ou branco e também pode alterar o tamanho, tendo em mente que o tamanho definido no xml do SignInButton também funciona sem problemas. No mais achei o login do Google Plus mais fácil que os outros que já testei, a parte que não agrada é a configuração inicial de atualização de lib, importação e mais outros, esforço que acho que vale muito. Alguns seguidores do blog me perguntam de vez em quando como fazer o login com várias aplicações, eu as vezes recomendo o SocialAutho-Android, porém o ruim do SocialAuth-Android é que você estará utilizando um WebView, logo você não tem muito controle do que será apresentado ao usuário, então a melhor resposta que tenho é, se você precisa da funcionalidade de login em várias plataformas  e precisa disso rápido, utilize o SocialAuth-Android, caso contrário opte por utilizar o login com a lib proprietária (Facebook API, Google Plus API, ...), pois acredito que a APP fica mais responsiva e com um design mais adequado e profissional a sua APP em geral. No mais é isso, vou deixar você assistir ao vídeo.
+
+O link para download do projeto se encontra logo abaixo no post, no blog
+
+Segue links dos vídeos que complementam o entendimento desse assunto (se vc ainda não os conhece):
+
+Volley no Android, Entendendo e Utilizando
+
+ImageLoader Com a Lib Volley no Android
+
+Linkify no Android, Entendendo e Utilizando
+
+Segue links das página apresentadas no vídeo:
+
+Página que demonstra o acesso ao Google APIs
+
+https://developer.android.com/google/auth/api-client.html
+
+Página do SignInButton no Android
+
+https://developer.android.com/reference/com/google/android/gms/common/SignInButton.html
+
+Obs. : Não coloquei a página de documentação do Google Plus API no Android por não concordar com o conteúdo atual dela, tendo em mente o tempo da última atualização.
+
+Vlw
