@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/popup_window_background"
+	    android:padding="5dp" >
+
+	    <TextView
+	        android:id="@+id/tvTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="" />
+	    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:background="#ddd" />
+	
+	    <TextView
+	        android:id="@+id/tvInfo"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="" />
+	    
+	    <Button
+	        android:id="@+id/btOk"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:onClick="showPopupWindow" />
+    </LinearLayout>
+</LinearLayout>

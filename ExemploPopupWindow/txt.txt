@@ -1,0 +1,26 @@
+Box de Informação Com PopupWindow no Android
+
+
+Opa, blz?
+
+Nesse vídeo mostro como utilizar a classe PopupWindow para criar informes em sua APP Android, porém recomendo (falo no vídeo mais de uma vez) que você utilize o PopupWindow somente para informes que não necessitam de nenhum preenchimento de formulário ou qualquer outra interação que envolve mais do que a entidade PopupWindow e um clique no botão para chamar o método dismiss, pois saindo desse contexto recomendo a utilização da classe DialogFragment que lhe da mais poder para controlar qualquer outra entidade necessária (conexão com um servidor Web com o Volley, por exemplo) para a finalização da ação iniciada pelo usuário. Uma das grandes vantagens da PopupWindow é que essa entidade é uma box do tipo floating, que nos permite trabalhar o posicionamento dela na tela de maneira como desejarmos. No vídeo mostro o PopupWindow da maneira que mais recomendo, como informes de campos de formulário e sendo apresentado junto a imagem de informe. Mas é isso, vou evitar mais delongas e deixar você assistir ao vídeo.
+
+Obs. : as tags de animação do ObjectAnimator não funcionam com a aplicação de efeito no PopupWindow.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue link do post / vídeo sobre o DialogFragment:
+
+DialogFragment no Android, Entendendo e Utilizando
+
+Segue link das páginas apresentadas no vídeo:
+
+Página da classe PopupWindow no site oficial do Android
+
+http://developer.android.com/reference/android/widget/PopupWindow.html
+
+Página com explicação sobre o token único de tela do Android
+
+http://developer.android.com/reference/android/view/View.html#getWindowToken%28%29
+
+Vlw.
