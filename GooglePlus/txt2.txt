@@ -1,0 +1,37 @@
+Compartilhamento e Lista de Usuários Com Google Plus API no Android
+
+
+
+Opa, blz?
+
+Nesse vídeo dou continuidade a série de vídeos sobre a Google Plus API no Android (GoogleApiClient), porém dessa vez mostrando as várias maneiras de realizar compartilhamento com essa lib e mostrando também como mostrar a lista de usuários que colocamos nos nossos círculos no Google Plus. Comento no vídeo também os métodos "has*" que nos permite verificar se determinado dado do usuário está disponível, como por exemplo: data de nascimento e gênero. No vídeo coloquei como utilizar o Plus One Button, que por sinal tem a exata mesma funcionalidade que o Plus One Button em sistemas Web, logo precisamos ter também uma URL.
+
+Das quatro formas de compartilhamento apresentadas (compartilhamento simples, compartilhamento via link profundo, compartilhamento com call-to-action button e compartilhamento de mídia - imagem e vídeo) considero o compartilhamento com call-to-action button o que pode fazer mais efeito em uma postagem, justamente pela utilização de uma botão com chamada para ação. Então é isso, acho que não tenho muito mais o que falar devido ao tamnho do vídeo. Logo no final mostra que você tem que criar OAuth ids para as outras plataformas que deseja atender além do Android (Web, IOS, ...), mas destaco que conseguir utilizar todas as formas de compartilhamento apenas com o OAuth id do Android. Sem mais delongas vou deixar você assistir ao vídeo. Obs. : não esqueça de atualizar o AndroidManifest como no vídeo.
+
+O link para download do projeto se encontra logo abaixo no post.
+
+Segue links de vídeo que podem lhe ajudar a compreender melhor o conteúdo desse post:
+
+Utilizando BaseAdapter Para Personalização Completa da ListView
+
+ContentProvider no Android, Entendendo e Utilizando
+
+Segue links das páginas apresentadas no vídeo:
+
+Sharing to Google+ from your Android app
+
+https://developers.google.com/+/mobile/android/share/
+
+Sharing prefilled posts to Google+ from your Android app
+
+https://developers.google.com/+/mobile/android/share/prefill
+
+Adding deep linking to Google+ posts shared from your Android app
+
+https://developers.google.com/+/mobile/android/share/deep-link
+
+Sharing interactive posts to Google+ from your Android app
+
+https://developers.google.com/+/mobile/android/share/interactive-post
+
+Vlw
