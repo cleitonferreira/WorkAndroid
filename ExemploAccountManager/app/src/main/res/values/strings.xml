@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExemploAccountManager</string>
+    <string name="label">ExemploAccountManager</string>
+    <string name="type">"nuvemapp.com.br.exemploaccountmanager"</string>
+</resources>

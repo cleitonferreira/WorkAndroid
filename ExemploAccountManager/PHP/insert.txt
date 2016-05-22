@@ -1,0 +1,7 @@
+id = 1
+name = Thiengo Calopsita
+email = thiengocalopsita@gmail.com
+image = http://www.thiengo.com.br/img/system/logo/logo-thiengo-calopsita-70x70.png
+auth_type = full
+password = 7c4a8d09ca3762af61e59520943dc26494f8941b
+token = e3ad29a0f2031af907f37057c989dcbf53a5c65e

@@ -1,0 +1,51 @@
+AccountManager no Android, Entendendo e Utilizando
+
+
+
+Opa, blz?
+
+Nesse vídeo falo sobre uma forma de implementar o AccountManager em sua APP Android e assim trabalhar com o gerenciador de contas do device do usuário. O AccountManager é uma entidade que vem auxiliar na administração das contas no device (Google, facebook, ...) além de indicar um caminho mais seguro quanto ao uso de credenciais na APP, trabalhar com o AccountManager inevitávelmente implica em trabalhar com token ao invés de login e senha (ou id no banco de dados) para acessar os dados depois de o primeiro acesso ter sido confirmado (via login e senha). Fique ciente que há situações que você vai precisar de imlementar o AccountManager como entidade auxiliar, ou seja, não será necessário o trabalho com tokens, logins, ... um exemplo é quando vc quer implementar apenas um SyncAdapter. Na implementação do vídeo priorizei o trabaho com login, porém sem sincronização automática, que seria no caso feito com o SyncAdapter. O SyncAdapter é um dos vídeos ainda a serem feitos, ele precisava antes que os vídeos de ContentProvider e AccountManager já estivessem prontos, agora ambos estão!... Como comento no vídeo o AccountManager não é o tipo de entidade que melhorar a performance de sua APP ou dar mais segunrança a ela, porém se você não tiver uma razão clara para não trabalhar com tokens e o administrador de contas do device, então trabalhar com o AccountManager seria uma excelente opção. Apesar a quantidade de classes envolvidas e da aparente complexidade na implementação o script para trabalhar 0 AccountManager muito semelhante quando for para outras APPs, logo o esforço inicial na primeira implementação muito provavelmente não será necessário novamente.
+
+O token utilizado no caso é gerado pela sua aplicação (muitas aplicações utilizam a impplmentação de um OAuth2), local ou Web, no vídeo foi gerado na Web. Outra funcionalidade do AccountManager é permitir que contas criadas em outras APPs (Google Gmail, por exemplo) possam ser utilizadas em sua APP ou vice-e-versa. FIcar atento a todos os XMLs apresentados, pois são parte deles XMLs de configuração e não de layout apenas. Então é isso, vou evitar mais delongas e deixa-lo assistir avídeo.
+
+O link para download do projeto incluindo arquivos PHP está logo abaixo no post.
+
+Segue links de vídeos de entidades que podem lhe ajudar a entender melhor o vídeo desse post:
+
+Application Class no Android, Entendendo e Utilizando
+
+Parser JSON no Android, Entendendo e Utilizando
+
+AsyncTask no Android, Acesso a Thread Principal de Forma Otimizada
+
+ImageLoader Com a Lib Volley no Android
+
+ContentProvider no Android, Entendendo e Utilizando
+
+Segue link das páginas apresentadas no vídeo se houver o interesse no aprofundamento no assunto:
+
+Página da classe AccountManager no site do Android
+
+http://developer.android.com/reference/android/accounts/AccountManager.html
+
+Página da classe AbstractAccountAuthenticator no site do Android
+
+http://developer.android.com/reference/android/accounts/AbstractAccountAuthenticator.html
+
+Página da classe AccountAuthenticatorActivity no site do Android
+
+http://developer.android.com/reference/android/accounts/AccountAuthenticatorActivity.html
+
+Página da interface AccountManagerFuture no site do Android
+
+http://developer.android.com/reference/android/accounts/AccountManagerFuture.html
+
+Página da classe AccountAuthenticatorResponse no site do Android
+
+http://developer.android.com/reference/android/accounts/AccountAuthenticatorResponse.html
+
+Página da classe Account no site do Android
+
+http://developer.android.com/reference/android/accounts/Account.html
+
+Vlw
