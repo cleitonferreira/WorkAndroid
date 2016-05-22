@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ExemploAutoCompleteTextView</string>
+
+    <string-array name="countries">
+        <item>"Brasil"</item>
+        <item>"Canadá"</item>
+    </string-array>
+
+    <string-array name="statesBrazil">
+        <item>"Acre (AC)"</item>
+        <item>"Alagoas (AL)"</item>
+        <item>"Amapá (AP)"</item>
+        <item>"Amazonas (AM)"</item>
+        <item>"Bahia (BA)"</item>
+        <item>"Ceará (CE)"</item>
+        <item>"Distrito Federal (DF)"</item>
+        <item>"Espírito Santo (ES)"</item>
+        <item>"Goiás (GO)"</item>
+        <item>"Maranhão (MA)"</item>
+        <item>"Mato Grosso (MT)"</item>
+        <item>"Mato Grosso do Sul (MS)"</item>
+        <item>"Minas Gerais (MG)"</item>
+        <item>"Pará (PA)"</item>
+        <item>"Paraíba (PB)"</item>
+        <item>"Paraná (PR)"</item>
+        <item>"Pernambuco (PE)"</item>
+        <item>"Piauí (PI)"</item>
+        <item>"Rio de Janeiro (RJ)"</item>
+        <item>"Rio Grande do Norte (RN)"</item>
+        <item>"Rio Grande do Sul (RS)"</item>
+        <item>"Rondônia (RO)"</item>
+        <item>"Roraima (RR)"</item>
+        <item>"Santa Catarina (SC)"</item>
+        <item>"São Paulo (SP)"</item>
+        <item>"Sergipe (SE)"</item>
+        <item>"Tocantins (TO)"</item>
+    </string-array>
+
+    <string-array name="statesCanada">
+        <item>"Ontario (ON)"</item>
+        <item>"Quebec (QC)"</item>
+        <item>"Nova Scotia (NS)"</item>
+        <item>"New Brunswick (NB)"</item>
+        <item>"Manitoba (MB)"</item>
+        <item>"British Columbia (BC)"</item>
+        <item>"Prince Edward Island (PE)"</item>
+        <item>"Saskatchewan (SK)"</item>
+        <item>"Alberta (AB)"</item>
+        <item>"Newfoundland and Labrador (NL)"</item>
+    </string-array>
+
+</resources>
