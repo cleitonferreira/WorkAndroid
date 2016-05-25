@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nuvemapp.com.br.exemploandroidtextjustify.TextPlainActivity">
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="TextPlain Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <com.bluejamesbond.text.DocumentView
+            xmlns:document="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            document:textAlignment="justified"
+            document:textSize="18sp"
+            document:text="Nesse vídeo apresento a lib TextJustify que nos permite justificar textos no Android, caracteristica que a principio o Android não nos fornece de forma nativa. A lib é simples de utilizar, trabalhamos no vídeo, no caso, com a view DocumentView que aparenemente herda de TextView, porém não, pois quando utilizamos o Linkify, por exemplo, a instancia de DocumentView não é aceita, se tentarmos o cast (TextView) também não é aceito. A lib pode ser util em casos como resumos de itens do ListView, para texto completo recomendo com o alinhamento a esquerda, pois é mais confortável na leitura. No vídeo é mostrado também que a Lib TextJustify tem uma limitação que pode atrapalhar seu uso, se quisermos colocar textos linkados (facimente conseguido com TextView / Spannable e Linkify) aparenemente não é possível com o uso da lib, mesmo se criarmos os links via SpannableString. Agora é esperar uma atualizava corrigida ou ampliada se essa for mesmo uma limitação da lib. Outra coisa que é possível notar é não funcionamento dos métodos de Hyphen (setHyphenator() e setHyphenated()) se estiver sendo utilizando algum Spannable, provavelmente outra limitação da lib. Então é isso, acredito que para resumos a lib é uma boa escolha, mais por questão de designer mesmo, para texto completo onde provavelmente terá links e emails não recomendo o uso dela."/>
+
+    </LinearLayout>
+</ScrollView>
