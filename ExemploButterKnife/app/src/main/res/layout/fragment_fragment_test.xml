@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nuvemapp.com.br.exemplobutterknife.fragment.FragmentTest"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btToastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast Messages"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+</LinearLayout>
