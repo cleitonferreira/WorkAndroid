@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/* end Eric Meyer reset */
+/* ******************** USEFUL CLASS ******************** */
+.cf {
+	clear: both;
+}
+#header{
+	margin: 0 auto;
+	padding: 25px 5%;
+	background: #1d77a6;
+	color: #fff;
+}
+#header .left {
+	float: left;
+	font-family: 'Bangers', cursive;
+	font-size: 2em;
+}
+#header .right {
+	float: right;
+}
+#header .right a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+#header .right a:hover {
+	text-decoration: underline;
+}
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+#content ul {
+	float: left;
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-left: 1px solid #f3f3f3;
+	border-right: 1px solid #f3f3f3;
+	background: #f3f3f3;
+}
+#content ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+}
+#content ul li a.selected,
+#content ul li a:hover {
+	background: #e5e5e5;
+}
+
+#ajax-content {
+	width: 79.5%;
+	background: #f7f7f7;
+	float: right;
+}
+#map {
+	width: 100%;
+	background: #f0f0f0;
+	height: 500px;
+}
+
+form{
+	padding: 5px;
+}
+form input[type="text"],
+form textarea,
+form select {
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	display: block;
+	margin-bottom: 15px;
+	font: normal 1em Arial, sans-serif;
+	width: 96%;
+}
+form #map-search{
+	margin-bottom: 5px;
+}
+form select {
+	width: 99.5%;
+}
+form input[type="text"]:focus,
+form textarea:focus,
+form select:focus {
+	border-color: #139bef;
+}
+form #fo-submit {
+	font: normal 1.2em 'Bangers', cursive;
+	background: #999;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	padding: 5px 20px;
+	margin-top: 20px;
+	float: right;
+}
+form #fo-submit:hover {
+	background: #777;
+}
+form #fo-submit:active {
+	background: #666;
+}
