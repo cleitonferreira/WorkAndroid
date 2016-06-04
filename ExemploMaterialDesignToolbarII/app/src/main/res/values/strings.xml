@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExemploMaterialDesignToolbarII</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="primeira_activity">Primeira Activity</string>
+    <string name="segunda_activity">Segunda Activity</string>
+
+</resources>
