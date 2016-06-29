@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nuvemapp.com.br.exemplomaterialdesign">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <application
+        android:name="nuvemapp.com.br.exemplomaterialdesign.application.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data android:name="android.app.default_searchable"
+            android:value="nuvemapp.com.br.exemplomaterialdesign.SearchableActivity"/>
+
+        <provider
+            android:authorities="nuvemapp.com.br.exemplomaterialdesign.provider.SearchableProvider"
+            android:name="nuvemapp.com.br.exemplomaterialdesign.provider.SearchableProvider" />
+
+
+        <activity
+            android:windowSoftInputMode="adjustPan|adjustNothing"
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"></activity>
+        <activity
+            android:windowSoftInputMode="adjustPan|adjustNothing"
+            android:name=".CarActivity"
+            android:label="@string/title_activity_car"></activity>
+        <activity
+            android:name=".TransitionActivity_A"
+            android:label="@string/title_activity_transition"></activity>
+        <activity
+            android:name=".TransitionActivity_B"
+            android:label="@string/title_activity_transition"></activity>
+
+        <activity
+            android:name=".ContactActivity"
+            android:theme="@style/Theme.ContactActivity"
+            android:label="@string/title_activity_contact"></activity>
+
+        <activity
+            android:windowSoftInputMode="adjustPan|adjustNothing"
+            android:name="nuvemapp.com.br.exemplomaterialdesign.SearchableActivity"
+            android:label="@string/title_activity_transition"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+        </activity>
+
+
+
+        <receiver android:name=".provider.CarWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider_info" />
+        </receiver>
+        <service android:name=".service.CarWidgetService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_REMOTEVIEWS">
+        </service>
+
+        <receiver
+            android:name=".receiver.InviteReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

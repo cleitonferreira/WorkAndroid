@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////-->
+
+
+
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+        <item name="colorControlNormal">@android:color/white</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_primary_text">@color/colorPrimarytext</item>
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.MyThemeBottom" parent="Theme.MyTheme">
+        <!-- item name="colorPrimary">@android:color/white</item -->
+    </style>
+
+    <style name="MyAlertDialog" parent="MaterialDrawerBaseTheme.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+    </style>
+
+    <style name="MyCustomToolbarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+
+
+    <!-- CONTACT ACTIVITY -->
+    <style name="Theme.ContactActivity.Toolbar.BackArrow" parent="Theme.MyTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ContactActivity" parent="Theme.MyTheme">
+        <item name="colorControlNormal">@color/colorSecondText</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nuvemapp.com.br.exemplomaterialdesign.fragments.CarFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/pb_load"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+
+
+</FrameLayout>
