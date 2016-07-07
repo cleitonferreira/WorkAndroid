@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1089391497656",
+    "project_id": "firebase-exemplogcm"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089391497656:android:e7ba0b4dabc8b705",
+        "android_client_info": {
+          "package_name": "nuvemapp.com.br.exemplogcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBJaMu96j2gsVzRVTTw41_GEPN9lUN0M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
